@@ -57,3 +57,22 @@ export const FeatureContainerStyled = styled.div`
   flex-wrap: nowrap;
  }
 `
+
+
+export const HelloContainerStyled = styled.div`
+  padding: 10% 3%;
+`
+
+export const HelloStyled = styled.div`
+  text-align:center;
+  padding-bottom: 10%;
+`
+
+export const ColumnStyled = styled.div`
+  color: gray;
+  column-count: 2;
+  column-gap: 30px;
+  @media (max-width: 768px) {
+    column-count: unset;
+  }
+`
