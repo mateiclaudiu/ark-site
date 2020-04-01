@@ -36,7 +36,7 @@ const IndexPage = () => (
       <HelloContainerStyled>
         <HelloStyled>
           <TitleStyled fontSize={"2.5em"} color={"black"}>Hallo & Welkom</TitleStyled>
-          <ItalicTitleStyled fontSize={"1.1em"} color={"#707176"}>Onze geschiedenis</ItalicTitleStyled>
+          <ItalicTitleStyled fontSize={"1.1em"} color={"#707176"}>Samen één in de naam van Jezus</ItalicTitleStyled>
         </HelloStyled>
         <ColumnStyled>
           <div>Het was de tijd van terug opbloeiende oecumenische dialoog. De behoefde om elkaar beter te leren kennen, samen te discussiëren, in debat te gaan
@@ -61,7 +61,7 @@ const IndexPage = () => (
       </HelloContainerStyled>
     </div>
 
-  {/*  <p>Now go build something great.</p>
+{/*    <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image/>
     </div>
