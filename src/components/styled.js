@@ -16,9 +16,6 @@ export const TitleStyled = styled.div`
 `
 
 export const IntroStyled = styled.div`
-  background: red;
-  //margin-left:-1.0875rem;
-  //margin-right:-1.0875rem; 
   padding: 200px 0;
   text-align: center;
   background-image: url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80);
