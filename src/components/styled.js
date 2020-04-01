@@ -20,7 +20,6 @@ export const IntroStyled = styled.div`
   text-align: center;
   background-image: url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80);
   background-size: cover;
-  transform-origin: 0% 11% 5px;
   background-position-x: center;
   background-position-y: 75%;
   filter: contrast(0.8);
