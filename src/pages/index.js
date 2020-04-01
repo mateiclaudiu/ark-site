@@ -36,7 +36,7 @@ const IndexPage = () => (
       <HelloContainerStyled>
         <HelloStyled>
           <TitleStyled fontSize={"2.5em"} color={"black"}>Hallo & Welkom</TitleStyled>
-          <ItalicTitleStyled fontSize={"1.1em"} color={"#707176"}>Believing in God’s Word and Spirit</ItalicTitleStyled>
+          <ItalicTitleStyled fontSize={"1.1em"} color={"#707176"}>Onze geschiedenis</ItalicTitleStyled>
         </HelloStyled>
         <ColumnStyled>
           <div>Het was de tijd van terug opbloeiende oecumenische dialoog. De behoefde om elkaar beter te leren kennen, samen te discussiëren, in debat te gaan
