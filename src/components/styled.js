@@ -123,3 +123,27 @@ export const FooterStyled = styled.footer`
     font-weight: 600;
   }
 `
+
+export const LeaderShipContainerStyled = styled.div`
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+      flex-wrap: wrap;
+
+  }
+`
+
+export const LeaderShipStyled = styled.div`
+  text-align: center;
+  margin: 1rem 5rem;
+  width: 33%;
+  flex-grow: 1;
+  display: inline-block;
+  flex: 1 0 21%;
+  
+  img{
+    border-radius: 50%;
+    width: 11rem;
+    height: 11rem;
+  }
+`
