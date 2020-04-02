@@ -9,10 +9,10 @@ export const ItalicTitleStyled = styled.div`
 export const TitleStyled = styled.div`
   color: ${props => props.color};
   font-size: ${props => props.fontSize};
-  line-height: normal;
   font-family: Poppins;
   font-weight: 600;
-  line-height: 1.2em;
+  line-height: 1;
+  margin-bottom: 1rem;
 `
 
 export const IntroStyled = styled.div`
@@ -56,10 +56,6 @@ export const FeatureContainerStyled = styled.div`
   flex-direction: unset;
   flex-wrap: nowrap;
  }
-`
-
-export const HelloContainerStyled = styled.div`
-  padding: 0% 3%;
 `
 
 export const SectionStyled = styled.div`

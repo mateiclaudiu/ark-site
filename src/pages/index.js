@@ -15,6 +15,27 @@ import { PageContainer } from "../components/page-container"
 
 const EventsContainerStyled = styled.div`
   display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  border-bottom: 1px darkgray solid;
+  padding-bottom: 1rem; 
+  @media (min-width: 768px) {
+    flex-direction: row;
+  } 
+
+`
+
+const EventDayStyled = styled.div`
+  width: 7.5rem;
+  @media (min-width: 768px) {
+    text-align: right;
+  } 
+`
+
+const EventDateStyled = styled.div`
+  display: flex;
+  width: 16rem;
+
 `
 const IndexPage = () => (
   <Layout>
@@ -29,13 +50,29 @@ const IndexPage = () => (
     <PageContainer>
       <SectionTitle title={"Opkomende events"} subtitle={"Hoe mooi is het wanneer mensen samen in vrede leven"}/>
       <EventsContainerStyled>
+        <EventDateStyled>
+          <EventDayStyled>
+            <TitleStyled fontSize={"5rem"} color={"lightgray"}>13</TitleStyled>
+          </EventDayStyled>
+          <div><TitleStyled fontSize={"1rem"} color={"gray"}> April</TitleStyled><TitleStyled fontSize={"1rem"} color={"black"}> ZATERDAG</TitleStyled></div>
+        </EventDateStyled>
         <div>
-          13 April ZATERDAG
+          <TitleStyled fontSize={"1.6rem"} color={"#d14f42"}>Building a Church Fellowship</TitleStyled>
+          <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>June 17, 2019 @ 8:00 am - December 14, 2020 @ 5:00 pm</ItalicTitleStyled>
+          <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Norfolk United States</ItalicTitleStyled>
         </div>
+      </EventsContainerStyled>
+      <EventsContainerStyled>
+        <EventDateStyled>
+          <EventDayStyled>
+            <TitleStyled fontSize={"5rem"} color={"lightgray"}>25</TitleStyled>
+          </EventDayStyled>
+          <div><TitleStyled fontSize={"1rem"} color={"gray"}> Januari</TitleStyled><TitleStyled fontSize={"1rem"} color={"black"}> MAANDAG</TitleStyled></div>
+        </EventDateStyled>
         <div>
-          <TitleStyled fontSize={"35px"} color={"#d14f42"}>Building a Church Fellowship</TitleStyled>
-          <ItalicTitleStyled fontSize={"16px"} color={"gray"}>June 17, 2019 @ 8:00 am - December 14, 2020 @ 5:00 pm</ItalicTitleStyled>
-          <ItalicTitleStyled fontSize={"16px"} color={"gray"}>Norfolk United States</ItalicTitleStyled>
+          <TitleStyled fontSize={"1.6rem"} color={"#d14f42"}>Building a Church Fellowship</TitleStyled>
+          <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>June 17, 2019 @ 8:00 am - December 14, 2020 @ 5:00 pm</ItalicTitleStyled>
+          <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Norfolk United States</ItalicTitleStyled>
         </div>
       </EventsContainerStyled>
     </PageContainer>

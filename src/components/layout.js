@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <FooterStyled>
-          © {new Date().getFullYear()}, Build by
+          © {new Date().getFullYear()}, Built by
           {` `}
           <a href="https://www.matei.be/" target="_blank">Claudiu Matei</a> for ARK
         </FooterStyled>

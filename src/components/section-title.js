@@ -3,7 +3,7 @@ import React from "react"
 
 export const SectionTitle = ({title, subtitle}) => (
   <SectionStyled>
-    <TitleStyled fontSize={"2.5em"} color={"black"}>{title}</TitleStyled>
-    <ItalicTitleStyled fontSize={"1.1em"} color={"#707176"}>{subtitle}</ItalicTitleStyled>
+    <TitleStyled fontSize={"3rem"} color={"black"}>{title}</TitleStyled>
+    <ItalicTitleStyled fontSize={"1.1rem"} color={"#707176"}>{subtitle}</ItalicTitleStyled>
   </SectionStyled>
 )
