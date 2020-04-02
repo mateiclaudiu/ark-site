@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
         <FooterStyled>
           © {new Date().getFullYear()}, Built by
           {` `}
-          <a href="https://www.matei.be/" target="_blank">Claudiu Matei</a> for ARK
+          <a href="https://www.matei.be/" target="_blank">Matei</a> for ARK
         </FooterStyled>
       </div>
     </>
