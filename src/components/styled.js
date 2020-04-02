@@ -58,14 +58,13 @@ export const FeatureContainerStyled = styled.div`
  }
 `
 
-
 export const HelloContainerStyled = styled.div`
-  padding: 10% 3%;
+  padding: 0% 3%;
 `
 
-export const HelloStyled = styled.div`
+export const SectionStyled = styled.div`
   text-align:center;
-  padding-bottom: 10%;
+  padding: 10% 3%;
 `
 
 export const ColumnStyled = styled.div`
@@ -74,5 +73,57 @@ export const ColumnStyled = styled.div`
   column-gap: 30px;
   @media (max-width: 768px) {
     column-count: unset;
+  }
+`
+
+export const BannerStyled = styled.div`
+  background-color: #424555;
+  padding: 5%;
+  width:30%;
+  width: 100%;
+  text-align:center;
+  
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:left;
+  }  
+  @media (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:left;
+
+  }
+`
+
+export const BannerImgStyled = styled.div`
+  border-radius: 50%;
+  //width: 30%;
+  padding: 30px;
+`
+
+export const BannerTextStyled = styled.div`
+  //width: 70%;
+   @media (min-width: 768px) {
+      width: 100%;
+    }  
+  @media (min-width: 1200px) {
+    width: 100%;
+  }
+`
+
+export const FooterStyled = styled.footer`
+  background: #a2473e;
+  color: white;
+  font-family: Poppins;
+  font-weight: 300;
+  padding: 20px;
+  
+  a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
   }
 `

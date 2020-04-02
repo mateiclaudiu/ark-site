@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `ARK ✝`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Antwerpse Raad van Kerken`,
+    author: `@Claudiu Matei`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,7 +33,7 @@ module.exports = {
         fonts: [
           {
             family: `Poppins`,
-            variants: [`600`,`900`]
+            variants: [`300`,`600`,`900`]
           },
           {
             family: `Roboto`,
