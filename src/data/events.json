@@ -1,0 +1,32 @@
+[
+  {
+    "creationDate": "2020-04-02",
+    "eventDate": "2020-04-25",
+    "dayNumber": "25",
+    "dayName": "Zaterdag",
+    "monthName": "April",
+    "title": "Building a Church Fellowship",
+    "info": "June 17, 2019 @ 8:00 am - December 14, 2020 @ 5:00 pm",
+    "place": "Norfolk United States"
+  },
+  {
+    "creationDate": "2020-04-02",
+    "eventDate": "2020-04-24",
+    "dayNumber": "24",
+    "dayName": "Vrijdag",
+    "monthName": "April",
+    "title": "Building a Church Fellowship",
+    "info": "June 17, 2019 @ 8:00 am - December 14, 2020 @ 5:00 pm",
+    "place": "Norfolk United States"
+  },
+  {
+    "creationDate": "2020-04-02",
+    "eventDate": "2012-04-24",
+    "dayNumber": "24",
+    "dayName": "Vrijdag",
+    "monthName": "April",
+    "title": "Building a Church Fellowship",
+    "info": "June 17, 2019 @ 8:00 am - December 14, 2020 @ 5:00 pm",
+    "place": "Norfolk United States"
+  }
+]
