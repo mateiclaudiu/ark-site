@@ -80,22 +80,22 @@ const IndexPage = () => {
       <SectionTitleForDarkMode title={"Contact"} subtitle={"Hoe mooi is het wanneer mensen samen in vrede leven"}/>
       <form method="post" action="#">
         <div>
-          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"darkgray"}>Naam</ItalicTitleStyled></label>
+          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Naam</ItalicTitleStyled></label>
           <div><input type="text" name="name" id="name" width="30rem"/>
           </div>
         </div>
         <div>
-          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"darkgray"}>Email</ItalicTitleStyled></label>
+          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Email</ItalicTitleStyled></label>
           <div><input type="email" name="email" id="email"/>
           </div>
         </div>
         <div>
-          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"darkgray"}>Onderwerp</ItalicTitleStyled></label>
+          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Onderwerp</ItalicTitleStyled></label>
           <div><input type="text" name="subject" id="subject"/>
           </div>
         </div>
         <div>
-          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"darkgray"}>Bericht</ItalicTitleStyled></label>
+          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Bericht</ItalicTitleStyled></label>
 
           <div><textarea name="message" id="message" rows="5"/>
           </div>
