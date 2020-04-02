@@ -51,7 +51,7 @@ const IndexPage = () => (
 
     <Banner/>
     <PageContainer>
-      <SectionTitle title={"Opkomende events"} subtitle={"Hoe mooi is het wanneer mensen samen in vrede leven"}/>
+      <SectionTitle title={"Geplande events"} subtitle={"Hoe mooi is het wanneer mensen samen in vrede leven"}/>
       <EventsContainerStyled>
         <EventDateStyled>
           <EventDayStyled>
