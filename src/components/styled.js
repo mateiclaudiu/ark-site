@@ -60,7 +60,7 @@ export const FeatureContainerStyled = styled.div`
 
 export const SectionStyled = styled.div`
   text-align:center;
-  padding: 10% 3%;
+  padding: 5rem 0rem;
 `
 
 export const ColumnStyled = styled.div`
