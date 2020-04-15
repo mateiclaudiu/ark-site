@@ -21,7 +21,8 @@ export const Hello = () => (
         – een werkteam voor gemeenschappelijk pastoraal bekommernis
         – en voor de dienst aan de wereld
         in evangelisch getuigenis en gebed van alle kerken die het doopsel en de weg van de Heer Jezus Christus belijden.
-
+        <br/>
+        <br/>
         De Raad van Kerken is verbonden met de internationale oecumenische beweging.
       </div>
     </ColumnStyled>

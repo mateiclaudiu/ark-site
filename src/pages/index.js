@@ -13,7 +13,7 @@ import { Banner } from "../components/banner"
 import { SectionTitle, SectionTitleForDarkMode } from "../components/section-title"
 import { PageContainer } from "../components/page-container"
 import { Event, UpcomingEventList } from "../components/event"
-
+import introImage from "../images/together.jpg"
 const ContactStyled = styled.div`
   background-color: #424555;
   background-color: #d14f42;
@@ -65,7 +65,7 @@ const IndexPage = () => {
 
   return <Layout>
     <SEO title="Home"/>
-    <Intro/>
+    <Intro image={introImage}/>
     <Feature/>
     <PageContainer>
       <Hello/>

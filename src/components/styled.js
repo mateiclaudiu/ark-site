@@ -18,7 +18,7 @@ export const TitleStyled = styled.div`
 export const IntroStyled = styled.div`
   padding: 200px 0;
   text-align: center;
-  background-image: url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80);
+  background-image: url(${props => props.image});
   background-size: cover;
   background-position-x: center;
   background-position-y: 75%;
@@ -134,17 +134,24 @@ export const LeaderShipContainerStyled = styled.div`
 `
 
 export const LeaderShipStyled = styled.div`
-  text-align: center;
-  margin: 1rem 5rem;
-  width: 33%;
-  flex-grow: 1;
-  display: inline-block;
-  flex: 1 0 21%;
+    margin: 5rem auto 0 auto;
+    width: 50%;
+    text-align: center;
+
   
   img{
     border-radius: 50%;
-    width: 11rem;
-    height: 11rem;
+    min-width: 11rem;
+    min-height: 11rem;
+    margin-bottom: 1rem;
+  }
+  
+    @media (min-width: 768px) {
+      margin: 1rem 5rem 4rem 5rem;
+      width: 33%;
+      flex-grow: 1;
+      display: inline-block;
+      flex: 1 0 21%;
   }
 `
 
