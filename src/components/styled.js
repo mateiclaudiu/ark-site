@@ -183,3 +183,19 @@ export const EventDateStyled = styled.div`
   width: 16rem;
 
 `
+
+export const LinkBlockStyled = styled.div`
+  padding: 1rem;
+  font-family: Poppins;
+  font-size: 0.8rem;
+  a{
+    text-transform: capitalize;
+    color: gray;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  a:hover{
+    color: dodgerblue;
+    text-decoration: none;
+  }
+`

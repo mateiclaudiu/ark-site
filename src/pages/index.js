@@ -14,6 +14,7 @@ import { SectionTitle, SectionTitleForDarkMode } from "../components/section-tit
 import { PageContainer } from "../components/page-container"
 import { Event, UpcomingEventList } from "../components/event"
 import introImage from "../images/together.jpg"
+
 const ContactStyled = styled.div`
   background-color: #424555;
   background-color: #d14f42;
@@ -45,7 +46,7 @@ const ButtonStyled = styled.button`
 const ContactLabelStyled = styled.div
 
 const IndexPage = () => {
-  const { events } = useStaticQuery(graphql`
+  const { events, websites } = useStaticQuery(graphql`
     {    
       events: allEventsJson(sort: {fields: eventDate, order: ASC}) {
         edges {
@@ -62,6 +63,7 @@ const IndexPage = () => {
       }
     }
   `)
+  console.log(websites)
 
   return <Layout>
     <SEO title="Home"/>
@@ -77,31 +79,31 @@ const IndexPage = () => {
     <Link to="/wieiswie/">Wie is wie?</Link>
     <ContactStyled>
       <PageContainer>
-      <SectionTitleForDarkMode title={"Contact"} subtitle={"Hoe mooi is het wanneer mensen samen in vrede leven"}/>
-      <form method="post" action="#">
-        <div>
-          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Naam</ItalicTitleStyled></label>
-          <div><input type="text" name="name" id="name" width="30rem"/>
+        <SectionTitleForDarkMode title={"Contact"} subtitle={"Hoe mooi is het wanneer mensen samen in vrede leven"}/>
+        <form method="post" action="#">
+          <div>
+            <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Naam</ItalicTitleStyled></label>
+            <div><input type="text" name="name" id="name" width="30rem"/>
+            </div>
           </div>
-        </div>
-        <div>
-          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Email</ItalicTitleStyled></label>
-          <div><input type="email" name="email" id="email"/>
+          <div>
+            <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Email</ItalicTitleStyled></label>
+            <div><input type="email" name="email" id="email"/>
+            </div>
           </div>
-        </div>
-        <div>
-          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Onderwerp</ItalicTitleStyled></label>
-          <div><input type="text" name="subject" id="subject"/>
+          <div>
+            <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Onderwerp</ItalicTitleStyled></label>
+            <div><input type="text" name="subject" id="subject"/>
+            </div>
           </div>
-        </div>
-        <div>
-          <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Bericht</ItalicTitleStyled></label>
+          <div>
+            <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Bericht</ItalicTitleStyled></label>
 
-          <div><textarea name="message" id="message" rows="5"/>
+            <div><textarea name="message" id="message" rows="5"/>
+            </div>
           </div>
-        </div>
-        <ButtonStyled type="submit">Stuur</ButtonStyled>
-      </form>
+          <ButtonStyled type="submit">Stuur</ButtonStyled>
+        </form>
       </PageContainer>
     </ContactStyled>
   </Layout>
