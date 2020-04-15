@@ -16,8 +16,6 @@ import { Event, UpcomingEventList } from "../components/event"
 import introImage from "../images/together.jpg"
 import { LinksContainer } from "../components/links"
 
-
-
 const LinksPage = () => {
   const { websites } = useStaticQuery(graphql`
     {    
@@ -43,6 +41,14 @@ const LinksPage = () => {
       {websites.edges.map(({ node }) => (
         <LinksContainer groupTitle={node.groupTitle} links={node.links}/>
       ))}
+      <div style={{ fontStyle:"italic"}}>
+        Had U graag Uw website hier vermeld gezien of juist liever niet, of zag U een fout
+        neem dan a.u.b. contact.
+        <br/>
+        <br/>
+        De ARK kan niet verantwoordelijk gesteld worden voor foutieve links noch voor de inhoud van de vermelde links.
+        Dat wij de links hier vermelden wil niet zeggen dat wij altijd met de inhoud instemmen.
+      </div>
     </PageContainer>
   </Layout>
 }
