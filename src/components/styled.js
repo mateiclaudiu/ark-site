@@ -60,15 +60,18 @@ export const FeatureContainerStyled = styled.div`
 
 export const SectionStyled = styled.div`
   text-align:center;
-  padding: 5rem 0rem;
+  padding: 2rem 0;
+  @media (min-width: 768px) {
+    padding: 5rem 0;
+  }
 `
 
 export const ColumnStyled = styled.div`
   color: gray;
-  column-count: 2;
-  column-gap: 30px;
-  @media (max-width: 768px) {
-    column-count: unset;
+  column-count: unset;
+  @media (min-width: 768px) {  
+     column-count: 2;
+     column-gap: 30px;
   }
 `
 
