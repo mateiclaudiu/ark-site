@@ -20,6 +20,9 @@ const Layout = ({ children }) => {
         siteMetadata {
           title
         }
+      },
+      currentBuildDate {
+        currentDate
       }
     }
   `)
@@ -38,7 +41,7 @@ const Layout = ({ children }) => {
         <FooterStyled>
           © {new Date().getFullYear()}, Built by
           {` `}
-          <a href="https://www.matei.be/" target="_blank">Matei</a> for ARK - last build {new Date().toDateString()} {new Date().toLocaleTimeString()}
+          <a href="https://www.matei.be/" target="_blank">Matei</a> for ARK - last build {data.currentBuildDate.currentDate}
         </FooterStyled>
       </div>
     </>
