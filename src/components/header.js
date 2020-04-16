@@ -4,12 +4,14 @@ import React from "react"
 import styled from "styled-components"
 
 const HeaderDivStyled = styled.div`
-  display: flex;
- // justify-content: space-between;
- div:nth-child(2) {
-    text-align: center;
-    flex: 1 1 0px;
-}
+  @media (min-width: 768px) {
+    display: flex;
+    
+    div:nth-child(2) {
+      text-align: center;
+      flex: 1 1 0px;
+    }
+  }
 `
 
 const NavStyled = styled.div`
