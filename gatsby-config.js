@@ -66,7 +66,7 @@ module.exports = {
           format: 'dddd D MMMM YYYY HH:mm:ss', // string, defaults to "MM/DD/YYYY" - pass in any acceptable date-and-time format
           utc: false, // boolean, defaults to false - output time as UTC or not, following date-and-time API
         },
-        locale: 'nl', // string, defaults to null, which date-and-time defaults as "en" - whether to localize the date or not, can use any available
+        locale: null, // string, defaults to null, which date-and-time defaults as "en" - whether to localize the date or not, can use any available
         // date-and-time localization
       },
     }
