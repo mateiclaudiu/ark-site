@@ -14,7 +14,7 @@
         "title": "protestanten: geschiedenis, cultuur en …",
         "url": "https://dick.wursten.be/"
       },
-       {
+      {
         "title": "Radio ‘t Kerkske - WERKT NIET",
         "url": "http://www.albertschweitzer.be/radiotkerkske.htm/"
       },
@@ -83,6 +83,19 @@
       {
         "title": "CAW",
         "url": "https://www.caw.be/"
+      }
+    ]
+  },
+  {
+    "groupTitle": "Jeugd",
+    "links": [
+      {
+        "title": "ProJob",
+        "url": "http://projop.be/links/"
+      },
+      {
+        "title": "Het Bijbelhuis",
+        "url": "https://www.bijbelhuis.be/"
       }
     ]
   }
