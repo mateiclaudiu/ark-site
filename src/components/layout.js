@@ -14,7 +14,6 @@ import "./layout.css"
 import { FooterStyled } from "./styled"
 import styled from "styled-components"
 
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -41,9 +40,18 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <FooterStyled>
-          © {new Date().getFullYear()}, Built by
-          {` `}
-          <a href="https://www.matei.be/" target="_blank">Matei</a> for ARK - last update {data.currentBuildDate.currentDate}
+          <div>
+            <div>ARK VZW</div>
+            <div>Sint-Pieterstraat 1</div>
+            <div>2000 ANTWERPEN</div>
+            <div>ondernemingsnummer 865.324.528</div>
+            <div>gerechtelijk arrondissement Antwerpen</div>
+          </div>
+          <div style={{marginTop: `1rem`}}>
+            © {new Date().getFullYear()}, Built by
+            {` `}
+            <a href="https://www.matei.be/" target="_blank">Matei</a> for ARK - last update {data.currentBuildDate.currentDate}
+          </div>
         </FooterStyled>
       </div>
     </>

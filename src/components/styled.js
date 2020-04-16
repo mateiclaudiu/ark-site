@@ -122,6 +122,7 @@ export const FooterStyled = styled.footer`
   background: #a2473e;
   color: white;
   font-family: Poppins;
+  font-size: 0.8rem;
   font-weight: 300;
   padding: 20px;
   
