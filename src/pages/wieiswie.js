@@ -46,6 +46,7 @@ const SecondPage = () => (
         <Leadership name={"Angelos Kamalidis"} position={""} image={kamalidis}/>
         <Leadership name={"Paul Van Uffelen"} position={"Website"} image={paul}/>
       </LeaderShipContainerStyled>
+    <div>Foto’s: L. Gorissen</div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
