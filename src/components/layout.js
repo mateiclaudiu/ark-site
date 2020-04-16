@@ -41,13 +41,20 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <FooterStyled>
           <div>
-            <div style={{fontWeight: `600`}}>ARK VZW</div>
+            <div style={{fontWeight: `600`, color:`white`}}>Zetel</div>
+            <div>ARK VZW</div>
             <div>Sint-Pieterstraat 1</div>
             <div>2000 ANTWERPEN</div>
             <div>ondernemingsnummer 865.324.528</div>
             <div>gerechtelijk arrondissement Antwerpen</div>
+            <div  style={{marginTop: `1rem`,fontWeight: `600`,color:`white`}}>Bankrekening:</div>
+            <div>IBAN: BE92 7895 0926 0223 </div>
+            <div>BIC: GKCCBEBB</div>
+            <div>ARK VZW</div>
+            <div>Clementinastraat 20</div>
+            <div>2018 ANTWERPEN</div>
           </div>
-          <div style={{marginTop: `1rem`}}>
+          <div style={{marginTop: `2rem`, color:`white`}}>
             © {new Date().getFullYear()}, Built by
             {` `}
             <a href="https://www.matei.be/" target="_blank">Matei</a> for ARK - last update {data.currentBuildDate.currentDate}

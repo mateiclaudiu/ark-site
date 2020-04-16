@@ -119,8 +119,9 @@ export const BannerTextStyled = styled.div`
 `
 
 export const FooterStyled = styled.footer`
-  background: #a2473e;
-  color: white;
+  //background: #a2473e;
+  background: #31333b;
+  color: #71717f;
   font-family: Poppins;
   font-size: 0.8rem;
   font-weight: 300;
@@ -128,7 +129,7 @@ export const FooterStyled = styled.footer`
   
   a{
     text-decoration: none;
-    color: white;
+    color: inherit;
     font-weight: 600;
   }
 `
