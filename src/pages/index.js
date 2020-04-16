@@ -48,7 +48,6 @@ const IndexPage = () => {
     <PageContainer>
       <UpcomingEventList events={events.edges}/>
     </PageContainer>
-    <Link to="/wieiswie/">Wie is wie?</Link>
     <Contact/>
   </Layout>
 }
