@@ -16,7 +16,7 @@ export const TitleStyled = styled.div`
 `
 
 export const IntroStyled = styled.div`
-  padding: 200px 0;
+  padding: ${props => props.padding};
   text-align: center;
   background-image: url(${props => props.image});
   background-size: cover;
@@ -24,9 +24,14 @@ export const IntroStyled = styled.div`
   background-position-y: 75%;
   filter: contrast(0.8);
    @media (min-width: 1200px) {
-    padding: 350px 0;
+    padding: ${props => props.paddingDesktop};
   }
 `
+
+IntroStyled.defaultProps = {
+  padding: "200px 0",
+  paddingDesktop: "350px 0"
+}
 
 export const FeatureBlockStyled = styled.div`
   background-color: ${props => props.backgroundColor};
