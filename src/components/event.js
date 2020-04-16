@@ -29,7 +29,7 @@ export const UpcomingEventList = ({events}) => (
         title={node.title}
         info={node.info}
         place={node.place}
-        key={node.title}
+        key={node.title+node.dayNumber}
       />
     ))}
   </div>
