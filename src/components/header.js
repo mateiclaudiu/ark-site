@@ -5,6 +5,7 @@ import styled from "styled-components"
 
 const HeaderDivStyled = styled.div`
   padding: 0 1.0875rem;
+  border-bottom: 1px #707176 solid;
   
   @media (min-width: 768px) {
     display: flex;
