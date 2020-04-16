@@ -98,5 +98,36 @@
         "url": "https://www.bijbelhuis.be/"
       }
     ]
+  },
+  {
+    "groupTitle": "Tijdschriften",
+    "links": [
+      {
+        "title": "Kerk en Leven",
+        "url": "https://www.kerknet.be/kerkenleven/"
+      },
+      {
+        "title": "TERTIO",
+        "url": "https://www.tertio.be/"
+      }
+    ]
+  },
+  {
+    "groupTitle": "Universiteit en leerhuizend",
+    "links": [
+      {
+        "title": "Faculteit voor Protestantse Godgeleerdheid",
+        "url": "https://www.fptr.be/index-en.aspx"
+      },
+      {
+        "title": "Faculteit Theologie en Religie KU Leuven",
+        "url": "https://theo.kuleuven.be//"
+      },
+      {
+        "title": "Evangelische Theologische Faculteit Leuven",
+        "url": "https://www.etf.edu/"
+      }
+    ]
   }
+
 ]
