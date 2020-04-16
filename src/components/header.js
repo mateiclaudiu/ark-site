@@ -117,7 +117,7 @@ const Header = ({ siteTitle }) => (
       </h1>
       <NavStyled>
         <ul id="navigation">
-          <li><Link to="/index/">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/wieiswie/">Wie is wie?</Link></li>
           <li><Link to="/links/">Handige links</Link></li>
         </ul>
