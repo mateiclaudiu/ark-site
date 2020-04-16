@@ -3,8 +3,17 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 
+const HeaderDivStyled = styled.div`
+  display: flex;
+ // justify-content: space-between;
+ div:nth-child(2) {
+    text-align: center;
+    flex: 1 1 0px;
+}
+`
 
 const NavStyled = styled.div`
+  margin-right: 7rem;
   display: ${props => props.display};
   font-family: Poppins;
   font-size: 0.9rem;
@@ -33,6 +42,9 @@ const NavStyled = styled.div`
     cursor: pointer;
     background:#2a2c33;
     transition: 0.3s;
+  }
+  a:hover{
+    cursor: pointer;
   }
   
   @media (min-width: 768px) {
@@ -79,17 +91,18 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#31333b`,
-     // marginBottom: `1.45rem`,
+      // marginBottom: `1.45rem`,
     }}
   >
-    <div
+    <HeaderDivStyled
       style={{
         margin: `0 auto`,
         //maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        display: `flex`,
+        padding: `0 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: "auto", width:"7rem" }}>
         <Link
           to="/"
           style={{
@@ -107,7 +120,7 @@ const Header = ({ siteTitle }) => (
           <li><Link to="/links/">Handige links</Link></li>
         </ul>
       </NavStyled>
-    </div>
+    </HeaderDivStyled>
   </header>
 )
 
