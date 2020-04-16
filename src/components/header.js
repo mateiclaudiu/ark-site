@@ -131,9 +131,9 @@ const Header = ({ siteTitle }) => (
       </h1>
       <NavStyled>
         <ul id="navigation">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/wieiswie/">Wie is wie?</Link></li>
-          <li><Link to="/links/">Handige links</Link></li>
+          <li><Link to="/"  activeStyle={{ color: "#d14f42" }}>Home</Link></li>
+          <li><Link to="/wieiswie/"  activeStyle={{ color: "#d14f42" }}>Wie is wie?</Link></li>
+          <li><Link to="/links/"  activeStyle={{ color: "#d14f42" }}>Handige links</Link></li>
         </ul>
       </NavStyled>
     </HeaderDivStyled>
