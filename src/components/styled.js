@@ -200,11 +200,11 @@ export const LinkBlockStyled = styled.div`
     text-transform: capitalize;
     color: #a2473e;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.1s;
   }
   a:hover{
-    color: gray;
-    text-decoration: none;
+    color: blue;
+    text-decoration: underline;
     cursor: pointer;
   }
 `
