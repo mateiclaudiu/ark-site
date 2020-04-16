@@ -205,5 +205,6 @@ export const LinkBlockStyled = styled.div`
   a:hover{
     color: gray;
     text-decoration: none;
+    cursor: pointer;
   }
 `
