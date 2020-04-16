@@ -4,18 +4,26 @@ import React from "react"
 import styled from "styled-components"
 
 const HeaderDivStyled = styled.div`
+  padding: 0 1.0875rem;
+  
   @media (min-width: 768px) {
     display: flex;
+    margin: 0 auto;
     
     div:nth-child(2) {
       text-align: center;
       flex: 1 1 0px;
     }
+    
+    h1{
+     margin: auto;
+     width: 7rem;
+    } 
+ 
   }
 `
 
 const NavStyled = styled.div`
-  margin-right: 7rem;
   display: ${props => props.display};
   font-family: Poppins;
   font-size: 0.9rem;
@@ -50,7 +58,8 @@ const NavStyled = styled.div`
   }
   
   @media (min-width: 768px) {
-    //display:none;
+    margin-right: 7rem;
+
     ul{
       display: flex;  
       justify-content: center;
@@ -100,11 +109,10 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         //maxWidth: 960,
-        display: `flex`,
         padding: `0 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: "auto", width:"7rem" }}>
+      <h1>
         <Link
           to="/"
           style={{
