@@ -98,5 +98,19 @@
         "url": "https://www.bijbelhuis.be/"
       }
     ]
+  },
+  {
+    "groupTitle": "Tijdschriften",
+    "links": [
+      {
+        "title": "Kerk en Leven",
+        "url": "https://www.kerknet.be/kerkenleven/"
+      },
+      {
+        "title": "TERTIO",
+        "url": "https://www.tertio.be/"
+      }
+    ]
   }
+
 ]
