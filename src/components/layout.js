@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <FooterStyled>
           <div>
-            <div>ARK VZW</div>
+            <div style={{fontWeight: `600`}}>ARK VZW</div>
             <div>Sint-Pieterstraat 1</div>
             <div>2000 ANTWERPEN</div>
             <div>ondernemingsnummer 865.324.528</div>
