@@ -208,3 +208,33 @@ export const LinkBlockStyled = styled.div`
     cursor: pointer;
   }
 `
+
+export const ContactStyled = styled.div`
+  background-color: #424555;
+  background-color: #d14f42;
+//  padding: 2%;
+  padding-bottom: 3rem;
+  input{
+    width: 100%;
+    border: 1px solid #eaebec;
+
+  } 
+  textarea{
+    width: 100%;
+    border: 1px solid #eaebec;
+  }
+`
+
+export const ButtonStyled = styled.button`
+  padding: 1rem;
+  border-radius: 5%;
+  border: 1px solid #eaebec;
+  font-family: Poppins;
+  font-weight: 600;
+  text-transform: uppercase;
+  color:#707176;
+
+
+`
+
+export const ContactLabelStyled = styled.div
