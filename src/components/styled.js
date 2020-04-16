@@ -193,7 +193,7 @@ export const EventDateStyled = styled.div`
 `
 
 export const LinkBlockStyled = styled.div`
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 0;
   font-family: Poppins;
   font-size: 0.8rem;
   a{
