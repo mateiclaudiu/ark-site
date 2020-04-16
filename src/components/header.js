@@ -3,9 +3,19 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 
+const HeaderStyled = styled.div`
+  background: #31333b;
+  border-bottom: 1px #707176 solid;
+
+  @media (min-width: 768px) {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+  }
+`
 const HeaderDivStyled = styled.div`
   padding: 0 1.0875rem;
-  border-bottom: 1px #707176 solid;
   
   @media (min-width: 768px) {
     display: flex;
@@ -100,12 +110,7 @@ NavStyled.defaultProps = {
 }
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#31333b`,
-      // marginBottom: `1.45rem`,
-    }}
-  >
+  <HeaderStyled>
     <HeaderDivStyled
       style={{
         margin: `0 auto`,
@@ -132,7 +137,7 @@ const Header = ({ siteTitle }) => (
         </ul>
       </NavStyled>
     </HeaderDivStyled>
-  </header>
+  </HeaderStyled>
 )
 
 Header.propTypes = {
