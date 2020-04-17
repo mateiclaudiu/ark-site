@@ -106,7 +106,7 @@ const OurCommunityPage = () => {
       <JoinUsTextStyled id="doe-met-ons-mee">
         <TitleStyled fontSize={"1.5rem"} color={"white"}>Wilt u lid worden? Doe met ons mee!</TitleStyled>
         <TitleStyled fontSize={"1.5rem"} color={"white"}>Contacteer ons!</TitleStyled>
-        <div>Wij nodigen U graag uit voor een nadere kennismaking.</div>
+        <div>Wij nodigen u graag uit voor een nadere kennismaking.</div>
         <SmallContactFormStyled method="post" action="#">
           <div>
             <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Naam</ItalicTitleStyled></label>
