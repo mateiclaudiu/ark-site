@@ -219,7 +219,6 @@ export const ContactStyled = styled.div`
   input{
     width: 100%;
     border: 1px solid #eaebec;
-
   } 
   textarea{
     width: 100%;

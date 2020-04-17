@@ -16,7 +16,7 @@ const Feature = () => (
   <FeatureContainerStyled>
     <FeatureBlock color={"#424555"} title={"Onze gemeenschap"} subtitle={"Donec facilisis fermentum sem viverra"} link={"/onze-gemeenschap"}/>
     <FeatureBlock color={"#a2473e"} title={"Onze missie"} subtitle={"Donec facilisis fermentum sem viverra"}/>
-    <FeatureBlock color={"#d14f42"} title={"Doe met ons mee!"} subtitle={"Donec facilisis fermentum sem viverra"}/>
+    <FeatureBlock color={"#d14f42"} title={"Doe met ons mee!"} subtitle={"Donec facilisis fermentum sem viverra"} link={"/onze-gemeenschap#doe-met-ons-mee"}/>
     <FeatureBlock color={"#f7a145"} title={"ARK's overtuigingen"} subtitle={"Donec facilisis fermentum sem viverra"}/>
   </FeatureContainerStyled>
 )

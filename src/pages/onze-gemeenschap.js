@@ -7,7 +7,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Intro from "../components/intro"
 import Feature from "../components/feature"
-import { FeatureBlockStyled, HelloContainerStyled, IntroStyled, ItalicTitleStyled, SectionStyled, TitleStyled } from "../components/styled"
+import { ButtonStyled, FeatureBlockStyled, HelloContainerStyled, IntroStyled, ItalicTitleStyled, SectionStyled, TitleStyled } from "../components/styled"
 import { Hello } from "../components/hello"
 import { Banner } from "../components/banner"
 import { SectionTitle, SectionTitleForDarkMode } from "../components/section-title"
@@ -15,6 +15,19 @@ import { PageContainer } from "../components/page-container"
 import { Event, UpcomingEventList } from "../components/event"
 import introImage from "../images/together.jpg"
 import { LinksContainer } from "../components/links"
+
+const SmallContactFormStyled = styled.form`
+  margin-top: 2rem;
+  input{
+    width: 100%;
+    border: 1px solid #eaebec;
+  }
+  
+  textarea{
+    width: 100%;
+    border: 1px solid #eaebec;
+  }
+`
 
 const JoinUsBannerStyled = styled.div`
  @media (min-width: 768px) {
@@ -28,7 +41,7 @@ const JoinUsTextStyled = styled.div`
   color: white;
   background: #d14f42;
   padding: 3rem;
-  height: 24rem;
+  height: 36rem;
   @media (min-width: 768px) {
     padding: 4rem;
     width: 50%;
@@ -37,7 +50,7 @@ const JoinUsTextStyled = styled.div`
 
 const JoinUsImageStyled = styled.div`
   background: url("https://my-religion.cmsmasters.net/wp-content/uploads/2016/05/Depositphotos_76136149_original-1.jpg");
-  height: 24rem;
+  height: 36rem;
   background-size: cover;
   background-position-x: center;
   background-position-y: 75%;
@@ -90,14 +103,35 @@ const OurCommunityPage = () => {
     </PageContainer>
     <JoinUsBannerStyled>
       <JoinUsImageStyled></JoinUsImageStyled>
-      <JoinUsTextStyled>
-        <TitleStyled fontSize={"1.5rem"} color={"white"}>Wilt u lid worden?</TitleStyled>
+      <JoinUsTextStyled id="doe-met-ons-mee">
+        <TitleStyled fontSize={"1.5rem"} color={"white"}>Wilt u lid worden? Doe met ons mee!</TitleStyled>
         <TitleStyled fontSize={"1.5rem"} color={"white"}>Contacteer ons!</TitleStyled>
         <div>Wij nodigen U graag uit voor een nadere kennismaking.</div>
-        <div>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form t is a long established fact
-          that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-          more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.
-        </div>
+        <SmallContactFormStyled method="post" action="#">
+          <div>
+            <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Naam</ItalicTitleStyled></label>
+            <div><input type="text" name="name" id="name" width="30rem"/>
+            </div>
+          </div>
+          <div>
+            <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Email</ItalicTitleStyled></label>
+            <div><input type="email" name="email" id="email"/>
+            </div>
+          </div>
+          {/*<div>
+            <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Onderwerp</ItalicTitleStyled></label>
+            <div><input type="text" name="subject" id="subject"/>
+            </div>
+          </div>*/}
+          <div>
+            <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Bericht</ItalicTitleStyled></label>
+
+            <div><textarea name="message" id="message" rows="5"/>
+            </div>
+          </div>
+          <ButtonStyled type="submit">Stuur</ButtonStyled>
+        </SmallContactFormStyled>
+
       </JoinUsTextStyled>
     </JoinUsBannerStyled>
   </Layout>
