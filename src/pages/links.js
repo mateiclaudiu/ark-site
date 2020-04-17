@@ -35,7 +35,7 @@ const LinksPage = () => {
   `)
 
   return <Layout>
-    <SEO title="Home"/>
+    <SEO title="Handige Links"/>
     <PageContainer>
       <SectionTitle title={"Handige links"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
       {websites.edges.map(({ node }) => (
