@@ -125,7 +125,7 @@ export const FooterStyled = styled.footer`
   font-family: Poppins;
   font-size: 0.8rem;
   font-weight: 300;
-  padding: 20px;
+  padding: 3rem;
   
   a{
     text-decoration: none;
