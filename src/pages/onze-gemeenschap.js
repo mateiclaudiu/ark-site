@@ -7,7 +7,16 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Intro from "../components/intro"
 import Feature from "../components/feature"
-import { ButtonStyled, FeatureBlockStyled, HelloContainerStyled, IntroStyled, ItalicTitleStyled, SectionStyled, TitleStyled } from "../components/styled"
+import {
+  AStyledContainer,
+  ButtonStyled,
+  FeatureBlockStyled,
+  HelloContainerStyled,
+  IntroStyled,
+  ItalicTitleStyled, LinkBlockStyled,
+  SectionStyled,
+  TitleStyled,
+} from "../components/styled"
 import { Hello } from "../components/hello"
 import { Banner } from "../components/banner"
 import { SectionTitle, SectionTitleForDarkMode } from "../components/section-title"
@@ -62,17 +71,17 @@ const JoinUsImageStyled = styled.div`
 `
 
 const OurCommunityPage = () => {
-  const { websites } = useStaticQuery(graphql`
+  const { members } = useStaticQuery(graphql`
     {    
-      websites: allLinksJson {
+      members: allMembersJson {
         edges {
           node {
-            id
-            links {
-              title
+            groupName
+            url
+            members {
+              name
               url
             }
-            groupTitle
           }
         }
       }
@@ -81,7 +90,8 @@ const OurCommunityPage = () => {
 
   return <Layout>
     <SEO title="Onze gemeenschap"/>
-    <IntroStyled paddingDesktop={"150px 0"} padding={"50px 0"} image={"https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"}>
+    <IntroStyled paddingDesktop={"150px 0"} padding={"50px 0"}
+                 image={"https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"}>
       <ItalicTitleStyled fontSize={"1.1rem"} color={"white"}>Laat hen allen één zijn, Vader...</ItalicTitleStyled>
       <ItalicTitleStyled fontSize={"0.9rem"} color={"white"}> - Johannes 17:21 - </ItalicTitleStyled>
       <TitleStyled fontSize={"3rem"} color={"white"}>Het Orgaan</TitleStyled>
@@ -89,6 +99,23 @@ const OurCommunityPage = () => {
     </IntroStyled>
     <PageContainer>
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
+      {
+        members.edges.map(({ node }) => (
+          <div>
+            {node.url? <TitleStyled><a href={node.url}>{node.groupName}</a></TitleStyled>:<TitleStyled>{node.groupName}</TitleStyled>}
+            {
+              node.members.map((member) => (
+                  <LinkBlockStyled>
+                    <AStyledContainer>
+                      <a href={member.url} target="_blank">- {member.name} </a>
+                    </AStyledContainer>
+                  </LinkBlockStyled>
+                ),
+              )
+            }
+          </div>
+        ))
+      }
       {/*{websites.edges.map(({ node }) => (
         <LinksContainer groupTitle={node.groupTitle} links={node.links}/>
       ))}

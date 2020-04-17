@@ -193,22 +193,24 @@ export const EventDateStyled = styled.div`
   width: 16rem;
 
 `
-
-export const LinkBlockStyled = styled.div`
-  padding: 1rem 1rem 1rem 0;
-  font-family: Poppins;
-  font-size: 0.8rem;
+export const AStyledContainer = styled.div`
   a{
-    text-transform: capitalize;
-    color: #a2473e;
-    text-decoration: none;
-    transition: 0.1s;
-  }
+      text-transform: capitalize;
+      color: #a2473e;
+      text-decoration: none;
+      transition: 0.1s;
+    }
   a:hover{
     color: blue;
     text-decoration: underline;
     cursor: pointer;
   }
+`
+
+export const LinkBlockStyled = styled.div`
+  padding: 1rem 1rem 1rem 0;
+  font-family: Poppins;
+  font-size: 0.8rem;
 `
 
 export const ContactStyled = styled.div`

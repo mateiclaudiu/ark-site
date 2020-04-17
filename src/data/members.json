@@ -1,0 +1,62 @@
+[
+  {
+    "groupName": "Anglicaanse Kerk",
+    "url": "",
+    "members": [
+      {
+        "name": "St Boniface Anglican Church",
+        "url": "https://www.boniface.be/"
+      }
+    ]
+  },
+  {
+    "groupName": "Duitstalige Evangelische (Prot.) Gemeenschap Provincie Antwerpen",
+    "url": "http://www.degpa.be/",
+    "members": []
+  },
+  {
+    "groupName": "Evangelisch-Lutherse Kerk\t",
+    "url": "http://users.skynet.be/lutherse.kerk//",
+    "members": []
+  },
+  {
+    "groupName": "Orthodoxe Kerk - WERKT NIET",
+    "url": "https://orthodoxia.be/NLkerk/Jurisdicties%20NL/1_IMBelgiou_NL/Antwerpen.html",
+    "members": []
+  },
+  {
+    "groupName": "Rooms Katholieke Kerk",
+    "url": "https://www.kerknet.be/organisatie/bisdom-antwerpen",
+    "members": []
+  },
+  {
+    "groupName": "Verenigde Protestantse Kerk in België - WERKT NIET",
+    "url": "http://www.vpkb.be/",
+    "members": [
+      {
+        "name": "VPKB Antw.-Noord ‘De Brabantse Olijfberg’, Lange Winkelstraat 5",
+        "url": "http://wp.protestantsekerkantwerpennoord.be/"
+      },
+      {
+        "name": "VPKB Antwerpen-Oost ‘Christusgemeente’, Bexstraat 13",
+        "url": "https://christusgemeente.be/"
+      },
+      {
+        "name": "VPKB Antwerpen-Zuid ‘De Wijngaard’, Sanderusstr. 77",
+        "url": "http://www.protestantsekerkdewijngaard.be/"
+      },
+      {
+        "name": "VPKB Brasschaat ‘De Olijftak’, Leopoldslei 35",
+        "url": "http://www.olijftakbrasschaat.be/"
+      },
+      {
+        "name": "VPKB Boechout, Onze Lieve Vrouwenplein 2 -- WERKT NIET",
+        "url": "http://vpkb.be/lokale-kerken/kerk/boechout"
+      },
+      {
+        "name": "VPKB Turnhout, Steenweg op Gierle 188",
+        "url": "http://www.protestantsekerkturnhout.be/pg-16786-7-19310/pagina/home.html"
+      }
+    ]
+  }
+]

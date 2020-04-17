@@ -8,7 +8,7 @@ const FeatureBlock = ({title, subtitle, color, link})=>(
   <FeatureBlockStyled backgroundColor={color}>
     <TitleStyled fontSize={"30px"} color={"white"}>{title}</TitleStyled>
     <ItalicTitleStyled fontSize={"17px"} color={"white"}>{subtitle}</ItalicTitleStyled>
-    <Link to={link}><TitleStyled style={{ lineHeight: `50px` }} fontSize={"12px"} color={"white"}>ONTDEK MEER</TitleStyled></Link>
+    <Link to={link} ><TitleStyled style={{ lineHeight: `50px` }} fontSize={"12px"} color={"white"}>ONTDEK MEER</TitleStyled></Link>
   </FeatureBlockStyled>
 )
 
