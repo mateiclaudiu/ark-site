@@ -46,6 +46,13 @@ const JoinUsBannerStyled = styled.div`
   }  
 `
 
+const LinkBlockContainerStyled = styled.div`
+  a:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+`
+
 const JoinUsTextStyled = styled.div`
   color: white;
   background: #d14f42;
@@ -101,7 +108,7 @@ const OurCommunityPage = () => {
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
       {
         members.edges.map(({ node }) => (
-          <div>
+          <LinkBlockContainerStyled>
             {node.url? <TitleStyled><a href={node.url} target="_blank">{node.groupName}</a></TitleStyled>:<TitleStyled>{node.groupName}</TitleStyled>}
             {
               node.members.map((member) => (
@@ -113,7 +120,7 @@ const OurCommunityPage = () => {
                 ),
               )
             }
-          </div>
+          </LinkBlockContainerStyled>
         ))
       }
       {/*{websites.edges.map(({ node }) => (
