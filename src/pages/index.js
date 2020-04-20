@@ -48,7 +48,9 @@ const IndexPage = () => {
     <PageContainer>
       <UpcomingEventList events={events.edges}/>
     </PageContainer>
-    <Contact/>
+    <div id="contact">
+      <Contact/>
+    </div>
   </Layout>
 }
 
