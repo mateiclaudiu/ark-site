@@ -51,6 +51,10 @@ const LinkBlockContainerStyled = styled.div`
     color: blue;
     text-decoration: underline;
   }
+  
+   TitleStyled {
+    padding: 20px;
+  }
 `
 
 const JoinUsTextStyled = styled.div`
@@ -108,8 +112,8 @@ const OurCommunityPage = () => {
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
       {
         members.edges.map(({ node }) => (
-          <LinkBlockContainerStyled>
-            {node.url? <TitleStyled><a href={node.url} target="_blank">{node.groupName}</a></TitleStyled>:<TitleStyled>{node.groupName}</TitleStyled>}
+          <LinkBlockContainerStyled style={{paddingBottom:`1rem`, marginBottom:`0`}}>
+            {node.url? <TitleStyled style={{marginBottom:`0`}}><a href={node.url} target="_blank">{node.groupName}</a></TitleStyled>:<TitleStyled style={{ marginBottom:`0`}}>{node.groupName}</TitleStyled>}
             {
               node.members.map((member) => (
                   <LinkBlockStyled>
