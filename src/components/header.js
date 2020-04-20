@@ -58,7 +58,7 @@ const NavStyled = styled.div`
     text-decoration: none;
     color: gray;
   }
-  li:hover{
+  a:hover{
     text-decoration: none;
     cursor: pointer;
     background:#2a2c33;
@@ -88,7 +88,7 @@ const NavStyled = styled.div`
       }
     }
      
-    li:hover{
+    a:hover{
       text-decoration: none;
       cursor: pointer;
       background:inherit;
