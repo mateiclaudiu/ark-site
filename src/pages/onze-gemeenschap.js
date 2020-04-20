@@ -102,7 +102,7 @@ const OurCommunityPage = () => {
       {
         members.edges.map(({ node }) => (
           <div>
-            {node.url? <TitleStyled><a href={node.url} target="_blank">{node.groupName}</a></TitleStyled>:<TitleStyled>{node.groupName}</TitleStyled>}
+            {node.url? <TitleStyled><a href={node.url}>{node.groupName}</a></TitleStyled>:<TitleStyled>{node.groupName}</TitleStyled>}
             {
               node.members.map((member) => (
                   <LinkBlockStyled>
