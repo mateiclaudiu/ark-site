@@ -92,9 +92,10 @@ const NavStyled = styled.div`
       text-decoration: none;
       cursor: pointer;
       background:inherit;
+      color: gray;
+
     
     a{
-      color: gray;
       transition: 0.7s;
     }
   } 
@@ -131,11 +132,11 @@ const Header = ({ siteTitle }) => (
       </h1>
       <NavStyled>
         <ul id="navigation">
-          <li><Link to="/"  activeStyle={{ color: "#d14f42" }}>Home</Link></li>
-          <li><Link to="/wieiswie/"  activeStyle={{ color: "#d14f42" }}>Wie is wie?</Link></li>
-          <li><Link to="/onze-gemeenschap/"  activeStyle={{ color: "#d14f42" }}>Onze gemeenschap</Link></li>
-          <li><Link to="/links/"  activeStyle={{ color: "#d14f42" }}>Handige links</Link></li>
-          <li><Link to="/#contact"  activeStyle={{ color: "#d14f42" }}>Contact</Link></li>
+          <li><Link to="/" activeStyle={{ color: "#d14f42" }}>Home</Link></li>
+          <li><Link to="/wieiswie/" activeStyle={{ color: "#d14f42" }}>Wie is wie?</Link></li>
+          <li><Link to="/onze-gemeenschap/" activeStyle={{ color: "#d14f42" }}>Onze gemeenschap</Link></li>
+          <li><Link to="/links/" activeStyle={{ color: "#d14f42" }}>Handige links</Link></li>
+          <li><Link to="/#contact" activeStyle={{ color: "#d14f42" }}>Contact</Link></li>
         </ul>
       </NavStyled>
     </HeaderDivStyled>
