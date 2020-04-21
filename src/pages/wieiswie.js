@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import bibleImage from "../images/bible_q_20.jpeg"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,7 +25,7 @@ import profile from "../images/profile.png"
 const SecondPage = () => (
   <Layout>
     <SEO title="Wie is wie"/>
-    <IntroStyled paddingDesktop={"150px 0"} padding={"50px 0"} image={"https://images.unsplash.com/photo-1499652848871-1527a310b13a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"}>
+    <IntroStyled paddingDesktop={"150px 0"} padding={"50px 0"} image={bibleImage}>
       <ItalicTitleStyled fontSize={"1.1rem"} color={"white"}>Laat hen allen één zijn, Vader...</ItalicTitleStyled>
       <ItalicTitleStyled fontSize={"0.9rem"} color={"white"}> - Johannes 17:21 - </ItalicTitleStyled>
       <TitleStyled fontSize={"3rem"} color={"white"}>Het Orgaan</TitleStyled>
