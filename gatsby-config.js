@@ -69,9 +69,9 @@ module.exports = {
         locale: null, // string, defaults to null, which date-and-time defaults as "en" - whether to localize the date or not, can use any available
         // date-and-time localization
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+     `gatsby-plugin-offline`,
   ],
 }
