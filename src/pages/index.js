@@ -13,7 +13,7 @@ import { Banner } from "../components/banner"
 import { SectionTitle, SectionTitleForDarkMode } from "../components/section-title"
 import { PageContainer } from "../components/page-container"
 import { Event, UpcomingEventList } from "../components/event"
-import introImage from "../images/together.jpg"
+import introImage from "../images/together_q_50.jpeg"
 import { Contact } from "../components/contact"
 
 
