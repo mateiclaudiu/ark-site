@@ -208,7 +208,7 @@ export const AStyledContainer = styled.div`
 `
 
 export const LinkBlockStyled = styled.div`
-  padding: 1rem 1rem 1rem 0;
+  padding-bottom: 1rem;
   font-family: Poppins;
   font-size: 0.8rem;
 `

@@ -37,7 +37,7 @@ const HeaderDivStyled = styled.div`
 const NavStyled = styled.div`
   display: ${props => props.display};
   font-family: Poppins;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   color:white;

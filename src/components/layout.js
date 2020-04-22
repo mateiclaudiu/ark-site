@@ -14,6 +14,15 @@ import "./layout.css"
 import { FooterStyled } from "./styled"
 import styled from "styled-components"
 
+const FooterBlockStyled = styled.div`
+  margin-bottom:1rem;
+`
+
+const FooterBlockTitleStyled = styled.div`
+  font-weight: 600;
+  color:white;
+ `
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -40,21 +49,29 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <FooterStyled>
-          <div>
-            <div style={{fontWeight: `600`, color:`white`}}>Zetel</div>
+          <FooterBlockStyled>
+            <FooterBlockTitleStyled >Secretariaat (correspondentie)</FooterBlockTitleStyled>
+            <div>ARK VZW p/a Jean-Marie Houben</div>
+            <div>Turkooisstraat 15</div>
+            <div>2600 Berchem</div>
+          </FooterBlockStyled>
+          <FooterBlockStyled>
+            <FooterBlockTitleStyled>Zetel</FooterBlockTitleStyled>
             <div>ARK VZW</div>
             <div>Sint-Pieterstraat 1</div>
             <div>2000 ANTWERPEN</div>
             <div>ondernemingsnummer 865.324.528</div>
             <div>gerechtelijk arrondissement Antwerpen</div>
-            <div  style={{marginTop: `1rem`,fontWeight: `600`,color:`white`}}>Bankrekening:</div>
-            <div>IBAN: BE92 7895 0926 0223 </div>
+          </FooterBlockStyled>
+          <FooterBlockStyled>
+            <FooterBlockTitleStyled>Bankrekening:</FooterBlockTitleStyled>
+            <div>IBAN: BE92 7895 0926 0223</div>
             <div>BIC: GKCCBEBB</div>
             <div>ARK VZW</div>
             <div>Clementinastraat 20</div>
             <div>2018 ANTWERPEN</div>
-          </div>
-          <div style={{marginTop: `2rem`, color:`white`}}>
+          </FooterBlockStyled>
+          <div style={{ marginTop: `2rem`, color: `white` }}>
             © {new Date().getFullYear()}, Built by
             {` `}
             <a href="https://www.matei.be/" target="_blank">Matei</a> for ARK - last update {data.currentBuildDate.currentDate}
