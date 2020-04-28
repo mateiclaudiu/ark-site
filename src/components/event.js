@@ -18,19 +18,24 @@ export const Event = ({ dayNumber, monthName, dayName, title, info, place }) => 
   </EventStyled>
 )
 
-export const UpcomingEventList = ({events}) => (
+export const UpcomingEventList = ({ events }) => (
   <div>
     <SectionTitle title={"Geplande events"} subtitle={"Hoe mooi is het wanneer mensen samen in vrede leven"}/>
-    {events.filter(({node})=> new Date(node.eventDate) > new Date() ).map(({ node }) => (
-      <Event
-        dayNumber={node.dayNumber}
-        monthName={node.monthName}
-        dayName={node.dayName}
-        title={node.title}
-        info={node.info}
-        place={node.place}
-        key={node.title+node.dayNumber}
-      />
-    ))}
+    {events.map(({ node }) => {
+        if (new Date(node.eventDate) > new Date()) {
+          return <Event
+            dayNumber={node.dayNumber}
+            monthName={node.monthName}
+            dayName={node.dayName}
+            title={node.title}
+            info={node.info}
+            place={node.place}
+            key={node.title + node.dayNumber}
+          />
+        } else {
+          return <div>Er zijn geen evenementen gepland in de nabije toekomst</div>
+        }
+      },
+    )}
   </div>
 )
