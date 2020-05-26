@@ -7,7 +7,7 @@ export const Banner = () => (
       <img src={"https://antwerpseraadvankerken.be/wp-content/uploads/2018/08/P1060743-150x150.jpg"} style={{ borderRadius: `50%` }}/>
     </BannerImgStyled>
     <BannerTextStyled>
-      <TitleStyled fontSize={"30px"} color={"white"}>John Van Der Dussen</TitleStyled>
+      <TitleStyled fontSize={"30px"} color={"white"}>John van der Dussen</TitleStyled>
       <ItalicTitleStyled fontSize={"17px"} color={"#d14f42"}>Voorzitter</ItalicTitleStyled>
       <p style={{
         color: `darkgray`,
