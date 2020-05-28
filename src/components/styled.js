@@ -9,7 +9,7 @@ export const ItalicTitleStyled = styled.div`
 export const TitleStyled = styled.div`
   color: ${props => props.color};
   font-size: ${props => props.fontSize};
-  font-family: Poppins;
+  font-family: Montserrat;
   font-weight: 600;
   line-height: 1;
   margin-bottom: 1rem;
@@ -122,7 +122,7 @@ export const FooterStyled = styled.footer`
   //background: #a2473e;
   background: #31333b;
   color: #71717f;
-  font-family: Poppins;
+  font-family: Montserrat;
   font-size: 0.8rem;
   font-weight: 300;
   padding: 3rem;
@@ -209,7 +209,7 @@ export const AStyledContainer = styled.div`
 
 export const LinkBlockStyled = styled.div`
   padding-bottom: 1rem;
-  font-family: Poppins;
+  font-family: Montserrat;
   font-size: 0.8rem;
 `
 
@@ -232,7 +232,7 @@ export const ButtonStyled = styled.button`
   padding: 1rem;
   border-radius: 5%;
   border: 1px solid #eaebec;
-  font-family: Poppins;
+  font-family: Montserrat;
   font-weight: 600;
   text-transform: uppercase;
   color:#707176;
