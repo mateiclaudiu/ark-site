@@ -12,12 +12,13 @@ export const Banner = () => (
       <p style={{
         color: `darkgray`,
         marginTop: `10px`,
-      }}>
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
-        randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-        embarrassing hidden in the middle of text.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
-        some form, by injected humour, or randomised words which don't look even slightly believable.
-      </p>
+      }}>Welkom op de website van de Antwerpse Raad van Kerken (ARK). In en rond de bruisende stad
+        Antwerpen vindt u niet alleen veel verschillende culturen, maar ook heel wat christelijke kerken,
+        wellicht meer dan u denkt. Zo’n 150 daarvan zijn aangesloten bij de ARK. Uiterlijk vaak heel
+        verschillend, hebben elkaar toch gevonden op hun gemeenschappelijke basis: hun geloof in Jezus
+        Christus.
+        <br/>Kijk eens rond op onze website en ontdek de levende christengemeenschappen in
+        Antwerpen. Heeft u vragen? Contacteer ons gerust!</p>
     </BannerTextStyled>
   </BannerStyled>
 )
