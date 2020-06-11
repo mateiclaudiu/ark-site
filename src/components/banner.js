@@ -15,7 +15,7 @@ export const Banner = () => (
       }}>Welkom op de website van de Antwerpse Raad van Kerken (ARK). In en rond de bruisende stad
         Antwerpen vindt u niet alleen veel verschillende culturen, maar ook heel wat christelijke kerken,
         wellicht meer dan u denkt. Zo’n 150 daarvan zijn aangesloten bij de ARK. Uiterlijk vaak heel
-        verschillend, hebben elkaar toch gevonden op hun gemeenschappelijke basis: hun geloof in Jezus
+        verschillend, hebben zij elkaar toch gevonden op hun gemeenschappelijke basis: hun geloof in Jezus
         Christus.
         <br/>Kijk eens rond op onze website en ontdek de levende christengemeenschappen in
         Antwerpen. Heeft u vragen? Contacteer ons gerust!</p>
