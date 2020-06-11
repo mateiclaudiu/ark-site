@@ -71,6 +71,9 @@ const Layout = ({ children }) => {
             <div>Clementinastraat 20</div>
             <div>2018 ANTWERPEN</div>
           </FooterBlockStyled>
+          <FooterBlockStyled>
+            De Antwerpse Raad van Kerken is verbonden met de internationale oecumenische beweging.
+          </FooterBlockStyled>
           <div style={{ marginTop: `2rem`, color: `white` }}>
             © {new Date().getFullYear()}, Built by
             {` `}
