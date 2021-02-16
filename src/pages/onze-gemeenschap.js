@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import styled from "styled-components"
 
-import communityImage from "../images/community_q_10.jpeg"
+import communityImage from "../images/community_q_10.jpg"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -133,7 +133,7 @@ const OurCommunityPage = () => {
     <JoinUsBannerStyled>
       <JoinUsImageStyled></JoinUsImageStyled>
       <JoinUsTextStyled id="doe-met-ons-mee">
-        <TitleStyled fontSize={"1.5rem"} color={"white"}>Wilt u lid worden? Doe met ons mee!</TitleStyled>
+        <TitleStyled fontSize={"1.5rem"} color={"white"}>Wenst u meer info over de ARK?</TitleStyled>
         <TitleStyled fontSize={"1.5rem"} color={"white"}>Contacteer ons!</TitleStyled>
         <div>Wij nodigen u graag uit voor een nadere kennismaking.</div>
         <SmallContactFormStyled method="post" action="#">

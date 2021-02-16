@@ -3,10 +3,9 @@ import React from "react"
 import { SectionTitle } from "./section-title"
 
 export const Hello = () => (
-  <div>
-    <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
+  <div style={{ marginTop: `30px` }}>
     <ColumnStyled>
-      <div>Het was de tijd van terug opbloeiende oecumenische dialoog. De behoefde om elkaar beter te leren kennen, samen te discussiëren, in debat te gaan
+      <div >Het was de tijd van terug opbloeiende oecumenische dialoog. De behoefde om elkaar beter te leren kennen, samen te discussiëren, in debat te gaan
         en
         vooral ook samen te kunnen bezinnen en bidden, groeide en vroeg om een behoudend orgaan.
         Deze interkerkelijke raad heeft zich tot doel gesteld de oecumenische contacten in de Provincie Antwerpen

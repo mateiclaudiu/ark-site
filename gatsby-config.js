@@ -13,14 +13,15 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `graveyard`,
         path: `${__dirname}/src/data/`,
-        plugins: [
-          `gatsby-transformer-json`
-        ]
+        // plugins: [
+        //   `gatsby-transformer-json`
+        // ]
       }
     },
     `gatsby-transformer-sharp`,
@@ -37,20 +38,30 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Montserrat`,
+    //         variants: [`300`,`600`,`900`]
+    //       },
+    //       {
+    //         family: `Roboto`,
+    //         subsets: [`latin`]
+    //       },
+    //     ],
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Montserrat`,
-            variants: [`300`,`600`,`900`]
-          },
-          {
-            family: `Roboto`,
-            subsets: [`latin`]
-          },
+          `Montserrat\:300,600,900`,
+          `Roboto latin` // you can also specify font weights and styles
         ],
-      },
+        display: 'swap'
+      }
     },
     {
       resolve: `gatsby-plugin-styled-components`,

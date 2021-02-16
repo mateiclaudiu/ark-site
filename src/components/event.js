@@ -21,6 +21,15 @@ export const Event = ({ dayNumber, monthName, dayName, title, info, place }) => 
 export const UpcomingEventList = ({events}) => (
   <div>
     <SectionTitle title={"Geplande events"} subtitle={"Hoe mooi is het wanneer mensen samen in vrede leven"}/>
+    <Event
+      dayNumber={"11"}
+      monthName={"uur"}
+      dayName={"Elke Woensdag"}
+      title={"Middaggebed"}
+      info={"Zomerperiode: in het kathedraal van Antwerpen,"}
+      place={"Winterperiode: St. Joris kapel"}
+      key={"middaggebed"}
+    />
     {events.filter(({node})=> new Date(node.eventDate) > new Date() ).map(({ node }) => (
       <Event
         dayNumber={node.dayNumber}

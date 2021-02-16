@@ -39,13 +39,13 @@ const SecondPage = () => (
         <Leadership name={"Gijsbertus van Hattem"} position={"Penningmeester"} image={gijsbertus}/>
         <Leadership name={"Jean-Marie Houben"} position={"Secretaris"} image={jeanmarie}/>
         <Leadership name={"Michel Franzen"} position={"Oecumenisch middaggebed"} image={michelFranzen}/>
-        <Leadership name={"Ere-Aalmoezenier Annie Walscharts"} position={"Oecumenisch middaggebed"} image={annie}/>
+        <Leadership name={"Annie Walscharts"} position={"Oecumenisch middaggebed"} image={annie}/>
         <Leadership name={"Lieven Gorissen"} position={"hoofdredacteur, opstellen en publicatie ARK-berichten"} image={lieven}/>
-        <Leadership name={"Pfr. Christoph Holstein"} position={""} image={profile}/>
         <Leadership name={"Gunda Wilckens"} position={""} image={gunda}/>
-        <Leadership name={"Embrecht van Groesen"} position={"Abonnementenadministratie ARK-berichten. Oecumenisch middaggebed"} image={embrecht}/>
-        <Leadership name={"Angelos Kamalidis"} position={""} image={kamalidis}/>
+        <Leadership name={"Vader Barnabas"} position={""} image={profile}/>
+        <Leadership name={"Embrecht van Groesen"} position={"Oecumenisch middaggebed"} image={embrecht}/>
         <Leadership name={"Paul Van Uffelen"} position={"Website"} image={paul}/>
+        <Leadership name={"Freda Nkansah"} position={""} image={profile}/>
       </LeaderShipContainerStyled>
   </Layout>
 )

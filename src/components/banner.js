@@ -7,11 +7,12 @@ export const Banner = () => (
       <img src={"https://antwerpseraadvankerken.be/wp-content/uploads/2018/08/P1060743-150x150.jpg"} style={{ borderRadius: `50%` }}/>
     </BannerImgStyled>
     <BannerTextStyled>
-      <TitleStyled fontSize={"30px"} color={"white"}>John van der Dussen</TitleStyled>
+      <TitleStyled fontSize={"30px"} >John van der Dussen</TitleStyled>
       <ItalicTitleStyled fontSize={"17px"} color={"#d14f42"}>Voorzitter</ItalicTitleStyled>
       <p style={{
-        color: `darkgray`,
+        color: `gray`,
         marginTop: `10px`,
+        fontStyle:  `italic`
       }}>Welkom op de website van de Antwerpse Raad van Kerken (ARK). In en rond de bruisende stad
         Antwerpen vindt u niet alleen veel verschillende culturen, maar ook heel wat christelijke kerken,
         wellicht meer dan u denkt. Zo’n 150 daarvan zijn aangesloten bij de ARK. Uiterlijk vaak heel

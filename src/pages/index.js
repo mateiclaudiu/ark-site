@@ -41,10 +41,11 @@ const IndexPage = () => {
     <SEO title="Home"/>
     <Intro image={introImage}/>
     <Feature/>
+    <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
+    <Banner/>
     <PageContainer>
       <Hello/>
     </PageContainer>
-    <Banner/>
     <PageContainer>
       <UpcomingEventList events={events.edges}/>
     </PageContainer>

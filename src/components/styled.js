@@ -81,11 +81,12 @@ export const ColumnStyled = styled.div`
 `
 
 export const BannerStyled = styled.div`
-  background-color: #424555;
-  padding: 5%;
+  background-color: #f1f1f1;
+  padding: 2%;
   width:30%;
   width: 100%;
   text-align:center;
+  font-size: 1rem;
   
   @media (min-width: 768px) {
     display: flex;
