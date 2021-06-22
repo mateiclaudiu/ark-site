@@ -1,0 +1,884 @@
+[
+  {
+    "kerk": "Gereformeerd Overleg Vlaanderen (GOV)",
+    "kerken": [
+      {
+        "adres": "Boterlaarbaan 19-21",
+        "naam": "Evangelisch Centrum",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Gereformeerd Overleg Vlaanderen (GOV)"
+      },
+      {
+        "adres": "Jaak de Boeckstraat 21-23",
+        "naam": "Protestants Centrum De Bron",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Gereformeerd Overleg Vlaanderen (GOV)"
+      },
+      {
+        "adres": "Boterlaarbaan 19-21",
+        "naam": "Evangelisch Centrum",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Gereformeerd Overleg Vlaanderen (GOV)"
+      },
+      {
+        "adres": "Jaak de Boeckstraat 21-23",
+        "naam": "Protestants Centrum De Bron ",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Gereformeerd Overleg Vlaanderen (GOV)"
+      }
+    ]
+  },
+  {
+    "kerk": "Anglicaanse kerk",
+    "kerken": [
+      {
+        "adres": "Grétrystraat 39",
+        "naam": "Anglicaanse kerk",
+        "plaats": "2018 Antwerpen",
+        "hoofdkerk": "Anglicaanse kerk"
+      }
+    ]
+  },
+  {
+    "kerk": "Antiochië-netwerk ",
+    "kerken": [
+      {
+        "adres": "Terlindenhofsstraat 330",
+        "naam": "Biserica Creștină Română Elim",
+        "plaats": "2170 Merksem ",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Lange Lozanastraat 36",
+        "naam": "Comunidade Cristã Brasileira",
+        "plaats": "2018 Antwerpen ",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Noorderlaan 101",
+        "naam": "Assemblée de Dieu Missionnaire",
+        "plaats": "2030 Antwerpen ",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Noorderlaan 115 (2e verdieping)",
+        "naam": "Eglise Chemin et Vie",
+        "plaats": "2030 Antwerpen ",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Van Schoonhovenstraat 27",
+        "naam": "Centre International Chrétien Sang Précieux - La Flamme de l'Eternel",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Moorkensplein 32",
+        "naam": "Mission Evangélique Mont des Oliviers",
+        "plaats": "2140 Borgerhout ",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Noordersingel 17 b5",
+        "naam": "Eglise La Bonne Semence",
+        "plaats": "2140 Borgerhout ",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Klapdorp 68",
+        "naam": "Eglise Corps de Christ",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Frans Baetenstraat 25-29",
+        "naam": "Eglise Evangélique Alliance de Vie",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": null,
+        "naam": "Mission ecclésiastique de la Restauration Exode",
+        "plaats": null,
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Van Arteveldestraat 7",
+        "naam": "Jesus is Lord Church",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Antiochië-netwerk "
+      },
+      {
+        "adres": "Sint-Pietersvliet 11",
+        "naam": "Christian Community",
+        "plaats": "2000 Antwerpen ",
+        "hoofdkerk": "Antiochië-netwerk "
+      }
+    ]
+  },
+  {
+    "kerk": "Deutschsprachige Evangelische Gemeinde in der Provinz Antwerpen (DEGPA)",
+    "kerken": [
+      {
+        "adres": "Groenenborgerlaan 149",
+        "naam": "Antwerpen, H. Damiaankerk",
+        "plaats": "2020 Antwerpen",
+        "hoofdkerk": "Deutschsprachige Evangelische Gemeinde in der Provinz Antwerpen (DEGPA)"
+      }
+    ]
+  },
+  {
+    "kerk": "Evangelisch-Lutherse Kerk",
+    "kerken": [
+      {
+        "adres": "Tabakvest 59",
+        "naam": "Evangelisch-Lutherse Kerk",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Evangelisch-Lutherse Kerk"
+      }
+    ]
+  },
+  {
+    "kerk": "Orthodoxe kerk",
+    "kerken": [
+      {
+        "adres": "Jan Van Gentstraat 11",
+        "naam": "Parochie van Maria-Boodschap",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Orthodoxe kerk"
+      },
+      {
+        "adres": "Heistraat 319",
+        "naam": "Parochie van de Geboorte van de Moeders Gods",
+        "plaats": "2610 Wilrijk",
+        "hoofdkerk": "Orthodoxe kerk"
+      },
+      {
+        "adres": "Loosplaats 2",
+        "naam": "Parochie van Christus’ Geboorte",
+        "plaats": "2018 Antwerpen ",
+        "hoofdkerk": "Orthodoxe kerk"
+      },
+      {
+        "adres": "Lageweg 121",
+        "naam": "Parochie van de Heilige Georgi",
+        "plaats": "2660 Hoboken ",
+        "hoofdkerk": "Orthodoxe kerk"
+      },
+      {
+        "adres": "Eggestraat 10",
+        "naam": "Parochie van de Heilige Nina",
+        "plaats": "2640 Mortsel ",
+        "hoofdkerk": "Orthodoxe kerk"
+      }
+    ]
+  },
+  {
+    "kerk": "Overleg van Autonome Evangelische Gemeenten (OAEG)",
+    "kerken": [
+      {
+        "adres": "Vliegenstraat 39-41",
+        "naam": "Iglesia Cristiana de Amberes",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Overleg van Autonome Evangelische Gemeenten (OAEG)"
+      },
+      {
+        "adres": "Onderwijsstraat 28",
+        "naam": "International Baptist Church",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Overleg van Autonome Evangelische Gemeenten (OAEG)"
+      },
+      {
+        "adres": "Zaal 't Spieke, Hanegraefstraat 5",
+        "naam": "Grace Communion International",
+        "plaats": "2050 Antwerpen ",
+        "hoofdkerk": "Overleg van Autonome Evangelische Gemeenten (OAEG)"
+      },
+      {
+        "adres": "Krijgsbaan 182",
+        "naam": "Kingdom Life Centre",
+        "plaats": "2640 Mortsel ",
+        "hoofdkerk": "Overleg van Autonome Evangelische Gemeenten (OAEG)"
+      },
+      {
+        "adres": "Hendrik Kuijpersstraat 60",
+        "naam": "Genesis International",
+        "plaats": "2640 Mortsel ",
+        "hoofdkerk": "Overleg van Autonome Evangelische Gemeenten (OAEG)"
+      }
+    ]
+  },
+  {
+    "kerk": "Redeemed Christian Church of God (RCCG)",
+    "kerken": [
+      {
+        "adres": "Statiestraat 149",
+        "naam": "New Life Assembly",
+        "plaats": "2600 Berchem ",
+        "hoofdkerk": "Redeemed Christian Church of God (RCCG)"
+      },
+      {
+        "adres": "Hogeweg 14",
+        "naam": "Dynamic Faith Ministry",
+        "plaats": "2140 Borgerhout ",
+        "hoofdkerk": "Redeemed Christian Church of God (RCCG)"
+      },
+      {
+        "adres": "Pothoekstraat 104",
+        "naam": "Resurrection Parish",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Redeemed Christian Church of God (RCCG)"
+      }
+    ]
+  },
+  {
+    "kerk": "Rooms-katholieke kerk (RKK)",
+    "kerken": [
+      {
+        "adres": "Groenplaats 21",
+        "naam": "Onze-Lieve-Vrouwekathedraal",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Hendrik Conscienceplein 6",
+        "naam": "Sint-Carolus Borromeus",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Sint-Paulusstraat 22",
+        "naam": "Sint-Paulus",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Lange Nieuwstraat 73",
+        "naam": "Sint-Jacob de Meerdere",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Sint-Andriesstraat 3",
+        "naam": "Sint-Andries",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Mechelseplein 22",
+        "naam": "Sint-Joris",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Volkstraat 41",
+        "naam": "Sint-Walburgis",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Hanegraefstraat 1",
+        "naam": "Sint-Anna-ten-Drieën",
+        "plaats": "2050 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Paardenmarkt 109",
+        "naam": "Sint-Antonius van Padua",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Van Kerckhovenstraat 35",
+        "naam": "Sint-Amandus",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Van Helmontstraat 23",
+        "naam": "Sint-Eligius",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Lange Beeldekensstraat 22",
+        "naam": "Heilig Hart",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Kerkstraat 89",
+        "naam": "Sint-Willibrordus",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Lange Lobroekstraat 200",
+        "naam": "Sint-Lambertus",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Canadalaan 105",
+        "naam": "OLV Boodschap",
+        "plaats": "2030 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Mechelsesteenweg 135",
+        "naam": "Heilige Geest",
+        "plaats": "2018 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Lange Elzenstraat 79",
+        "naam": "Sint-Jan de Doper",
+        "plaats": "2018 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Van Schoonbekestraat 55",
+        "naam": "Sint-Laurentius",
+        "plaats": "2018 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Amerikalei 165a",
+        "naam": "Sint-Michiel en Sint-Pieter",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Dageraadplaats 3",
+        "naam": "Sint-Norbertus",
+        "plaats": "2018 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Goedendagstraat 52",
+        "naam": "Sint-Anna",
+        "plaats": "2140 Borgerhout",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Coxplein",
+        "naam": "Heilige Familie en Sint-Cornelius",
+        "plaats": "2140 Borgerhout",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Laar 50",
+        "naam": "OLV ter Sneeuw",
+        "plaats": "2140 Borgerhout",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Wapenstilstandlaan 57",
+        "naam": "Heilige Drievuldigheid",
+        "plaats": "2600 Berchem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Collegelaan 32",
+        "naam": "Sint-Franciscus Xaverius",
+        "plaats": "2140 Borgerhout",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Te Boelaarlei 11",
+        "naam": "OLV van het Heilig Hart",
+        "plaats": "2140 Borgerhout",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "René Heylenstraat 1",
+        "naam": "De Blijde Boodschap",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Ter Rivierenlaan 84",
+        "naam": "Emmanuelparochie Sint-Rumoldus ",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Schotensesteenweg 167",
+        "naam": "Heilig Hart",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Van Dornestraat 156",
+        "naam": "Heilige Familie",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Lakborslei",
+        "naam": "Sint-Fredegandus",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Boekenberglei 211",
+        "naam": "Sint-Jozef",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "De Sevillastraat 89",
+        "naam": "Heilige Lodewijk van Montfort",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Merksemsesteenweg 38",
+        "naam": "OLV van Altijddurende Bijstand",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Jan Peetersstraat 24",
+        "naam": "Sint-Paulus",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Corneel Franckstraat 25",
+        "naam": "Heilige Pius X",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Sint-Rochusstraat 77",
+        "naam": "Sint-Rochus",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Schoonbroek 101",
+        "naam": "Sint-Laurentius",
+        "plaats": "2030 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Markt",
+        "naam": "Sint-Lambertus",
+        "plaats": "2180 Ekeren",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Waterstraat 16",
+        "naam": "Sint-Theresia van het Kind Jezus",
+        "plaats": "2180 Ekeren",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Burgemeester Nolfplein",
+        "naam": "Sint-Bartholomeus",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Bredabaan 547",
+        "naam": "Sint-Franciscus van Assisi",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Jos de Swertstraat 1",
+        "naam": "Sint-Jozef",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Pastoor J. Bampsstraat 2",
+        "naam": "OLV van Smarten",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Lambrechtshoekenlaan",
+        "naam": "Heilig Sacrament",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Spaanse Molenstraat 1",
+        "naam": "Sint-Gertrudis",
+        "plaats": "2040 Zandvliet",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Kapelstraat 2",
+        "naam": "OLV van de Hagelberg",
+        "plaats": "2040 Berendrecht",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Leugenberg 143",
+        "naam": "Sint-Vincentius à Paulo",
+        "plaats": "2180 Merksem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Abdijstraat 128",
+        "naam": "Sint-Bernardus",
+        "plaats": "2020 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Sint Bernardsesteenweg 232",
+        "naam": "Sint-Catharina",
+        "plaats": "2020 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Louis Straussstraat 1",
+        "naam": "Christus Koning",
+        "plaats": "2020 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Berchemstadionstraat 8",
+        "naam": "De Verrezen Heer",
+        "plaats": "2600 Berchem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Victor Jacobslei",
+        "naam": "Sint-Hubertus",
+        "plaats": "2600 Berchem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Strijdhoflaan 18",
+        "naam": "OLV Middelares en Sint-Lodewijk",
+        "plaats": "2600 Berchem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Grote Steenweg 650 ",
+        "naam": "Sint-Theresia van het Kind Jezus",
+        "plaats": "2600 Berchem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Heilig Hartstraat 1",
+        "naam": "Sint-Willibrordus",
+        "plaats": "2600 Berchem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Pervijzestraat 52",
+        "naam": "Heilig Sacrament",
+        "plaats": "2600 Berchem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Salesianenlaan 1A",
+        "naam": "Heilige Familie",
+        "plaats": "2660 Hoboken",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Krugerstraat 105",
+        "naam": "Heilig Hart",
+        "plaats": "2660 Hoboken",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Baron Sadoinestraat",
+        "naam": "Sint-Jozef",
+        "plaats": "2660 Hoboken",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Kioskplaats 8",
+        "naam": "OLV Geboorte",
+        "plaats": "2660 Hoboken",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Sint-Bavostraat 18-20",
+        "naam": "Sint-Bavo",
+        "plaats": "2610 Wilrijk",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Kolonel F. Slaterplein 1",
+        "naam": "Sint-Jan Evangelist",
+        "plaats": "2610 Wilrijk",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Boomsesteenweg 331",
+        "naam": "Sint-Jan Vianney",
+        "plaats": "2610 Wilrijk",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Edenplein 26",
+        "naam": "Heilige Naam Jezus",
+        "plaats": "2610 Wilrijk",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Heistraat 321",
+        "naam": "OLV van de Rozenkrans",
+        "plaats": "2610 Wilrijk",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Groenenborgerlaan 214",
+        "naam": "Heilige Pius X",
+        "plaats": "2610 Wilrijk",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Houtdok 25, haven 25 A",
+        "naam": "Kerkschip Sint Jozef",
+        "plaats": "2030 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Karel Rogierstraat 12",
+        "naam": "Franstalige Afrikaanse Gemeenschap",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Canadalaan 105",
+        "naam": "Engelstalige Afrikaanse Gemeenschap",
+        "plaats": "2030 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Te Boelaarlei 11",
+        "naam": "Bosniërs en Kroaten",
+        "plaats": "2140 Borgerhout",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Onderwijsstraat 38",
+        "naam": "Chaldeeën: Sint- Eligiuskerk ",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Bredabaan 547",
+        "naam": "Filipijnse Gemeenschap: Sint-Franciscuskerk ",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Collegelaan 36",
+        "naam": "Indonesiërs : Sint-Franciscus Xaveriuskerk",
+        "plaats": "2140 Borgerhout",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Sint-Andriesstaat 7",
+        "naam": "Oekraïners: Sint-Andrieskerk",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Grote Steenweg 646/1",
+        "naam": "Polen: Sint Theresia van het kind Jezus kerk",
+        "plaats": "2600 Berchem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Sint Catharinaplein 1",
+        "naam": "Spaanssprekenden: Sint-Catharinakerk",
+        "plaats": "2020 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Bredabaan 547",
+        "naam": "Vietnamezen: Sint Franciscuskerk",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      },
+      {
+        "adres": "Lange Beeldekensstraat 18-20",
+        "naam": "Witrussen: H. Hartkerk",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Rooms-katholieke kerk (RKK)"
+      }
+    ]
+  },
+  {
+    "kerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)",
+    "kerken": [
+      {
+        "adres": "Sint-Bernardsesteenweg 505",
+        "naam": "Evangelische Kerk Philadelphia",
+        "plaats": "2660 Hoboken",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Karel Govaertsstraat 53 (Jef Huygh Theater)",
+        "naam": "Lighthouse Fellowship",
+        "plaats": "2100 Deurne",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Carnotstraat 15",
+        "naam": "Universele Kerk van Gods Rijk",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Duinstraat 84",
+        "naam": "De Wijngaard Christengemeenschap",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Lambermontstraat 12",
+        "naam": "Vineyard Antwerpen",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Eggestraat 27",
+        "naam": "Volle Evangelie Gemeente",
+        "plaats": "2640 Mortsel",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Hendrik Kuijpersstraat 60",
+        "naam": "Christengemeente",
+        "plaats": "2640 Mortsel",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Eggestraat 27",
+        "naam": "Gloriepoort",
+        "plaats": "2640 Mortsel",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Muizenstraat 3",
+        "naam": "International Christian Fellowship",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Turnhoutsebaan 4",
+        "naam": "Gospel Faith Mission",
+        "plaats": "2100 Deurne ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Provinciestraat 209",
+        "naam": "The Door Christian Fellowship",
+        "plaats": "2018 Antwerpen ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Kersbeekstraat 13",
+        "naam": "Due Season Ministries",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Bredabaan 881 (2e verdiep)",
+        "naam": "Word Communication Ministries",
+        "plaats": "2170 Merksem ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Alfons Schneiderlaan 211",
+        "naam": "Freedom Ministries",
+        "plaats": "2100 Deurne ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Noorderlaan 115 (gelijkvloers)",
+        "naam": "Levites World Mission",
+        "plaats": "2030 Antwerpen",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Lakborslei 108",
+        "naam": "Deeper Life Bible Church",
+        "plaats": "2100 Deurne ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Papaverstraat 5",
+        "naam": "Prayer Centre for All Nations",
+        "plaats": "2170 Merksem ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Statiestraat 16",
+        "naam": "Divine Grace Redemption Gospel Ministries",
+        "plaats": "2600 Berchem ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Louis Straussstraat 3 (Zaal Expo-Rex)",
+        "naam": "Eglise La Belle",
+        "plaats": "2020 Antwerpen ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Ernest Van Dijckkaai 17",
+        "naam": "Movimento Missionário Jesus a Única Esperança",
+        "plaats": "2000 Antwerpen ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Lange Winkelhaakstraat 23",
+        "naam": "Igreja Universal do Reino de Deus",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Pothoekstraat 37",
+        "naam": "City Lights Church",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      },
+      {
+        "adres": "Lange Beeldekensstraat 24",
+        "naam": "Antwerp Truth Church",
+        "plaats": "2060 Antwerpen ",
+        "hoofdkerk": "Verbond van Vlaamse Pinkstergemeenten (VVP)"
+      }
+    ]
+  },
+  {
+    "kerk": "Verenigde Protestantse Kerk in België (VPKB)",
+    "kerken": [
+      {
+        "adres": "Lange Winkelstraat 5",
+        "naam": "Antwerpen-Noord, De Brabantse Olijfberg",
+        "plaats": "2000 Antwerpen",
+        "hoofdkerk": "Verenigde Protestantse Kerk in België (VPKB)"
+      },
+      {
+        "adres": "Bexstraat 13",
+        "naam": "Antwerpen-Oost, Christusgemeente",
+        "plaats": "2018 Antwerpen",
+        "hoofdkerk": "Verenigde Protestantse Kerk in België (VPKB)"
+      },
+      {
+        "adres": "Sanderusstraat 77",
+        "naam": "Antwerpen-Zuid, De Wijngaard",
+        "plaats": "2018 Antwerpen",
+        "hoofdkerk": "Verenigde Protestantse Kerk in België (VPKB)"
+      }
+    ]
+  },
+  {
+    "kerk": "Totaal 79 rooms-katholiek + 46 evangelisch + 5 orthodox + 3 VPKB + 1 anglicaans + 1 luthers + 1 DEGPA = 136 lidkerken en parochies",
+    "kerken": [
+    ]
+  }
+]

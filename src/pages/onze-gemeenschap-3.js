@@ -29,24 +29,23 @@ import { LinksContainer } from "../components/links"
 
 const SmallContactFormStyled = styled.form`
   margin-top: 2rem;
-
-  input {
+  input{
     width: 100%;
     border: 1px solid #eaebec;
   }
-
-  textarea {
+  
+  textarea{
     width: 100%;
     border: 1px solid #eaebec;
   }
 `
 
 const JoinUsBannerStyled = styled.div`
-  @media (min-width: 768px) {
+ @media (min-width: 768px) {
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
-  }
+  }  
 `
 
 const JoinUsTextStyled = styled.div`
@@ -57,7 +56,7 @@ const JoinUsTextStyled = styled.div`
   @media (min-width: 768px) {
     padding: 4rem;
     width: 50%;
-  }
+  }  
 `
 
 const JoinUsImageStyled = styled.div`
@@ -70,43 +69,26 @@ const JoinUsImageStyled = styled.div`
   @media (min-width: 768px) {
     width: 50%;
     background-position-y: inherit;
-  }
+  }  
 `
-const groupBy = key => array => {
-  const newArray = []
-
-  array.map(({ node }) => {
-    return newArray.push(node)
-  })
-
-  return newArray.reduce((objectsByKeyValue, obj) => {
-    const value = obj[key]
-    objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj)
-    return objectsByKeyValue
-  }, {})
-}
 
 const OurCommunityPage = () => {
-
-  const { churches } = useStaticQuery(graphql`
+  const { members } = useStaticQuery(graphql`
     {    
-      churches: allKerkJson(sort: {fields: kerk, order: ASC}) {
+      members: allMembersJson {
         edges {
           node {
-            kerk
-            kerken {
-              adres
-              hoofdkerk
-              naam
-              plaats
+            groupName
+            url
+            members {
+              name
+              url
             }
           }
         }
       }
     }
   `)
-
-  const groupedChurches = groupBy("hoofdkerk")(churches.edges)
 
   return <Layout>
     <SEO title="Onze gemeenschap"/>
@@ -120,15 +102,15 @@ const OurCommunityPage = () => {
     <PageContainer>
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
       {
-        churches.edges.map(({ node }) => (
-          <div key={node.kerk}>
-            {node.url ? <TitleStyled><a href={node.url}>{node.kerk}</a></TitleStyled> : <TitleStyled>{node.kerk}</TitleStyled>}
+        members.edges.map(({ node }) => (
+          <div>
+            {node.url? <TitleStyled><a href={node.url}>{node.groupName}</a></TitleStyled>:<TitleStyled>{node.groupName}</TitleStyled>}
             {
-              node.kerken.map((kerk) => (
+              node.members.map((member) => (
                   <LinkBlockStyled>
-
-                     - {kerk.naam}, {kerk.adres}, {kerk.plaats}
-
+                    <AStyledContainer>
+                      <a href={member.url} target="_blank">- {member.name} </a>
+                    </AStyledContainer>
                   </LinkBlockStyled>
                 ),
               )
@@ -136,6 +118,17 @@ const OurCommunityPage = () => {
           </div>
         ))
       }
+      {/*{websites.edges.map(({ node }) => (
+        <LinksContainer groupTitle={node.groupTitle} links={node.links}/>
+      ))}
+      <div style={{ fontStyle: "italic" }}>
+        Had u graag uw website hier vermeld gezien? Of juist liever niet? Of zag u een fout?
+        Neem dan gerust contact met ons en wij zullen het nodige doen.
+        <br/>
+        <br/>
+        De ARK kan niet verantwoordelijk gesteld worden voor foutieve links, noch voor de inhoud van de vermelde links.
+        Dat wij de links hier vermelden wil niet zeggen dat wij altijd met de inhoud instemmen.
+      </div>*/}
     </PageContainer>
     <JoinUsBannerStyled>
       <JoinUsImageStyled></JoinUsImageStyled>
