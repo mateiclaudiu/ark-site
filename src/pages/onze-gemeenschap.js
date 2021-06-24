@@ -106,8 +106,6 @@ const OurCommunityPage = () => {
     }
   `)
 
-  const groupedChurches = groupBy("hoofdkerk")(churches.edges)
-
   return <Layout>
     <SEO title="Onze gemeenschap"/>
     <IntroStyled paddingDesktop={"150px 0"} padding={"50px 0"}
@@ -119,6 +117,7 @@ const OurCommunityPage = () => {
     </IntroStyled>
     <PageContainer>
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
+      <TitleStyled>Onze gemeenschap bestaat uit een totaal van 79 rooms-katholieke, 46 evangelische, 5 orthodoxe, 3 VPKB, 1 anglicaanse, 1 lutherse en 1 DEGPA lidkerk/parochie. In totaal 136 lidkerken en parochies.</TitleStyled>
       {
         churches.edges.map(({ node }) => (
           <div key={node.kerk}>
