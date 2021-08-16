@@ -35,7 +35,6 @@ const SecondPage = () => (
       <SectionTitle title={"Bestuur"} subtitle={"'Wie de belangrijkste wil zijn, moet de minste van allemaal willen zijn en ieders dienaar'"}/>
       <LeaderShipContainerStyled>
         <Leadership name={"John van der Dussen"} position={"Voorzitter"} image={john}/>
-        <Leadership name={"Ds. Hans Neels"} position={"Ondervoorzitter / Moderator"} image={hans}/>
         <Leadership name={"Gijsbertus van Hattem"} position={"Penningmeester"} image={gijsbertus}/>
         <Leadership name={"Jean-Marie Houben"} position={"Secretaris"} image={jeanmarie}/>
         <Leadership name={"Michel Franzen"} position={"Oecumenisch middaggebed"} image={michelFranzen}/>
