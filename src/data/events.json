@@ -1,32 +1,52 @@
 [
   {
-    "creationDate": "2020-04-02",
-    "eventDate": "2021-04-25",
-    "dayNumber": "25",
-    "dayName": "Zaterdag",
-    "monthName": "April",
-    "title": "Building a Church Fellowship",
-    "info": "June 17, 2019 @ 8:00 am - December 14, 2020 @ 5:00 pm",
-    "place": "Norfolk United States"
+    "creationDate": "2021-08-31",
+    "eventDate": "2021-09-01",
+    "dayNumber": "01",
+    "dayName": "Woensdag",
+    "monthName": "September",
+    "title": "Het wekelijks Ocumenisch Gebed",
+    "info": "1 september 2021 om 11:00 uur - John van der Dussen, voorzitter ARK",
+    "place": "Protestantse Kerk - Lange Winkelstraat 5"
   },
   {
-    "creationDate": "2020-04-02",
-    "eventDate": "2021-04-24",
-    "dayNumber": "24",
-    "dayName": "Vrijdag",
-    "monthName": "April",
-    "title": "Building a Church Fellowship",
-    "info": "June 17, 2019 @ 8:00 am - December 14, 2020 @ 5:00 pm",
-    "place": "Norfolk United States"
+    "creationDate": "2021-08-31",
+    "eventDate": "2021-09-08",
+    "dayNumber": "08",
+    "dayName": "Woensdag",
+    "monthName": "September",
+    "title": "Het wekelijks Ocumenisch Gebed",
+    "info": "1 september 2021 om 11:00 uur - Jan De Roeck, Pastoraal verantwoordelijke voor de parochie Sint Jan Vianney te Wilrijk",
+    "place": "Protestantse Kerk - Lange Winkelstraat 5"
   },
   {
-    "creationDate": "2020-04-02",
-    "eventDate": "2022-04-24",
-    "dayNumber": "24",
-    "dayName": "Vrijdag",
-    "monthName": "April",
-    "title": "Building a Church Fellowship",
-    "info": "June 17, 2019 @ 8:00 am - December 14, 2020 @ 5:00 pm",
-    "place": "Norfolk United States"
+    "creationDate": "2021-08-31",
+    "eventDate": "2021-09-15",
+    "dayNumber": "15",
+    "dayName": "Woensdag",
+    "monthName": "September",
+    "title": "Het wekelijks Ocumenisch Gebed",
+    "info": "1 september 2021 om 11:00 uur - OG verzorgd door DEGPA",
+    "place": "Protestantse Kerk - Lange Winkelstraat 5"
+  },
+  {
+    "creationDate": "2021-08-31",
+    "eventDate": "2021-09-22",
+    "dayNumber": "22",
+    "dayName": "Woensdag",
+    "monthName": "September",
+    "title": "Het wekelijks Ocumenisch Gebed",
+    "info": "1 september 2021 om 11:00 uur - Frank Théré, Diaken voor de parochie St. Jozef in Kapellen",
+    "place": "Protestantse Kerk - Lange Winkelstraat 5"
+  },
+  {
+    "creationDate": "2021-08-31",
+    "eventDate": "2021-09-29",
+    "dayNumber": "29",
+    "dayName": "Woensdag",
+    "monthName": "September",
+    "title": "Het wekelijks Ocumenisch Gebed",
+    "info": "1 september 2021 om 11:00 uur - E.H. Lansu Paul – Pax Christi – met de Vredesweek als uitgangspunt",
+    "place": "Protestantse Kerk - Lange Winkelstraat 5"
   }
 ]
