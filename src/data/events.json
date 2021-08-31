@@ -5,8 +5,9 @@
     "dayNumber": "01",
     "dayName": "Woensdag",
     "monthName": "September",
+    "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "om 11:00 uur gedragen door John van der Dussen, voorzitter ARK",
+    "info": "John van der Dussen, voorzitter ARK",
     "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
   },
   {
@@ -15,8 +16,9 @@
     "dayNumber": "08",
     "dayName": "Woensdag",
     "monthName": "September",
+    "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "om 11:00 uur gedragen door Jan De Roeck, Pastoraal verantwoordelijke\n voor de parochie Sint Jan Vianney te Wilrijk",
+    "info": "Jan De Roeck, Pastoraal verantwoordelijke\n voor de parochie Sint Jan Vianney te Wilrijk",
     "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
   },
   {
@@ -25,8 +27,9 @@
     "dayNumber": "15",
     "dayName": "Woensdag",
     "monthName": "September",
+    "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "om 11:00 uur gedragen door OG verzorgd door DEGPA",
+    "info": "OG verzorgd door DEGPA",
     "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
   },
   {
@@ -35,8 +38,9 @@
     "dayNumber": "22",
     "dayName": "Woensdag",
     "monthName": "September",
+    "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "om 11:00 uur gedragen door Frank Théré, Diaken voor de parochie St. Jozef in Kapellen",
+    "info": "Frank Théré, Diaken voor de parochie St. Jozef in Kapellen",
     "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
   },
   {
@@ -45,8 +49,9 @@
     "dayNumber": "29",
     "dayName": "Woensdag",
     "monthName": "September",
+    "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "om 11:00 uur gedragen door E.H. Lansu Paul – Pax Christi – met de Vredesweek als uitgangspunt",
+    "info": "E.H. Lansu Paul – Pax Christi – met de Vredesweek als uitgangspunt",
     "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
   }
 ]

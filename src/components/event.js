@@ -2,13 +2,17 @@ import { EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleS
 import React from "react"
 import { SectionTitle } from "./section-title"
 
-export const Event = ({ dayNumber, monthName, dayName, title, info, place }) => (
+export const Event = ({ dayNumber, monthName, dayName, time, title, info, place }) => (
   <EventStyled>
     <EventDateStyled>
       <EventDayStyled>
         <TitleStyled fontSize={"5rem"} color={"lightgray"}>{dayNumber}</TitleStyled>
       </EventDayStyled>
-      <div><TitleStyled fontSize={"1rem"} color={"gray"}>{monthName}</TitleStyled><TitleStyled fontSize={"1rem"} color={"black"}>{dayName}</TitleStyled></div>
+      <div>
+        <TitleStyled fontSize={"1rem"} color={"gray"}>{monthName}</TitleStyled>
+        <TitleStyled fontSize={"1rem"} color={"black"}>{dayName}</TitleStyled>
+        <TitleStyled fontSize={"1rem"} color={"black"}>{time}</TitleStyled>
+      </div>
     </EventDateStyled>
     <div>
       <TitleStyled fontSize={"1.6rem"} color={"#d14f42"}>{title}</TitleStyled>
@@ -35,6 +39,7 @@ export const UpcomingEventList = ({events}) => (
         dayNumber={node.dayNumber}
         monthName={node.monthName}
         dayName={node.dayName}
+        time={node.time}
         title={node.title}
         info={node.info}
         place={node.place}
