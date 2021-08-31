@@ -11,7 +11,7 @@ export const Event = ({ dayNumber, monthName, dayName, time, title, info, place 
       <div>
         <TitleStyled fontSize={"1rem"} color={"gray"}>{monthName}</TitleStyled>
         <TitleStyled fontSize={"1rem"} color={"black"}>{dayName}</TitleStyled>
-        <TitleStyled fontSize={"1rem"} color={"black"}>{time}</TitleStyled>
+        <TitleStyled fontSize={"1rem"} color={"black"}>11:00 uur</TitleStyled>
       </div>
     </EventDateStyled>
     <div>

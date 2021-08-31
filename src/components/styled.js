@@ -191,7 +191,7 @@ export const EventDayStyled = styled.div`
 
 export const EventDateStyled = styled.div`
   display: flex;
-  width: 16rem;
+  min-width: 16rem;
 
 `
 export const AStyledContainer = styled.div`
