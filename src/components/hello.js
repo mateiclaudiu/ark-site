@@ -3,7 +3,7 @@ import React from "react"
 import { SectionTitle } from "./section-title"
 
 export const Hello = () => (
-  <div style={{ marginTop: `30px` }}>
+  <div style={{ marginTop: `4rem` }}>
     <ColumnStyled>
       <div >Het was de tijd van terug opbloeiende oecumenische dialoog. De behoefde om elkaar beter te leren kennen, samen te discussiëren, in debat te gaan
         en
