@@ -46,5 +46,8 @@ export const UpcomingEventList = ({events}) => (
         key={node.title+node.dayNumber}
       />
     ))}
+    {
+      events.length === 0? (<div>Er zijn geen geplande evenementen.</div>):<></>
+    }
   </div>
 )
