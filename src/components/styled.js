@@ -6,7 +6,7 @@ export const ItalicTitleStyled = styled.div`
   color: ${props => props.color};
 `
 
-export const TitleStyled = styled.div`
+export const TitleStyled = styled.h1`
   color: ${props => props.color};
   font-size: ${props => props.fontSize};
   font-family: Montserrat;
