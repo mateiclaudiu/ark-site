@@ -29,7 +29,19 @@
     "monthName": "Oktober",
     "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed. Gedachtenisviering voor overleden.",
-    "info": "Padre Annie Walscharts. Aalmoezenier em Belgische Krijgsmacht, bestuurslid A.R.K.\n GEDACHTENISVIERING VOOR OVERLEDEN",
+    "info": "Padre Annie Walscharts. Aalmoezenier em Belgische Krijgsmacht, bestuurslid A.R.K.",
+    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
+  },
+
+  {
+    "creationDate": "2021-08-31",
+    "eventDate": "2021-10-20",
+    "dayNumber": "20",
+    "dayName": "Woensdag",
+    "monthName": "Oktober",
+    "time": "11:00 uur",
+    "title": "Het wekelijks Oecumenisch Gebed.",
+    "info": "Marian Knetemann. Bruggenbouwer De Brabantse Olijfberg",
     "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
   },
   {
@@ -40,7 +52,7 @@
     "monthName": "November",
     "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "Diaken Jean-Marie Houben H Sacrament Berchem, secretaris A.R.K.  St Hubertusviering",
+    "info": "Gedachtenisviering voor overleden: Diaken Jean-Marie Houben H Sacrament Berchem, secretaris A.R.K.  St Hubertusviering",
     "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
   },
   {
@@ -51,7 +63,7 @@
     "monthName": "November",
     "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "Embrecht van Groessen, Anglicaans gevangenisaalmoezenier, bestuurslid A.R.K. Viering  in het kader van 11 November.",
+    "info": "Embrecht van Groessen, Anglicaans gevangenisaalmoezenier, bestuurslid A.R.K. Viering  in het kader van 11 November",
     "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
   },
   {
