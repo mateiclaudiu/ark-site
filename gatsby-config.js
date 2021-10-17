@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `ARK ✝`,
+    title: `ARK`,
     description: `Antwerpse Raad van Kerken`,
     author: `@Claudiu Matei`,
   },

@@ -117,11 +117,11 @@ const OurCommunityPage = () => {
     </IntroStyled>
     <PageContainer>
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
-      <TitleStyled>Onze gemeenschap bestaat uit een totaal van 79 rooms-katholieke, 46 evangelische, 5 orthodoxe, 3 VPKB, 1 anglicaanse, 1 lutherse en 1 DEGPA lidkerk/parochie. In totaal 136 lidkerken en parochies.</TitleStyled>
+      <p>Onze gemeenschap bestaat uit een totaal van 79 rooms-katholieke, 46 evangelische, 5 orthodoxe, 3 VPKB, 1 anglicaanse, 1 lutherse en 1 DEGPA lidkerk/parochie. In totaal 136 lidkerken en parochies.</p>
       {
         churches.edges.map(({ node }) => (
           <div key={node.kerk}>
-            {node.url ? <TitleStyled><a href={node.url}>{node.kerk}</a></TitleStyled> : <TitleStyled>{node.kerk}</TitleStyled>}
+            {node.url ? <TitleStyled fontSize={"1rem"}><a href={node.url}>{node.kerk}</a></TitleStyled> : <TitleStyled fontSize={"1rem"}>{node.kerk}</TitleStyled>}
             {
               node.kerken.map((kerk) => (
                   <LinkBlockStyled>
