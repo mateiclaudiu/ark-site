@@ -28,7 +28,7 @@ const SecondPage = () => (
     <IntroStyled paddingDesktop={"150px 0"} padding={"50px 0"} image={bibleImage}>
       <ItalicTitleStyled fontSize={"1.1rem"} color={"white"}>Laat hen allen één zijn, Vader...</ItalicTitleStyled>
       <ItalicTitleStyled fontSize={"0.9rem"} color={"white"}> - Johannes 17:21 - </ItalicTitleStyled>
-      <TitleStyled fontSize={"3rem"} color={"white"}>Het Orgaan</TitleStyled>
+      <TitleStyled fontSize={"3rem"} color={"white"}>ARK</TitleStyled>
       <TitleStyled fontSize={"1.5rem"} color={"white"}>Love, Care, Share</TitleStyled>
     </IntroStyled>
 

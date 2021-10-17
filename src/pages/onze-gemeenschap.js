@@ -51,7 +51,7 @@ const JoinUsBannerStyled = styled.div`
 
 const JoinUsTextStyled = styled.div`
   color: white;
-  background: #d14f42;
+  background: #f7a145;
   padding: 3rem;
   height: 36rem;
   @media (min-width: 768px) {
@@ -112,7 +112,7 @@ const OurCommunityPage = () => {
                  image={communityImage}>
       <ItalicTitleStyled fontSize={"1.1rem"} color={"white"}>Laat hen allen één zijn, Vader...</ItalicTitleStyled>
       <ItalicTitleStyled fontSize={"0.9rem"} color={"white"}> - Johannes 17:21 - </ItalicTitleStyled>
-      <TitleStyled fontSize={"3rem"} color={"white"}>Het Orgaan</TitleStyled>
+      <TitleStyled fontSize={"3rem"} color={"white"}>ARK</TitleStyled>
       <TitleStyled fontSize={"1.5rem"} color={"white"}>Love, Care, Share</TitleStyled>
     </IntroStyled>
     <PageContainer>
@@ -138,7 +138,7 @@ const OurCommunityPage = () => {
     </PageContainer>
     <JoinUsBannerStyled>
       <JoinUsImageStyled></JoinUsImageStyled>
-      <JoinUsTextStyled id="doe-met-ons-mee">
+      <JoinUsTextStyled id="contact">
         <TitleStyled fontSize={"1.5rem"} color={"white"}>Wenst u meer info over de ARK?</TitleStyled>
         <TitleStyled fontSize={"1.5rem"} color={"white"}>Contacteer ons!</TitleStyled>
         <div>Wij nodigen u graag uit voor een nadere kennismaking.</div>
