@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
+import pdfDocument from "../../static/0_KAFT_OIKOUMENE_2021-4_proef_1.pdf"
 
 const HeaderStyled = styled.div`
   background: #31333b;
@@ -137,7 +138,7 @@ const Header = ({ siteTitle }) => (
           <li><Link to="/onze-gemeenschap/" activeStyle={{ color: "#d14f42" }}>Onze gemeenschap</Link></li>
           <li><Link to="/links/" activeStyle={{ color: "#d14f42" }}>Handige links</Link></li>
           <li>
-            <a href="0_KAFT_OIKOUMENE_2021-4_proef_1.pdf" download>Oikoumene</a>
+            <a href="{pdfDocument}" download>Oikoumene</a>
           </li>
           <li><Link to="/#contact" activeStyle={{ color: "#d14f42" }}>Contact</Link></li>
         </ul>
