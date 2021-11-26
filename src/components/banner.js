@@ -1,10 +1,11 @@
 import { BannerImgStyled, BannerStyled, BannerTextStyled, ItalicTitleStyled, TitleStyled } from "./styled"
 import React from "react"
+import john from "../images/leadership/9.png"
 
 export const Banner = () => (
   <BannerStyled>
     <BannerImgStyled>
-      <img src={"https://antwerpseraadvankerken.be/wp-content/uploads/2018/08/P1060743-150x150.jpg"} style={{ borderRadius: `50%` }}/>
+      <img src={john} style={{ borderRadius: `50%` }}/>
     </BannerImgStyled>
     <BannerTextStyled>
       <TitleStyled fontSize={"30px"} >John van der Dussen</TitleStyled>
