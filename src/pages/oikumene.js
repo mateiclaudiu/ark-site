@@ -9,7 +9,7 @@ const Oikumene = () => (
   <Layout>
     <SEO title="Oikumene"/>
     <SectionTitle title={"Oikumene"} subtitle={""}/>
-      <a href={pdfDocument} download>Klik hier om de Oikoumene van oktober-november-december te downloaden</a>
+      <a href={pdfDocument} download>Klik hier om de Oikumene van oktober-november-december te downloaden</a>
   </Layout>
 )
 

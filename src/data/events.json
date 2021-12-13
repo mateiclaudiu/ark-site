@@ -1,117 +1,6 @@
 [
   {
     "creationDate": "2021-08-31",
-    "eventDate": "2021-10-06",
-    "dayNumber": "06",
-    "dayName": "Woensdag",
-    "monthName": "Oktober",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "Saskia Van den Kieboom. Pastorale werkster Antwerpen-Noord",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-  {
-    "creationDate": "2021-08-31",
-    "eventDate": "2021-10-13",
-    "dayNumber": "13",
-    "dayName": "Woensdag",
-    "monthName": "Oktober",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "Michel Franzen. Bestuurslid A.R.K.",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-  {
-    "creationDate": "2021-08-31",
-    "eventDate": "2021-10-27",
-    "dayNumber": "27",
-    "dayName": "Woensdag",
-    "monthName": "Oktober",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed. Gedachtenisviering voor overleden.",
-    "info": "Padre Annie Walscharts. Aalmoezenier em Belgische Krijgsmacht, bestuurslid A.R.K.",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-
-  {
-    "creationDate": "2021-08-31",
-    "eventDate": "2021-10-20",
-    "dayNumber": "20",
-    "dayName": "Woensdag",
-    "monthName": "Oktober",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed.",
-    "info": "Marian Knetemann. Bruggenbouwer De Brabantse Olijfberg",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-  {
-    "creationDate": "2021-08-31",
-    "eventDate": "2021-11-03",
-    "dayNumber": "03",
-    "dayName": "Woensdag",
-    "monthName": "November",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "Gedachtenisviering voor overleden: Diaken Jean-Marie Houben H Sacrament Berchem, secretaris A.R.K.  St Hubertusviering",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-  {
-    "creationDate": "2021-08-31",
-    "eventDate": "2021-11-10",
-    "dayNumber": "10",
-    "dayName": "Woensdag",
-    "monthName": "November",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "Embrecht van Groessen, Anglicaans gevangenisaalmoezenier, bestuurslid A.R.K. Viering  in het kader van 11 November",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-  {
-    "creationDate": "2021-08-31",
-    "eventDate": "2021-11-17",
-    "dayNumber": "17",
-    "dayName": "Woensdag",
-    "monthName": "November",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "ZEH Jef Barzin. Em deken Antwerpen-Noord",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-  {
-    "creationDate": "2021-08-31",
-    "eventDate": "2021-11-24",
-    "dayNumber": "24",
-    "dayName": "Woensdag",
-    "monthName": "November",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "Frank Ernst, voorganger Evangelische kerk Deurne",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-  {
-    "creationDate": "2021-08-31",
-    "eventDate": "2021-12-01",
-    "dayNumber": "01",
-    "dayName": "Woensdag",
-    "monthName": "December",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "Ds Kommer Groeneveld em predikant Gereformeerde kerk Deurne",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-  {
-    "creationDate": "2021-08-31",
-    "eventDate": "2021-12-08",
-    "dayNumber": "08",
-    "dayName": "Woensdag",
-    "monthName": "December",
-    "time": "11:00 uur",
-    "title": "Het wekelijks Oecumenisch Gebed",
-    "info": "Stanny Daems  Pastoraal medewerker Deurne",
-    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
-  },
-  {
-    "creationDate": "2021-08-31",
     "eventDate": "2021-12-15",
     "dayNumber": "15",
     "dayName": "Woensdag",
@@ -119,6 +8,39 @@
     "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
     "info": "Ds Christoph Holstei. Predikant DEGPA",
+    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
+  },
+  {
+    "creationDate": "2021-08-31",
+    "eventDate": "2021-01-12",
+    "dayNumber": "12",
+    "dayName": "Woensdag",
+    "monthName": "Januari",
+    "time": "11:00 uur",
+    "title": "Het wekelijks Oecumenisch Gebed",
+    "info": "Annie Walscharts, em legeraalmoezenier, bestuurslid A.R.K",
+    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
+  },
+  {
+    "creationDate": "2021-08-31",
+    "eventDate": "2021-01-19",
+    "dayNumber": "19",
+    "dayName": "Woensdag",
+    "monthName": "Januari",
+    "time": "11:00 uur",
+    "title": "Het wekelijks Oecumenisch Gebed",
+    "info": "John Van der Dussen, voorzitter A.R.K. naar aanleiding van de Bidweek van de éénheid onder de Christenen",
+    "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
+  },
+  {
+    "creationDate": "2021-08-31",
+    "eventDate": "2021-01-26",
+    "dayNumber": "26",
+    "dayName": "Woensdag",
+    "monthName": "Januari",
+    "time": "11:00 uur",
+    "title": "Het wekelijks Oecumenisch Gebed",
+    "info": " Gert Van Langendonck, lid pastorale dienst universiteit Antwerpen",
     "place": "in de Protestantse Kerk, Lange Winkelstraat 5"
   }
 ]
