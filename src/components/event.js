@@ -2,7 +2,7 @@ import { EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleS
 import React from "react"
 import { SectionTitle } from "./section-title"
 
-export const Event = ({ dayNumber, monthName, dayName, time, title, info, place }) => (
+export const Event = ({ dayNumber, monthName, dayName, time="11:00", title, info, place }) => (
   <EventStyled>
     <EventDateStyled>
       <EventDayStyled>
@@ -11,7 +11,7 @@ export const Event = ({ dayNumber, monthName, dayName, time, title, info, place 
       <div>
         <TitleStyled fontSize={"1rem"} color={"gray"}>{monthName}</TitleStyled>
         <TitleStyled fontSize={"1rem"} color={"black"}>{dayName}</TitleStyled>
-        <TitleStyled fontSize={"1rem"} color={"black"}>11:00 uur</TitleStyled>
+        <TitleStyled fontSize={"1rem"} color={"black"}>{time} uur</TitleStyled>
       </div>
     </EventDateStyled>
     <div>
@@ -24,17 +24,24 @@ export const Event = ({ dayNumber, monthName, dayName, time, title, info, place 
 
 export const UpcomingEventList = ({events}) => (
   <div>
-    <SectionTitle title={"Geplande events"} subtitle={"Hoe mooi is het wanneer mensen samen in vrede leven"}/>
-    {/*<Event*/}
-    {/*  dayNumber={"11"}*/}
-    {/*  monthName={"uur"}*/}
-    {/*  dayName={"Elke Woensdag"}*/}
-    {/*  title={"Middaggebed"}*/}
-    {/*  info={"Zomerperiode: in het kathedraal van Antwerpen,"}*/}
-    {/*  place={"Winterperiode: St. Joris kapel"}*/}
-    {/*  key={"middaggebed"}*/}
-    {/*/>*/}
-    {events.filter(({node})=> new Date(node.eventDate) > new Date() ).map(({ node }) => (
+    <SectionTitle title={"Geplande events"} subtitle={"Wij hebben Zijn ster zien opkomen en wij zijn gekomen om Hem te\n" +
+    "huldigen. Laten we onze ogen richten op de ster die schittert in het\n" +
+    "oosten en laten ook wij ons leiden."}/>
+
+      <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
+      <Event
+      dayNumber={"23"}
+      monthName={"Januari"}
+      dayName={"Zondag"}
+      time={"15:00"}
+      title={"De week van Gebed voor de Eenheid van de Christenen 2022"}
+      info={"U wordt uitgenodigd (conform de geldende coronamaatregelen) om samen met de Antwerpse Raad van Kerken, de week van Gebed voor de Eenheid van de Christenen 2022 te vieren. Voorgangers: Bisschop Johan Bonny en vertegenwoordigers van de verschillende denominatie van de Antwerpse Raad van Kerken."}
+      place={"Plaats: Onze-Lieve-Vrouwekathedraal in Antwerpen."}
+      key={"middaggebed"}
+    />
+      <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
+
+      {events.filter(({node})=> new Date(node.eventDate) > new Date() ).map(({ node }) => (
       <Event
         dayNumber={node.dayNumber}
         monthName={node.monthName}
