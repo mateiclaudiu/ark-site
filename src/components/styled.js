@@ -171,7 +171,7 @@ export const EventStyled = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 4rem;
-  border-bottom: 1px darkgray solid;
+  #border-bottom: 1px darkgray solid;
   padding-bottom: 1rem; 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -186,6 +186,7 @@ export const EventDayStyled = styled.div`
   width: 7.5rem;
   @media (min-width: 768px) {
     text-align: right;
+    margin-right: 0.5rem;
   } 
 `
 
