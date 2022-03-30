@@ -2,6 +2,7 @@ import { FeatureBlockStyled, FeatureContainerStyled, ItalicTitleStyled, TitleSty
 import Layout from "./layout"
 import React from "react"
 import { Link } from "gatsby"
+import {activeColor, background, textColor, color2, color3} from "./colors";
 
 
 const FeatureBlock = ({title, subtitle, color, link})=>(
@@ -14,10 +15,10 @@ const FeatureBlock = ({title, subtitle, color, link})=>(
 
 const Feature = () => (
   <FeatureContainerStyled>
-    <FeatureBlock color={"#424555"} title={"Onze gemeenschap"} subtitle={""} link={"/onze-gemeenschap"}/>
-    <FeatureBlock color={"#a2473e"} title={"Onze missie"} subtitle={""}/>
-    <FeatureBlock color={"#d14f42"} title={"ARK's overtuigingen"} subtitle={""}/>
-    <FeatureBlock color={"#f7a145"} title={"Nog vragen?"} subtitle={""} link={"/onze-gemeenschap#contact"}/>
+    <FeatureBlock color={textColor} title={"Onze gemeenschap"} subtitle={""} link={"/onze-gemeenschap"}/>
+    <FeatureBlock color={color3} title={"Onze missie"} subtitle={""}/>
+    <FeatureBlock color={color2} title={"ARK's overtuigingen"} subtitle={""}/>
+    <FeatureBlock color={activeColor} title={"Nog vragen?"} subtitle={""} link={"/onze-gemeenschap#contact"}/>
   </FeatureContainerStyled>
 )
 

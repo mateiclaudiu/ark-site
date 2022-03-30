@@ -1,6 +1,7 @@
 import { EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleStyled } from "./styled"
 import React from "react"
 import { SectionTitle } from "./section-title"
+import {activeColor, color3, textColor} from "./colors";
 
 export const Event = ({ dayNumber, monthName, dayName, time="11:00", title, info, place }) => (
   <EventStyled>
@@ -15,7 +16,7 @@ export const Event = ({ dayNumber, monthName, dayName, time="11:00", title, info
       </div>
     </EventDateStyled>
     <div>
-      <TitleStyled fontSize={"1.6rem"} color={"#d14f42"}>{title}</TitleStyled>
+      <TitleStyled fontSize={"1.6rem"} color={color3}>{title}</TitleStyled>
       <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{info}</ItalicTitleStyled>
       <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{place}</ItalicTitleStyled>
     </div>

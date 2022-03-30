@@ -1,11 +1,12 @@
-import { Link } from "gatsby"
+import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
+import logo from "../images/Logo ARK nieuw 19-10-21 klein.jpg"
+import {activeColor, background, textColor} from "./colors";
 
 const HeaderStyled = styled.div`
-  background: #31333b;
-  border-bottom: 1px #707176 solid;
+  background: ${background};
 
   @media (min-width: 768px) {
     position: fixed;
@@ -14,6 +15,7 @@ const HeaderStyled = styled.div`
     width: 100%;
   }
 `
+
 const HeaderDivStyled = styled.div`
   padding: 0 1.0875rem;
   
@@ -34,14 +36,14 @@ const HeaderDivStyled = styled.div`
   }
 `
 
-const NavStyled = styled.div`
+const NavStyled = styled.div `
   display: ${props => props.display};
   font-family: Montserrat;
   font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
-  color:white;
-  background:#31333b;
+  color:${textColor};
+  background:${background};
 
   ul{
     margin: 0;
@@ -81,10 +83,9 @@ const NavStyled = styled.div`
       margin-top: 1rem;
       margin-bottom: 1rem;
       border-top: none;
-      border-right: 1px solid #707176;
       
       a{
-        color: white;
+        color: ${textColor};
       }
     }
      
@@ -92,7 +93,7 @@ const NavStyled = styled.div`
       text-decoration: none;
       cursor: pointer;
       background:inherit;
-      color: gray;
+      color: ${activeColor};
 
     
     a{
@@ -107,49 +108,41 @@ const NavStyled = styled.div`
 `
 
 NavStyled.defaultProps = {
-  display: "visible",
+    display: "visible",
+}
+const Header = ({siteTitle}) => {
+    let color = activeColor;
+    return (
+        <HeaderStyled>
+            <HeaderDivStyled
+                style={{
+                    margin: `0 auto`,
+                    //maxWidth: 960,
+                    padding: `0 1.0875rem`,
+                }}
+            >
+                <img src={logo} alt="logo ark" style={{width: "4rem", margin: 0}}/>
+                <NavStyled>
+                    <ul id="navigation">
+                        <li><Link to="/" activeStyle={{color: activeColor}}>Home</Link></li>
+                        <li><Link to="/bestuur/" activeStyle={{color: activeColor}}>Bestuur</Link></li>
+                        <li><Link to="/onze-gemeenschap/" activeStyle={{color: activeColor}}>Onze gemeenschap</Link></li>
+                        <li><Link to="/links/" activeStyle={{color: activeColor}}>Handige links</Link></li>
+                        {/*<li><Link to="/oikumene/" activeStyle={{ color: "#d14f42" }}>Oikumene</Link></li>*/}
+                        <li><Link to="/#contact" activeStyle={{color: activeColor}}>Contact</Link></li>
+                    </ul>
+                </NavStyled>
+            </HeaderDivStyled>
+        </HeaderStyled>
+    );
 }
 
-const Header = ({ siteTitle }) => (
-  <HeaderStyled>
-    <HeaderDivStyled
-      style={{
-        margin: `0 auto`,
-        //maxWidth: 960,
-        padding: `0 1.0875rem`,
-      }}
-    >
-      <h1>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-      <NavStyled>
-        <ul id="navigation">
-          <li><Link to="/" activeStyle={{ color: "#d14f42" }}>Home</Link></li>
-          <li><Link to="/bestuur/" activeStyle={{ color: "#d14f42" }}>Bestuur</Link></li>
-          <li><Link to="/onze-gemeenschap/" activeStyle={{ color: "#d14f42" }}>Onze gemeenschap</Link></li>
-          <li><Link to="/links/" activeStyle={{ color: "#d14f42" }}>Handige links</Link></li>
-          {/*<li><Link to="/oikumene/" activeStyle={{ color: "#d14f42" }}>Oikumene</Link></li>*/}
-          <li><Link to="/#contact" activeStyle={{ color: "#d14f42" }}>Contact</Link></li>
-        </ul>
-      </NavStyled>
-    </HeaderDivStyled>
-  </HeaderStyled>
-)
-
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+    siteTitle: PropTypes.string,
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+    siteTitle: ``,
 }
 
 export default Header

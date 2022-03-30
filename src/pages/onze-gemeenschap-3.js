@@ -26,6 +26,7 @@ import { PageContainer } from "../components/page-container"
 import { Event, UpcomingEventList } from "../components/event"
 import introImage from "../images/together.jpg"
 import { LinksContainer } from "../components/links"
+import {activeColor} from "../components/colors";
 
 const SmallContactFormStyled = styled.form`
   margin-top: 2rem;
@@ -50,7 +51,7 @@ const JoinUsBannerStyled = styled.div`
 
 const JoinUsTextStyled = styled.div`
   color: white;
-  background: #d14f42;
+  background: ${activeColor};
   padding: 3rem;
   height: 36rem;
   @media (min-width: 768px) {

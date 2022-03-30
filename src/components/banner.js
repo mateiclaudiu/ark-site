@@ -1,6 +1,7 @@
 import { BannerImgStyled, BannerStyled, BannerTextStyled, ItalicTitleStyled, TitleStyled } from "./styled"
 import React from "react"
 import john from "../images/leadership/9.png"
+import {activeColor, color2, color3} from "./colors";
 
 export const Banner = () => (
   <BannerStyled>
@@ -9,7 +10,7 @@ export const Banner = () => (
     </BannerImgStyled>
     <BannerTextStyled>
       <TitleStyled fontSize={"30px"} >John van der Dussen</TitleStyled>
-      <ItalicTitleStyled fontSize={"17px"} color={"#d14f42"}>Voorzitter</ItalicTitleStyled>
+      <ItalicTitleStyled fontSize={"17px"} color={color3}>Voorzitter</ItalicTitleStyled>
       <p style={{
         color: `gray`,
         marginTop: `10px`,

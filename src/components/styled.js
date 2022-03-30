@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import {color4, activeColor} from "./colors";
 
 export const ItalicTitleStyled = styled.div`
   font-size: ${props => props.fontSize};
@@ -120,8 +121,7 @@ export const BannerTextStyled = styled.div`
 `
 
 export const FooterStyled = styled.footer`
-  //background: #a2473e;
-  background: #31333b;
+  background: ${color4};
   color: #71717f;
   font-family: Montserrat;
   font-size: 0.8rem;
@@ -198,7 +198,7 @@ export const EventDateStyled = styled.div`
 export const AStyledContainer = styled.div`
   a{
       text-transform: capitalize;
-      color: #a2473e;
+      color: ${activeColor};
       text-decoration: none;
       transition: 0.1s;
     }
@@ -216,8 +216,7 @@ export const LinkBlockStyled = styled.div`
 `
 
 export const ContactStyled = styled.div`
-  background-color: #424555;
-  background-color: #d14f42;
+  background-color: ${activeColor};
 //  padding: 2%;
   padding-bottom: 3rem;
   input{
