@@ -23,39 +23,53 @@ export const Event = ({ dayNumber, monthName, dayName, time="11:00", title, info
   </EventStyled>
 )
 
-export const UpcomingEventList = ({events}) => (
-  <div>
-    <SectionTitle title={"Geplande events"} subtitle={"Wij hebben Zijn ster zien opkomen en wij zijn gekomen om Hem te\n" +
-    "huldigen. Laten we onze ogen richten op de ster die schittert in het\n" +
-    "oosten en laten ook wij ons leiden."}/>
+export const UpcomingEventList = ({events}) => {
+    const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
+    return (
+        <div>
+            <SectionTitle title={"Geplande events"} subtitle={"Wij hebben Zijn ster zien opkomen en wij zijn gekomen om Hem te\n" +
+            "huldigen. Laten we onze ogen richten op de ster die schittert in het\n" +
+            "oosten en laten ook wij ons leiden."}/>
 
-      <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
-      <Event
-      dayNumber={"23"}
-      monthName={"Januari"}
-      dayName={"Zondag"}
-      time={"15:00"}
-      title={"De week van Gebed voor de Eenheid van de Christenen 2022"}
-      info={"U wordt uitgenodigd (conform de geldende coronamaatregelen) om samen met de Antwerpse Raad van Kerken, de week van Gebed voor de Eenheid van de Christenen 2022 te vieren. Voorgangers: Bisschop Johan Bonny en vertegenwoordigers van de verschillende denominatie van de Antwerpse Raad van Kerken."}
-      place={"Plaats: Onze-Lieve-Vrouwekathedraal in Antwerpen."}
-      key={"middaggebed"}
-    />
-      <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
+            <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
+            <Event
+                dayNumber={"10"}
+                monthName={"April"}
+                dayName={"Zondag"}
+                time={"11:00"}
+                title={"Palmzondag"}
+                info={"Voorganger katholieke kerk priester prof. dr. Eddy van Waelderen, voorganger Duitstalige prot. kerk ds. Christoph Holstein. \nAchteraf is er gelegenheid om mits een financiële bijdrage eten, gebak en dranken te nuttigen."}
+                place={"Oekumenische palmzondagviering in de  St. Bartholomeuskerk te Merksem Bredabaan 310, hoek Bartholomeusstraat"}
+                key={"middaggebed"}
+            />
+            <Event
+                dayNumber={"23"}
+                monthName={"Januari"}
+                dayName={"Zondag"}
+                time={"15:00"}
+                title={"De week van Gebed voor de Eenheid van de Christenen 2022"}
+                info={"U wordt uitgenodigd (conform de geldende coronamaatregelen) om samen met de Antwerpse Raad van Kerken, de week van Gebed voor de Eenheid van de Christenen 2022 te vieren. Voorgangers: Bisschop Johan Bonny en vertegenwoordigers van de verschillende denominatie van de Antwerpse Raad van Kerken."}
+                place={"Plaats: Onze-Lieve-Vrouwekathedraal in Antwerpen."}
+                key={"middaggebed"}
+            />
 
-      {events.filter(({node})=> new Date(node.eventDate) > new Date() ).map(({ node }) => (
-      <Event
-        dayNumber={node.dayNumber}
-        monthName={node.monthName}
-        dayName={node.dayName}
-        time={node.time}
-        title={node.title}
-        info={node.info}
-        place={node.place}
-        key={node.title+node.dayNumber}
-      />
-    ))}
-    {
-      events.length === 0? (<div>Er zijn geen geplande evenementen.</div>):<></>
-    }
-  </div>
-)
+            <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
+
+            {activeEvents.map(({node}) => (
+                <Event
+                    dayNumber={node.dayNumber}
+                    monthName={node.monthName}
+                    dayName={node.dayName}
+                    time={node.time}
+                    title={node.title}
+                    info={node.info}
+                    place={node.place}
+                    key={node.title + node.dayNumber}
+                />
+            ))}
+            {
+                activeEvents.length === 0 ? (<div>Er zijn geen evenementen gepland.</div>) : <></>
+            }
+        </div>
+    );
+}
