@@ -111,7 +111,7 @@ NavStyled.defaultProps = {
     display: "visible",
 }
 const Header = ({siteTitle}) => {
-    let color = activeColor;
+
     return (
         <HeaderStyled>
             <HeaderDivStyled
