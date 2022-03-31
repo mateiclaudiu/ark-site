@@ -27,9 +27,7 @@ export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
     return (
         <div>
-            <SectionTitle title={"Geplande events"} subtitle={"Wij hebben Zijn ster zien opkomen en wij zijn gekomen om Hem te\n" +
-            "huldigen. Laten we onze ogen richten op de ster die schittert in het\n" +
-            "oosten en laten ook wij ons leiden."}/>
+            <SectionTitle title={"Geplande events"} subtitle={""}/>
 
             <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
             <Event
@@ -40,16 +38,6 @@ export const UpcomingEventList = ({events}) => {
                 title={"Palmzondag"}
                 info={"Voorganger katholieke kerk priester prof. dr. Eddy van Waelderen, voorganger Duitstalige prot. kerk ds. Christoph Holstein. \nAchteraf is er gelegenheid om mits een financiële bijdrage eten, gebak en dranken te nuttigen."}
                 place={"Oekumenische palmzondagviering in de  St. Bartholomeuskerk te Merksem Bredabaan 310, hoek Bartholomeusstraat"}
-                key={"middaggebed"}
-            />
-            <Event
-                dayNumber={"23"}
-                monthName={"Januari"}
-                dayName={"Zondag"}
-                time={"15:00"}
-                title={"De week van Gebed voor de Eenheid van de Christenen 2022"}
-                info={"U wordt uitgenodigd (conform de geldende coronamaatregelen) om samen met de Antwerpse Raad van Kerken, de week van Gebed voor de Eenheid van de Christenen 2022 te vieren. Voorgangers: Bisschop Johan Bonny en vertegenwoordigers van de verschillende denominatie van de Antwerpse Raad van Kerken."}
-                place={"Plaats: Onze-Lieve-Vrouwekathedraal in Antwerpen."}
                 key={"middaggebed"}
             />
 
