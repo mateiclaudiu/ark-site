@@ -36,8 +36,8 @@ export const UpcomingEventList = ({events}) => {
                 dayName={"Zondag"}
                 time={"08:00"}
                 title={"Paaszondag"}
-                info={"De Antwerpse Raad van Kerken houdt dit jaar weer zijn traditionele Paasgroet!Voorgangers van verscheidene denominaties zullen paaswensen uitspreken.\nIedereen van harte uitgenodigd."}
-                place={"Op het plein voor de St. Carolus Borromeuskerk in Antwerpen."}
+                info={"De Antwerpse Raad van Kerken houdt dit jaar weer zijn traditionele Paasgroet! Voorgangers van verscheidene denominaties zullen paaswensen uitspreken."}
+                place={"Iedereen van harte uitgenodigd op het plein voor de St. Carolus Borromeuskerk in Antwerpen."}
                 key={"middaggebed"}
             />
             <Event
