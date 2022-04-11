@@ -125,7 +125,7 @@ const Header = ({siteTitle}) => {
                 <NavStyled>
                     <ul id="navigation">
                         <li><Link to="/" activeStyle={{color: activeColor}}>Home</Link></li>
-                        <li><Link to="/#events/" activeStyle={{color: activeColor}}>Events</Link></li>
+                        <li><Link to="/#events" activeStyle={{color: activeColor}}>Events</Link></li>
                         <li><Link to="/bestuur/" activeStyle={{color: activeColor}}>Bestuur</Link></li>
                         <li><Link to="/onze-gemeenschap/" activeStyle={{color: activeColor}}>Onze gemeenschap</Link></li>
                         <li><Link to="/links/" activeStyle={{color: activeColor}}>Handige links</Link></li>
