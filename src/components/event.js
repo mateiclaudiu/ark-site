@@ -31,6 +31,16 @@ export const UpcomingEventList = ({events}) => {
 
             <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
             <Event
+                dayNumber={"17"}
+                monthName={"April"}
+                dayName={"Zondag"}
+                time={"08:00"}
+                title={"Paaszondag"}
+                info={"De Antwerpse Raad van Kerken houdt dit jaar weer zijn traditionele Paasgroet!Voorgangers van verscheidene denominaties zullen paaswensen uitspreken.\nIedereen van harte uitgenodigd."}
+                place={"Op het plein voor de St. Carolus Borromeuskerk in Antwerpen."}
+                key={"middaggebed"}
+            />
+            <Event
                 dayNumber={"10"}
                 monthName={"April"}
                 dayName={"Zondag"}
