@@ -29,27 +29,17 @@ export const UpcomingEventList = ({events}) => {
         <div>
             <SectionTitle title={"Geplande events"} subtitle={""}/>
 
-            <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
-            <Event
-                dayNumber={"17"}
-                monthName={"April"}
-                dayName={"Zondag"}
-                time={"08:00"}
-                title={"Paaszondag"}
-                info={"De Antwerpse Raad van Kerken houdt dit jaar weer zijn traditionele Paasgroet! Voorgangers van verscheidene denominaties zullen paaswensen uitspreken."}
-                place={"Iedereen van harte uitgenodigd op het plein voor de St. Carolus Borromeuskerk in Antwerpen."}
-                key={"middaggebed"}
-            />
-            <Event
-                dayNumber={"10"}
-                monthName={"April"}
-                dayName={"Zondag"}
-                time={"11:00"}
-                title={"Palmzondag"}
-                info={"Voorganger katholieke kerk priester prof. dr. Eddy van Waelderen, voorganger Duitstalige prot. kerk ds. Christoph Holstein. \nAchteraf is er gelegenheid om mits een financiële bijdrage eten, gebak en dranken te nuttigen."}
-                place={"Oekumenische palmzondagviering in de  St. Bartholomeuskerk te Merksem Bredabaan 310, hoek Bartholomeusstraat"}
-                key={"middaggebed"}
-            />
+            {/*<TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>*/}
+            {/*<Event*/}
+            {/*    dayNumber={"10"}*/}
+            {/*    monthName={"April"}*/}
+            {/*    dayName={"Zondag"}*/}
+            {/*    time={"11:00"}*/}
+            {/*    title={"Palmzondag"}*/}
+            {/*    info={"Voorganger katholieke kerk priester prof. dr. Eddy van Waelderen, voorganger Duitstalige prot. kerk ds. Christoph Holstein. \nAchteraf is er gelegenheid om mits een financiële bijdrage eten, gebak en dranken te nuttigen."}*/}
+            {/*    place={"Oekumenische palmzondagviering in de  St. Bartholomeuskerk te Merksem Bredabaan 310, hoek Bartholomeusstraat"}*/}
+            {/*    key={"middaggebed"}*/}
+            {/*/>*/}
 
             <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
 
@@ -65,6 +55,10 @@ export const UpcomingEventList = ({events}) => {
                     key={node.title + node.dayNumber}
                 />
             ))}
+            <div>Na 29 juni gaan wij er even tussenuit. Wij wensen iedereen een fijne
+                zomer toe.
+                Wij heten jullie opnieuw welkom op 31 augustus in de Prinsstraat 13a.
+                DANK aan al onze voorgangers.</div>
             {
                 activeEvents.length === 0 ? (<div>Er zijn geen evenementen gepland.</div>) : <></>
             }
