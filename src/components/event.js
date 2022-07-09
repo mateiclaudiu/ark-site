@@ -29,17 +29,17 @@ export const UpcomingEventList = ({events}) => {
         <div>
             <SectionTitle title={"Geplande events"} subtitle={""}/>
 
-            {/*<TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>*/}
-            {/*<Event*/}
-            {/*    dayNumber={"10"}*/}
-            {/*    monthName={"April"}*/}
-            {/*    dayName={"Zondag"}*/}
-            {/*    time={"11:00"}*/}
-            {/*    title={"Palmzondag"}*/}
-            {/*    info={"Voorganger katholieke kerk priester prof. dr. Eddy van Waelderen, voorganger Duitstalige prot. kerk ds. Christoph Holstein. \nAchteraf is er gelegenheid om mits een financiële bijdrage eten, gebak en dranken te nuttigen."}*/}
-            {/*    place={"Oekumenische palmzondagviering in de  St. Bartholomeuskerk te Merksem Bredabaan 310, hoek Bartholomeusstraat"}*/}
-            {/*    key={"middaggebed"}*/}
-            {/*/>*/}
+            <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
+            <Event
+                dayNumber={"13"}
+                monthName={"Augustus"}
+                dayName={"Zaterdag"}
+                time={"19:00-23.00"}
+                title={"‘OECUMENE: SAMEN KERK’"}
+                info={"Overzicht van de deelnemende kerken te vinden op www.topa.be"}
+                place={""}
+                key={"middaggebed"}
+            />
 
             <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
 
