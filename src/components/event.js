@@ -28,7 +28,7 @@ export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
     let titleStyled =  <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{
         <>
-            Een overzicht van de deelnemende kerken kunt u vinden in onze <a href={pdfDocument}><b>brochure (klik hier)</b></a> of op de website <a href='www.topa.be'><b>www.topa.be</b></a>
+            Een overzicht van de deelnemende kerken kunt u vinden in onze <a href={pdfDocument}><b>brochure (klik hier)</b></a> of op de website <a href='https://www.topa.be/'><b>www.topa.be</b></a>
         </>
     }</ItalicTitleStyled>;
 
