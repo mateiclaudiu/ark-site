@@ -55,10 +55,10 @@ export const UpcomingEventList = ({events}) => {
                     key={node.title + node.dayNumber}
                 />
             ))}
-            <div>Na 29 juni gaan wij er even tussenuit. Wij wensen iedereen een fijne
-                zomer toe.
-                Wij heten jullie opnieuw welkom op 31 augustus in de Prinsstraat 13a.
-                DANK aan al onze voorgangers.</div>
+            {/*<div>Na 29 juni gaan wij er even tussenuit. Wij wensen iedereen een fijne*/}
+            {/*    zomer toe.*/}
+            {/*    Wij heten jullie opnieuw welkom op 31 augustus in de Prinsstraat 13a.*/}
+            {/*    DANK aan al onze voorgangers.</div>*/}
             {
                 activeEvents.length === 0 ? (<div>Er zijn geen evenementen gepland.</div>) : <></>
             }
