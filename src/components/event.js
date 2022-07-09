@@ -48,7 +48,7 @@ export const UpcomingEventList = ({events}) => {
                 key={"middaggebed"}
             />
 
-            {/*{titleStyled}*/}
+            <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
 
             {activeEvents.map(({node}) => (
                 <Event
