@@ -1,32 +1,36 @@
-import { EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleStyled } from "./styled"
+import {EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleStyled} from "./styled"
 import React from "react"
-import { SectionTitle } from "./section-title"
+import {SectionTitle} from "./section-title"
 import {color3} from "./colors";
 import pdfDocument from "../../static/Nacht_van_de_Kerken_13-08-2022_brochure.pdf"
 
-export const Event = ({ dayNumber, monthName, dayName, time="11:00", title, info, place }) => (
-  <EventStyled>
-    <EventDateStyled>
-      <EventDayStyled>
-        <TitleStyled fontSize={"5rem"} color={"lightgray"}>{dayNumber}</TitleStyled>
-      </EventDayStyled>
-      <div>
-        <TitleStyled fontSize={"1rem"} color={"gray"}>{monthName}</TitleStyled>
-        <TitleStyled fontSize={"1rem"} color={"black"}>{dayName}</TitleStyled>
-        <TitleStyled fontSize={"1rem"} color={"black"}>{time} uur</TitleStyled>
-      </div>
-    </EventDateStyled>
-    <div>
-      <TitleStyled fontSize={"1.6rem"} color={color3}>{title}</TitleStyled>
-      <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{info}</ItalicTitleStyled>
-      <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{place}</ItalicTitleStyled>
-    </div>
-  </EventStyled>
+export const Event = ({dayNumber, monthName, dayName, time = "11:00", title, info, place}) => (
+    <EventStyled>
+        <EventDateStyled>
+            <EventDayStyled>
+                <TitleStyled fontSize={"5rem"} color={"lightgray"}>{dayNumber}</TitleStyled>
+            </EventDayStyled>
+            <div>
+                <TitleStyled fontSize={"1rem"} color={"gray"}>{monthName}</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"black"}>{dayName}</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"black"}>{time} uur</TitleStyled>
+            </div>
+        </EventDateStyled>
+        <div>
+            <TitleStyled fontSize={"1.6rem"} color={color3}>{title}</TitleStyled>
+            <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{info}</ItalicTitleStyled>
+            <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{place}</ItalicTitleStyled>
+        </div>
+    </EventStyled>
 )
 
 export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
-    let info = "Overzicht van de deelnemende kerken te vinden op <a href='www.topa.be'>www.topa.be</a> of op onze <a href='../../static/Nacht_van_de_Kerken_13-08-2022_brochure.pdf'>brochure</a>";
+    let titleStyled = <TitleStyled fontSize={"2rem"} color={"black"}>{
+        <>
+            Overzicht van de deelnemende kerken te vinden op onze <a href={pdfDocument}>brochure</a> of op de website <a href='www.topa.be'>www.topa.be</a>
+        </>
+    }</TitleStyled>;
     return (
         <div>
             <SectionTitle title={"Geplande events"} subtitle={""}/>
@@ -38,12 +42,12 @@ export const UpcomingEventList = ({events}) => {
                 dayName={"Zaterdag"}
                 time={"19:00-23.00"}
                 title={"‘OECUMENE: SAMEN KERK’"}
-                info={info}
+                info={titleStyled}
                 place={""}
                 key={"middaggebed"}
             />
 
-            <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
+            {/*{titleStyled}*/}
 
             {activeEvents.map(({node}) => (
                 <Event
