@@ -1,7 +1,8 @@
 import { EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleStyled } from "./styled"
 import React from "react"
 import { SectionTitle } from "./section-title"
-import {activeColor, color3, textColor} from "./colors";
+import {color3} from "./colors";
+import pdfDocument from "../../static/Nacht_van_de_Kerken_13-08-2022_brochure.pdf"
 
 export const Event = ({ dayNumber, monthName, dayName, time="11:00", title, info, place }) => (
   <EventStyled>
@@ -25,6 +26,7 @@ export const Event = ({ dayNumber, monthName, dayName, time="11:00", title, info
 
 export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
+    let info = "Overzicht van de deelnemende kerken te vinden op <a href='www.topa.be'>www.topa.be</a> of op onze <a href='../../static/Nacht_van_de_Kerken_13-08-2022_brochure.pdf'>brochure</a>";
     return (
         <div>
             <SectionTitle title={"Geplande events"} subtitle={""}/>
@@ -36,7 +38,7 @@ export const UpcomingEventList = ({events}) => {
                 dayName={"Zaterdag"}
                 time={"19:00-23.00"}
                 title={"‘OECUMENE: SAMEN KERK’"}
-                info={"Overzicht van de deelnemende kerken te vinden op www.topa.be"}
+                info={info}
                 place={""}
                 key={"middaggebed"}
             />
