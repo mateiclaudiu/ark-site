@@ -26,11 +26,12 @@ export const Event = ({dayNumber, monthName, dayName, time = "11:00", title, inf
 
 export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
-    let titleStyled = <TitleStyled fontSize={"2rem"} color={"black"}>{
+    let titleStyled =  <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{
         <>
-            Overzicht van de deelnemende kerken te vinden op onze <a href={pdfDocument}>brochure</a> of op de website <a href='www.topa.be'>www.topa.be</a>
+            Overzicht van de deelnemende kerken te vinden op onze <a href={pdfDocument} color={"black"}>brochure</a> of op de website <a href='www.topa.be' color={"black"}>www.topa.be</a>
         </>
-    }</TitleStyled>;
+    }</ItalicTitleStyled>;
+
     return (
         <div>
             <SectionTitle title={"Geplande events"} subtitle={""}/>
