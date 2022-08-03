@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Intro from "../components/intro"
-import Feature from "../components/feature"
+import Bloks from "../components/feature"
 import {FeatureBlockStyled, HelloContainerStyled, IntroStyled, ItalicTitleStyled, TitleStyled} from "../components/styled"
 import {Hello} from "../components/hello"
 import {Banner} from "../components/banner"
@@ -40,7 +40,7 @@ const IndexPage = () => {
     return <Layout>
         <SEO title="Home"/>
         <Intro image={introImage}/>
-        <Feature/>
+        <Bloks/>
         <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
         <Banner/>
         <PageContainer>

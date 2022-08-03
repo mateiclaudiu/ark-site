@@ -17,7 +17,7 @@ const Feature = () => (
   <FeatureContainerStyled>
     <FeatureBlock color={textColor} title={"Onze gemeenschap"} subtitle={""} link={"/onze-gemeenschap"}/>
     <FeatureBlock color={color3} title={"Onze missie"} subtitle={""}/>
-    <FeatureBlock color={color2} title={"ARK's overtuigingen"} subtitle={""}/>
+    <FeatureBlock color={color2} title={"ARK's 50 jaar jubileum"} subtitle={""}/>
     <FeatureBlock color={color5} title={"Nog vragen?"} subtitle={""} link={"/onze-gemeenschap#contact"}/>
   </FeatureContainerStyled>
 )

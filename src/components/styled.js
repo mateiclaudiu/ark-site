@@ -13,7 +13,8 @@ export const TitleStyled = styled.h1`
   font-family: Montserrat;
   font-weight: 600;
   line-height: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
 `
 
 export const IntroStyled = styled.div`

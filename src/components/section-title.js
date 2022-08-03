@@ -1,9 +1,9 @@
 import { HelloContainerStyled, ItalicTitleStyled, SectionStyled, TitleStyled } from "./styled"
 import React from "react"
 
-export const SectionTitle = ({title, subtitle}) => (
+export const SectionTitle = ({title, subtitle, color = "black"}) => (
   <SectionStyled>
-    <TitleStyled fontSize={"3rem"} color={"black"}>{title}</TitleStyled>
+    <TitleStyled fontSize={"3rem"} color={color}>{title}</TitleStyled>
     <ItalicTitleStyled fontSize={"1.1rem"} color={"#707176"}>{subtitle}</ItalicTitleStyled>
   </SectionStyled>
 )
