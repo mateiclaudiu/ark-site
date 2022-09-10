@@ -104,7 +104,7 @@ const OurCommunityPage = () => {
             16:40 - 17:30 uur: panelgesprek met:<br/>
             <li>vertegenwoordiger rooms-katholieken: dr. Rik Hoet</li>
             <li>vertegenwoordiger orthodoxen</li>
-            <li> vertegenwoordiger anglicanen: mgr. Dirk van Leeuwen </li>
+            <li> vertegenwoordiger anglicanen: mgr. Dirk van Leeuwen</li>
             <li>vertegenwoordiger migrantenkerken: Blanche Etanda, moderator: Kelly Keasberry, journalist Tertio</li>
             <li>17:30 uur: receptie met een hapje</li>
         </p>
@@ -152,8 +152,26 @@ const OurCommunityPage = () => {
 
         <PageContainer>
             <SectionTitle color={"#D4AF37"} title={"ARK 50 JAAR JUBILEUM"} subtitle={""}/>
-            <p>Houd er rekening mee dat dit het voorloppige programma is. Er kunnen nog wijzigingen doorgevoerd
-                worden.</p>
+            <p>
+                De Antwerpse Raad van Kerken (ARK) bestaat 50 jaar en viert dit jubileum met
+                een academische zitting in het Auditorium van het Theologisch en Pastoraal
+                Centrum (TPC), zaal O, Groenenborgerlaan 149, 2020 Antwerpen.
+                U wordt persoonlijk uitgenodigd voor deze bijzondere viering, die plaatsvindt op
+                vrijdag 14 oktober van 15.00 tot 18.00 u. Ook uw eventuele partner is welkom. Er
+                wordt u een boeiend programma aangeboden met sprekers uit de volle breedte
+                van de lidkerken van de ARK.
+            </p>
+            <br/>
+            <p>
+                De toegang is gratis, maar vanwege het beperkte aantal plaatsen in het
+                Auditorium is voorafgaande inschrijving noodzakelijk. U kunt zich inschrijven
+                d.m.v. een eenvoudige e-mail aan: secretariaat.ark@gmail.com of via
+                het invulformulier op deze pagina.
+            </p>
+            <br/>
+            <p>
+                Wij zouden uw aanwezigheid bijzonder op prijs stellen.
+            </p>
 
             {academischeZetting}
             <Subscribe/>
