@@ -13,7 +13,7 @@ export const Subscribe = () => (
           "zodat wij uw plaats aan iemand anders op de wachtlijst kunnen doorgeven. Graag per e-mail aan:\n" +
           "secretariaat.ark@gmail.com"}/>
       <form name="Inschrijven Form" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="Contact Form"/>
+        <input type="hidden" name="form-name" value="Inschrijven Form"/>
         <div>
           <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Voor- en achternaam*</ItalicTitleStyled></label>
           <div><input type="text" name="name" id="name" width="30rem" required={true}/>
