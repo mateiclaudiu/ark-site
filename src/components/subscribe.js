@@ -41,7 +41,7 @@ export const Subscribe = () => (
         </div>
         <div>
           <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Aantal personen</ItalicTitleStyled></label>
-          <div><input type="number" name="aantalpersonen" id="aantalpersonen" width="30rem"/>
+          <div><input type="number" name="aantalpersonen" id="aantalpersonen" width="30rem" required={true}/>
           </div>
         </div>
           <br/>
