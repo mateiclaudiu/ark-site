@@ -15,6 +15,7 @@ import {PageContainer} from "../components/page-container"
 import {Event, UpcomingEventList} from "../components/event"
 import introImage from "../images/together_q_50.jpeg"
 import {Contact} from "../components/contact"
+import {Subscribe} from "../components/subscribe";
 
 
 const IndexPage = () => {
@@ -40,6 +41,7 @@ const IndexPage = () => {
     return <Layout>
         <SEO title="Home"/>
         <Intro image={introImage}/>
+        <Subscribe></Subscribe>
         <Bloks/>
         <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
         <Banner/>
