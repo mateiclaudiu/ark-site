@@ -8,6 +8,7 @@ import {TitleStyled,} from "../components/styled"
 import {SectionTitle} from "../components/section-title"
 import {PageContainer} from "../components/page-container"
 import {color3} from "../components/colors";
+import {Subscribe} from "../components/subscribe";
 
 const SmallContactFormStyled = styled.form`
   margin-top: 2rem;
@@ -90,22 +91,22 @@ const OurCommunityPage = () => {
 
     let academischeZetting = <>
         <TitleStyled fontSize={"1.6rem"} color={color3}>{"Academische zitting"}</TitleStyled>
+        <TitleStyled fontSize={"1rem"}
+                     color={"gray"}>{"wanneer: : vrijdag 14 oktober van 15.00 tot 18.00 uur"}</TitleStyled>
+        <TitleStyled fontSize={"1rem"}
+                     color={"gray"}>{"waar: Theologisch Pastoraal Centrum, zaal O, Groenenborgerlaan 149, 2020 Antwerpen"}</TitleStyled>
         <p>
-            Wanneer: vrijdag 14 oktober van 15.00 tot 18.00 uur
-        </p>
-        <p>Plaats: Theologisch Pastoraal Centrum, zaal O, Groenenborgerlaan 149, 2020 Antwerpen</p>
-        <p>
-            15:00 - 15:15 uur: Inleiding door John van der Dussen (voorzitter van de ARK)<br/>
-            15:15 - 15:45 uur: hoofdspreker: Frans Van den Brande (r.-k.) (toegezegd)<br/>
-            15:45 - 16:05 uur: 2e spreker: prof. dr. Jelle Creemers (evangelisch) (toegezegd)<br/>
-            16:05 - 16:25 uur: 3e spreker: oecumenisch theoloog (protestants) (gevraagd)<br/>
+            15:00 - 15:15 uur: Inleiding door John van der Dussen (voorzitter ARK)<br/>
+            15:15 - 15:45 uur: hoofdspreker: Frans Van den Brande (rooms-katholiek)<br/>
+            15:45 - 16:05 uur: 2e spreker: prof. dr. Jelle Creemers (evangelisch)<br/>
+            16:05 - 16:25 uur: 3e spreker: ds. Steven Fuite(protestants)<br/>
             16:25 - 16:40 uur: muzikaal intermezzo<br/>
             16:40 - 17:30 uur: panelgesprek met:<br/>
-            <li>vertegenwoordiger rooms-katholieken: Rik Hoet (toegezegd)</li>
+            <li>vertegenwoordiger rooms-katholieken: dr. Rik Hoet</li>
             <li>vertegenwoordiger orthodoxen</li>
-            <li> vertegenwoordiger anglicanen: mgr. Dirk van Leeuwen (toegezegd)</li>
-            <li>vertegenwoordiger migrantenkerken: Blanche Etanda (toegezegd)</li>
-            <li>17:30 uur: receptie</li>
+            <li> vertegenwoordiger anglicanen: mgr. Dirk van Leeuwen </li>
+            <li>vertegenwoordiger migrantenkerken: Blanche Etanda, moderator: Kelly Keasberry, journalist Tertio</li>
+            <li>17:30 uur: receptie met een hapje</li>
         </p>
     </>;
     let jaarlijksGebed = <>{<>
@@ -155,6 +156,7 @@ const OurCommunityPage = () => {
                 worden.</p>
 
             {academischeZetting}
+            <Subscribe/>
             {<>
                 <TitleStyled fontSize={"1.6rem"} color={color3}>{"Fototentoonstelling"}</TitleStyled>
 
