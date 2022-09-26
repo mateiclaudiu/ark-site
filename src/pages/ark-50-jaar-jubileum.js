@@ -70,7 +70,7 @@ const groupBy = key => array => {
     }, {})
 }
 
-const OurCommunityPage = () => {
+const Ark50JaarJubileum = () => {
 
     const {churches} = useStaticQuery(graphql`
     {    
@@ -182,4 +182,4 @@ const OurCommunityPage = () => {
     </Layout>
 }
 
-export default OurCommunityPage
+export default Ark50JaarJubileum
