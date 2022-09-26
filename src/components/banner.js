@@ -6,7 +6,7 @@ import {activeColor, color2, color3} from "./colors";
 export const Banner = () => (
   <BannerStyled>
     <BannerImgStyled>
-      <img src={john} style={{ borderRadius: `50%` }}/>
+      <img src={john} style={{ borderRadius: `50%`, width: `9rem` }}/>
     </BannerImgStyled>
     <BannerTextStyled>
       <TitleStyled fontSize={"30px"} >John van der Dussen</TitleStyled>
