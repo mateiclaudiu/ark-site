@@ -9,6 +9,7 @@ import {SectionTitle} from "../components/section-title"
 import {PageContainer} from "../components/page-container"
 import {color3} from "../components/colors";
 import {Subscribe} from "../components/subscribe";
+import {SubscribePhotoExhibition} from "../components/subscribe-photo-exhibition";
 
 const SmallContactFormStyled = styled.form`
   margin-top: 2rem;
@@ -142,14 +143,6 @@ const OurCommunityPage = () => {
     </>}</>;
     return <Layout>
         <SEO title="50 jaar jubileum"/>
-        {/*<IntroStyled paddingDesktop={"350px 0"} padding={"200px 0"}*/}
-        {/*             image={communityImage}>*/}
-        {/*<ItalicTitleStyled fontSize={"1.1rem"} color={"white"}>Laat hen allen één zijn, Vader...</ItalicTitleStyled>*/}
-        {/*<ItalicTitleStyled fontSize={"0.9rem"} color={"white"}> - Johannes 17:21 - </ItalicTitleStyled>*/}
-        {/*<TitleStyled fontSize={"3rem"} color={"white"}>ARK</TitleStyled>*/}
-        {/*<TitleStyled fontSize={"1.5rem"} color={"white"}>Love, Care, Share</TitleStyled>*/}
-        {/*</IntroStyled>*/}
-
         <PageContainer>
             <SectionTitle color={"#D4AF37"} title={"ARK 50 JAAR JUBILEUM"} subtitle={""}/>
             <p>
@@ -177,7 +170,7 @@ const OurCommunityPage = () => {
             <Subscribe/>
             {<>
                 <TitleStyled fontSize={"1.6rem"} color={color3}>{"Fototentoonstelling"}</TitleStyled>
-
+                <SubscribePhotoExhibition/>
             </>}
 
             {jaarlijksGebed}

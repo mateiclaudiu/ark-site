@@ -3,10 +3,10 @@ import { PageContainer } from "./page-container"
 import { SectionTitleForDarkMode } from "./section-title"
 import { ButtonStyled, ContactStyled, ItalicTitleStyled } from "./styled"
 import Layout from "./layout"
-import {gold} from "./colors";
+import {activeColor} from "./colors";
 
-export const Subscribe = () => (
-  <ContactStyled style={{background: "white"}}>
+export const SubscribePhotoExhibition = () => (
+  <ContactStyled style={{background: activeColor}}>
     <PageContainer>
       <SectionTitleForDarkMode title={"Aanvraag groepsrondleiding fototentoonstelling 24-28 oktober 2022"} subtitle={"" +
           "U ontvangt een bevestiging van ons wanneer we een dag en uur voor u hebben gereserveerd.\n" +
