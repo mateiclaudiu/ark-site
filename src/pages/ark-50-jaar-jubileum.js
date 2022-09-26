@@ -170,6 +170,24 @@ const Ark50JaarJubileum = () => {
             <Subscribe/>
             {<>
                 <TitleStyled fontSize={"1.6rem"} color={color3}>{"Fototentoonstelling"}</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"gray"}>{"wanneer:"}</TitleStyled>
+                <TitleStyled fontSize={"1rem"}
+                             color={"gray"}>{"zaterdag 22 oktober tussen 10.00 en 16.00 uur"}</TitleStyled>
+                <TitleStyled fontSize={"1rem"}
+                             color={"gray"}>{"zaterdag 29 oktober tussen 10.00 en 16.00 uur"}</TitleStyled>
+                <TitleStyled fontSize={"1rem"}
+                             color={"gray"}>{"31 oktober tot 5 november tussen 10.00 en 16.00 uur (geen toegang tijdens vieringen)" }</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"gray"}>{"waar:"}</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"gray"}>{`ONZE-LIEVE-VROUWE-KATHEDRAAL, KAPELAANSSACRISTIE HANDSCHOENMARKT, 2000 ANTWERPEN`}</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"gray"}>{`SINT PAULUSKERK (OPEN VAN 14:00 – 17:00 UUR) KRUISWEGKAPEL, SINT-PAULUSSTRAAT 22, 2000 ANTWERPEN`}</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"gray"}>{`CHRISTIAN COMMUNITY,
+SINT-PIETERSVLIET 11, 2000 ANTWERPEN`}</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"gray"}>{`IGNATIUSKAPEL,
+PRINSSTRAAT 13, 2000 ANTWERPEN`}</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"gray"}>{`KERK DE BRABANTSE OLIJFBERG,
+LANGE WINKELSTRAAT 5, 2000 ANTWERPEN`}</TitleStyled>
+                <p>50 jaar oecumene in ’t stad</p>
+                <p>Een unieke inkijk in de kleurrijke diversiteit van de kerk van vandaag</p>
                 <SubscribePhotoExhibition/>
             </>}
 
