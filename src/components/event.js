@@ -37,39 +37,7 @@ export const UpcomingEventList = ({events}) => {
         <div>
             <SectionTitle title={"Geplande events"} subtitle={""}/>
 
-            <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
-            <p>
-                Oktober 2022 <br/>
-                Op 26 oktober – een week voor Allerheiligen/Allerzielen – wijden wij een OG
-                aan hen van wie we het voorbije jaar afscheid namen.
-                Wil u iemand vermeld zien in het gebed dan kan u dat laten weten.
-                Even een seintje op anniewalscharts@hotmail.com .
-                Het gaat dan vooral over mensen die overleden zijn na 15 oktober 2021 maar
-                wanneer u bv. een bijzondere verjaardag van een overlijden wil gedenken dan
-                is dat uiteraard ook meer dan welkom.<br/><br/>
-                Graag nodigen wij u uit om met ons mee het leven van uw geliefde te
-                vieren. Om u op een gepaste manier te kunnen verwelkomen weten wij graag
-                met hoeveel mensen u ongeveer aanwezig zal zijn.
-                Over afscheid nemen heeft ieder zo zijn eigen beeld. Liefst zouden we zelf de
-                regie in handen hebben; maar dat kan nu eenmaal niet.
-                Velen nemen graag eerst afscheid om dan zachtjes heen te gaan wanneer
-                iedereen weer naar huis is.
-                Anderen hebben nood aan iemand dicht naast hen.<br/><br/>
-                Dit jaar stierf schrijver Remco Campert (1929-2022)<br/>
-                Ooit verwoordde hij zijn gevoelens zo:<br/>
-                Als ik doodga<br/>
-                hoop ik dat je erbij bent<br/>
-                dat ik je aankijk<br/>
-                dat je mij aankijkt<br/>
-                dat ik je hand nog voelen kan.<br/>
-                Dan zal ik rustig doodgaan.<br/>
-                Dan hoeft niemand verdrietig te zijn.<br/>
-                Dan ben ik gelukkig<br/>
-                Altijd welkom<br/><br/>
-                Annie Walscharts 0474436623<br/><br/>
-                Langs deze weg biedt de werkgroep OG zijn medeleven aan aan allen die
-                verdriet en gemis een plaats proberen te geven.
-            </p>
+            {/*<TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>*/}
 
             <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
 
