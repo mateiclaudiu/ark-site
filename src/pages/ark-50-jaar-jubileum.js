@@ -114,7 +114,9 @@ const Ark50JaarJubileum = () => {
         <TitleStyled fontSize={"1.6rem"}
                      color={color3}>{"Jaarlijkse gebedsdienst voor de eenheid onder de christenen"}</TitleStyled>
         <TitleStyled fontSize={"1rem"} color={"gray"}>{"wanneer: zondag 22 januari 15:00 tot 17:00 uur"}</TitleStyled>
-        <TitleStyled fontSize={"1rem"} color={"gray"}>{"waar: Onze-Lieve-Vrouwekathedraal Antwerpen"}</TitleStyled>
+        <TitleStyled fontSize={"1rem"} color={"gray"}>{"waar: Kerk van het Heilig Sacrament te Berchem-Groenenhoek\n" +
+            "\n" +
+            "Pervijzestraat 52 – 2600 Berchem"}</TitleStyled>
         <p>Zoals ieder jaar, is er ook in 2023 op de 3e zondag van januari, de jaarlijkse gebedsdienst voor de eenheid
             onder de christenen.</p>
     </>}</>;
