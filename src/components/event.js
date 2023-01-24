@@ -4,7 +4,7 @@ import {SectionTitle} from "./section-title"
 import {color3} from "./colors";
 import pdfDocument from "../../static/Nacht_van_de_Kerken_13-08-2022_brochure.pdf"
 
-export const Event = ({dayNumber, monthName, dayName, time = "11:00", title, info, place}) => (
+export const Event = ({dayNumber, monthName, dayName, time , title, info, place}) => (
     <EventStyled>
         <EventDateStyled>
             <EventDayStyled>
