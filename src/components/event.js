@@ -51,6 +51,13 @@ export const UpcomingEventList = ({events}) => {
                 place={"Anglicaanse St. Boniface kerk, Grétrystraat 39, Antwerpen."}
                 key={"Jubelconcert_ARK_50"}
             />
+
+            Nadat men in de herfst van vorig jaar de uitgebreide fototentoonstelling kon
+            bezoeken, verspreid over 5 plaatsen in het centrum van de stad, gaan onze foto’s nu
+            op reis langs verschillende locaties.
+            Vanaf 1 april 2023 tot en met 28 juni 2023 vindt u 30 foto’s in de
+            ontmoetingsruimten St. Anna ten Drieën Hanegraefstraat 5, Antwerpen
+            Linkeroever.
             <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
 
             {activeEvents.map(({node}) => (
