@@ -44,7 +44,7 @@
     "eventDate": "2023-05-03",
     "dayNumber": "03",
     "dayName": "Woensdag",
-    "monthName": "april",
+    "monthName": "mei",
     "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
     "info": "ZEH Bernard De Preter, Pastoor Kalmthout",
@@ -54,7 +54,7 @@
     "eventDate": "2023-05-10",
     "dayNumber": "10",
     "dayName": "Woensdag",
-    "monthName": "april",
+    "monthName": "mei",
     "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
     "info": "Frank Theré, Diaken",
@@ -64,7 +64,7 @@
     "eventDate": "2023-05-24",
     "dayNumber": "24",
     "dayName": "Woensdag",
-    "monthName": "april",
+    "monthName": "mei",
     "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
     "info": "Padre Annie Walscharts, em. Legeraalmoezenier, bestuurslid ARK",
@@ -74,10 +74,50 @@
     "eventDate": "2023-05-31",
     "dayNumber": "31",
     "dayName": "Woensdag",
-    "monthName": "april",
+    "monthName": "mei",
     "time": "11:00 uur",
     "title": "Het wekelijks Oecumenisch Gebed",
     "info": "Tetty Rooze, Voormalige medewerkster PSC",
+    "place": ""
+  },{
+    "creationDate": "2021-08-31",
+    "eventDate": "2023-06-07",
+    "dayNumber": "07",
+    "dayName": "Woensdag",
+    "monthName": "juni",
+    "time": "11:00 uur",
+    "title": "Het wekelijks Oecumenisch Gebed",
+    "info": "John van der Dussen. Voorzitter ARK",
+    "place": ""
+  },{
+    "creationDate": "2021-08-31",
+    "eventDate": "2023-06-14",
+    "dayNumber": "14",
+    "dayName": "Woensdag",
+    "monthName": "juni",
+    "time": "11:00 uur",
+    "title": "Het wekelijks Oecumenisch Gebed",
+    "info": "ZEH Herman Augustyns, pastoor St. Bernardus en Rupelkerk",
+    "place": ""
+  },{
+    "creationDate": "2021-08-31",
+    "eventDate": "2023-06-21",
+    "dayNumber": "21",
+    "dayName": "Woensdag",
+    "monthName": "juni",
+    "time": "11:00 uur",
+    "title": "Het wekelijks Oecumenisch Gebed",
+    "info": "Zr Ruth Lagemann, Verantwoordelijke Chemin Neuf België en Nederland",
+    "place": ""
+  },{
+    "creationDate": "2021-08-31",
+    "eventDate": "2023-06-28",
+    "dayNumber": "28",
+    "dayName": "Woensdag",
+    "monthName": "juni",
+    "time": "11:00 uur",
+    "title": "Het wekelijks Oecumenisch Gebed",
+    "info": "Gert Van Langendonck, lid pastorale dienst UA",
     "place": ""
   }
 ]
