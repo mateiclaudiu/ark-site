@@ -43,7 +43,7 @@ export const UpcomingEventList = ({events}) => {
                 dayNumber={"22"}
                 monthName={"April"}
                 dayName={"Zaterdag"}
-                time={"16.00 uur"}
+                time={"16.00"}
                 title={"Jubelconcert ARK 50"}
                 info={" In samenwerking met koorleidster Hanna Rijken – musicus en theoloog, verbonden\n" +
                     "            aan de Protestantse Theologische Universiteit in Nederland – organiseert de\n" +
