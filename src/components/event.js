@@ -51,6 +51,7 @@ export const UpcomingEventList = ({events}) => {
                 place={"Anglicaanse St. Boniface kerk, Grétrystraat 39, Antwerpen."}
                 key={"Jubelconcert_ARK_50"}
             />
+            <TitleStyled fontSize={"1.6rem"} color={color3}>Fototentoonstelling ARK 50</TitleStyled>
 
             Nadat men in de herfst van vorig jaar de uitgebreide fototentoonstelling kon
             bezoeken, verspreid over 5 plaatsen in het centrum van de stad, gaan onze foto’s nu
