@@ -59,6 +59,13 @@ export const UpcomingEventList = ({events}) => {
             Vanaf 1 april 2023 tot en met 28 juni 2023 vindt u 30 foto’s in de
             ontmoetingsruimten St. Anna ten Drieën Hanegraefstraat 5, Antwerpen
             Linkeroever.
+            <br/>
+            Openingsuren:<br/>
+            - Zondagochtend van 10 tot 14 uur<br/>
+            - Woensdagmiddag van 13 tot 17 uur<br/>
+            - Vrijdagmiddag van 13 tot 17 uur<br/>
+            10 verschillenden lidkerken kozen elk 3 representatieve foto’s ter kennismaking.<br/>
+            Van harte Welkom
             <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
 
             {activeEvents.map(({node}) => (
