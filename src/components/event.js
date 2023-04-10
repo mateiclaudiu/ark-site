@@ -28,8 +28,9 @@ export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
     let titleStyled = <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{
         <>
-            Een overzicht van de deelnemende kerken kunt u vinden in onze <a href={pdfDocument}><b>brochure (klik
-            hier)</b></a> of op de website <a href='https://www.topa.be/'><b>www.topa.be</b></a>
+            In samenwerking met koorleidster Hanna Rijken – musicus en theoloog, verbonden
+            aan de Protestantse Theologische Universiteit in Nederland – organiseert de
+            jubilerende Antwerpse Raad van Kerken een concert.
         </>
     }</ItalicTitleStyled>;
 
@@ -37,8 +38,19 @@ export const UpcomingEventList = ({events}) => {
         <div>
             <SectionTitle title={"Geplande events"} subtitle={""}/>
 
-            {/*<TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>*/}
-
+            <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
+            <Event
+                dayNumber={"22"}
+                monthName={"April"}
+                dayName={"Zaterdag"}
+                time={"16.00 uur"}
+                title={"Jubelconcert ARK 50"}
+                info={" In samenwerking met koorleidster Hanna Rijken – musicus en theoloog, verbonden\n" +
+                    "            aan de Protestantse Theologische Universiteit in Nederland – organiseert de\n" +
+                    "            jubilerende Antwerpse Raad van Kerken een concert."}
+                place={"Anglicaanse St. Boniface kerk, Grétrystraat 39, Antwerpen."}
+                key={"Jubelconcert_ARK_50"}
+            />
             <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
 
             {activeEvents.map(({node}) => (
@@ -53,10 +65,6 @@ export const UpcomingEventList = ({events}) => {
                     key={node.title + node.dayNumber}
                 />
             ))}
-            <div>We houden een onderbreking
-                van woensdag 21 dec 2022 tot en met woensdag 4 januari 2023
-                en hervatten op woensdag 11 januari 2023
-            </div>
             {
                 activeEvents.length === 0 ? (<div>Er zijn geen evenementen gepland.</div>) : <></>
             }
