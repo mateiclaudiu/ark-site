@@ -125,6 +125,7 @@ const Header = ({siteTitle}) => {
                 <NavStyled>
                     <ul id="navigation">
                         <li><Link to="/" activeStyle={{color: activeColor}}>Home</Link></li>
+                        {/*<li><Link to="/jubileum-festival" activeStyle={{color: activeColor}} style={{ color: "#D4AF37" }}>Jubileum Festival</Link></li>*/}
                         <li><Link to="/ark-50-jaar-jubileum" activeStyle={{color: activeColor}} style={{ color: "#D4AF37" }}>50 jaar jubileum</Link></li>
                         <li><Link to="/#events" activeStyle={{color: activeColor}}>Events</Link></li>
                         <li><Link to="/bestuur/" activeStyle={{color: activeColor}}>Bestuur</Link></li>
