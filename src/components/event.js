@@ -26,48 +26,24 @@ export const Event = ({dayNumber, monthName, dayName, time , title, info, place}
 
 export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
-    let titleStyled = <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{
-        <>
-            In samenwerking met koorleidster Hanna Rijken – musicus en theoloog, verbonden
-            aan de Protestantse Theologische Universiteit in Nederland – organiseert de
-            jubilerende Antwerpse Raad van Kerken een concert.
-        </>
-    }</ItalicTitleStyled>;
+
+    function sectionTitle() {
+        return <sectionTitle title={"Geplande events"} subtitle={""}/>;
+    }
+
+    function specialeEventsTitle() {
+        return <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>;
+    }
+
+    function wederkerendeEventsTitle() {
+        return <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>;
+    }
 
     return (
         <div>
-            <SectionTitle title={"Geplande events"} subtitle={""}/>
-
-            <TitleStyled fontSize={"2rem"} color={"black"}>Speciale events</TitleStyled>
-            <Event
-                dayNumber={"22"}
-                monthName={"April"}
-                dayName={"Zaterdag"}
-                time={"16.00"}
-                title={"Jubelconcert ARK 50"}
-                info={" In samenwerking met koorleidster Hanna Rijken – musicus en theoloog, verbonden\n" +
-                    "            aan de Protestantse Theologische Universiteit in Nederland – organiseert de\n" +
-                    "            jubilerende Antwerpse Raad van Kerken een concert."}
-                place={"Anglicaanse St. Boniface kerk, Grétrystraat 39, Antwerpen."}
-                key={"Jubelconcert_ARK_50"}
-            />
-            <TitleStyled fontSize={"1.6rem"} color={color3}>Fototentoonstelling ARK 50</TitleStyled>
-
-            Nadat men in de herfst van vorig jaar de uitgebreide fototentoonstelling kon
-            bezoeken, verspreid over 5 plaatsen in het centrum van de stad, gaan onze foto’s nu
-            op reis langs verschillende locaties.
-            Vanaf 1 april 2023 tot en met 28 juni 2023 vindt u 30 foto’s in de
-            ontmoetingsruimten St. Anna ten Drieën Hanegraefstraat 5, Antwerpen
-            Linkeroever.
-            <br/>
-            Openingsuren:<br/>
-            - Zondagochtend van 10 tot 14 uur<br/>
-            - Woensdagmiddag van 13 tot 17 uur<br/>
-            - Vrijdagmiddag van 13 tot 17 uur<br/>
-            10 verschillenden lidkerken kozen elk 3 representatieve foto’s ter kennismaking.<br/>
-            Van harte Welkom
-            <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
-
+            {sectionTitle()}
+            {specialeEventsTitle()}
+            {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => (
                 <Event
                     dayNumber={node.dayNumber}
