@@ -22,9 +22,7 @@ const IndexPage = () => {
           node {
             eventDate
             title
-            dayNumber
             dayName
-            monthName
             info
             place
           }
