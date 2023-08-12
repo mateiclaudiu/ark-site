@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import HeroImage from "../components/hero-image"
 import Bloks from "../components/feature"
 import {Hello} from "../components/hello"
-import {Banner} from "../components/banner"
+import {WelcomeBanner} from "../components/welcome-banner"
 import {SectionTitle} from "../components/section-title"
 import {PageContainer} from "../components/page-container"
 import {UpcomingEventList} from "../components/event"
@@ -39,7 +39,7 @@ const IndexPage = () => {
         <HeroImage image={introImage}/>
         <Bloks/>
         <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
-        <Banner/>
+        <WelcomeBanner/>
         <PageContainer>
             <Hello/>
         </PageContainer>

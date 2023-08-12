@@ -3,7 +3,7 @@ import React from "react"
 import john from "../images/leadership/9.png"
 import {activeColor, color2, color3} from "./colors";
 
-export const Banner = () => (
+export const WelcomeBanner = () => (
   <BannerStyled>
     <BannerImgStyled>
       <img src={john} style={{ borderRadius: `50%`, width: `9rem` }}/>

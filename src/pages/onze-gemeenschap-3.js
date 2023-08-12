@@ -20,7 +20,7 @@ import {
   TitleStyled,
 } from "../components/styled"
 import { Hello } from "../components/hello"
-import { Banner } from "../components/banner"
+import { WelcomeBanner } from "../components/welcome-banner"
 import { SectionTitle, SectionTitleForDarkMode } from "../components/section-title"
 import { PageContainer } from "../components/page-container"
 import { Event, UpcomingEventList } from "../components/event"
