@@ -24,6 +24,7 @@ const IndexPage = () => {
             title
             dayName
             info
+            time
             place
           }
         }
