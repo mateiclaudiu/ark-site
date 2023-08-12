@@ -3,6 +3,7 @@ import React from "react"
 import {SectionTitle} from "./section-title"
 import {color3} from "./colors";
 import pdfDocument from "../../static/Nacht_van_de_Kerken_13-08-2022_brochure.pdf"
+import {getMonthName} from "./month-name";
 
 export const Event = ({dayNumber, monthName, dayName, time , title, info, place}) => (
     <EventStyled>
@@ -46,9 +47,9 @@ export const UpcomingEventList = ({events}) => {
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => (
                 <Event
-                    dayNumber={node.dayNumber}
-                    monthName={node.monthName}
-                    dayName={node.dayName}
+                    dayNumber={new Date(node.eventDate).getDay()}
+                    monthName={getMonthName(new Date(node.eventDate).getMonth())}
+                    dayName={"Woensdag"}
                     time={node.time}
                     title={node.title}
                     info={node.info}
