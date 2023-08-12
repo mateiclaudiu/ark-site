@@ -16,9 +16,9 @@ export const Event = ({dayNumber, monthName, dayName, time , title, info, place}
             </div>
         </EventDateStyled>
         <div>
-            <TitleStyled fontSize={"1.6rem"} color={color3}>{title}</TitleStyled>
-            <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{info}</ItalicTitleStyled>
-            <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>{place}</ItalicTitleStyled>
+            <TitleStyled fontSize={"1.6rem"} color={color3}>{title}</TitleStyled><br/>
+            <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Info: {info}</ItalicTitleStyled><br/>
+            <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Plaats: {place}</ItalicTitleStyled>
         </div>
     </EventStyled>
 )
@@ -41,7 +41,7 @@ export const UpcomingEventList = ({events}) => {
     return (
         <div>
             {sectionTitle()}
-            {specialeEventsTitle()}
+            {/*{specialeEventsTitle()}*/}
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDay();
