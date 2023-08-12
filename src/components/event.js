@@ -2,6 +2,7 @@ import {EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleSt
 import React from "react"
 import {color3} from "./colors";
 import {getMonthName} from "./month-name";
+import {SectionTitle} from "./section-title";
 
 export const Event = ({dayNumber, monthName, dayName, time , title, info, place}) => (
     <EventStyled>
@@ -27,7 +28,7 @@ export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
 
     function sectionTitle() {
-        return <sectionTitle title={"Geplande events"} subtitle={""}/>;
+        return <SectionTitle title={"Geplande events"} subtitle={""}/>;
     }
 
     function specialeEventsTitle() {
