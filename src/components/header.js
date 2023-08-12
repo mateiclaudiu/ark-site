@@ -125,13 +125,10 @@ const Header = ({siteTitle}) => {
                 <NavStyled>
                     <ul id="navigation">
                         <li><Link to="/" activeStyle={{color: activeColor}}>Home</Link></li>
-                        {/*<li><Link to="/jubileum-festival" activeStyle={{color: activeColor}} style={{ color: "#D4AF37" }}>Jubileum Festival</Link></li>*/}
-                        <li><Link to="/ark-50-jaar-jubileum" activeStyle={{color: activeColor}} style={{ color: "#D4AF37" }}>50 jaar jubileum</Link></li>
                         <li><Link to="/#events" activeStyle={{color: activeColor}}>Events</Link></li>
                         <li><Link to="/bestuur/" activeStyle={{color: activeColor}}>Bestuur</Link></li>
                         <li><Link to="/onze-gemeenschap/" activeStyle={{color: activeColor}}>Onze gemeenschap</Link></li>
                         <li><Link to="/links/" activeStyle={{color: activeColor}}>Handige links</Link></li>
-                        {/*<li><Link to="/oikumene/" activeStyle={{ color: "#d14f42" }}>Oikumene</Link></li>*/}
                         <li><Link to="/#contact" activeStyle={{color: activeColor}}>Contact</Link></li>
                     </ul>
                 </NavStyled>

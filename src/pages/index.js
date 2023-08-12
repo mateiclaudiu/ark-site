@@ -41,7 +41,7 @@ const IndexPage = () => {
     return <Layout>
         <SEO title="Home"/>
         <Intro image={introImage}/>
-        <Subscribe></Subscribe>
+        {/*<Subscribe></Subscribe>*/}
         <Bloks/>
         <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
         <Banner/>

@@ -12,8 +12,8 @@ let link = <Link to="/ark-50-jaar-jubileum/" activeStyle={{color: activeColor}}>
 export const Subscribe = () => (
     <ContactStyled style={{background: gold}}>
         <PageContainer>
-            <SectionTitleForDarkMode title={"De Antwerpse Raad van Kerken viert zijn 50ste jaar jubileum\n Meer info binnenkort beschikbaar"}
-                                     subtitle={link}/>
+            {/*<SectionTitleForDarkMode title={"De Antwerpse Raad van Kerken viert zijn 50ste jaar jubileum\n Meer info binnenkort beschikbaar"}*/}
+            {/*                         subtitle={link}/>*/}
         </PageContainer>
         {/*<Link to="/jubileum-festival">*/}
             <img src={festival} alt="jubileum festival"/>
