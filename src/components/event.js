@@ -1,8 +1,6 @@
 import {EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleStyled} from "./styled"
 import React from "react"
-import {SectionTitle} from "./section-title"
 import {color3} from "./colors";
-import pdfDocument from "../../static/Nacht_van_de_Kerken_13-08-2022_brochure.pdf"
 import {getMonthName} from "./month-name";
 
 export const Event = ({dayNumber, monthName, dayName, time , title, info, place}) => (
@@ -45,18 +43,22 @@ export const UpcomingEventList = ({events}) => {
             {sectionTitle()}
             {specialeEventsTitle()}
             {wederkerendeEventsTitle()}
-            {activeEvents.map(({node}) => (
-                <Event
-                    dayNumber={new Date(node.eventDate).getDay()}
-                    monthName={getMonthName(new Date(node.eventDate).getMonth())}
-                    dayName={"Woensdag"}
-                    time={node.time}
-                    title={node.title}
-                    info={node.info}
-                    place={node.place}
-                    key={node.title + node.dayNumber}
-                />
-            ))}
+            {activeEvents.map(({node}) => {
+                const dayNumber = new Date(node.eventDate).getDay();
+                let monthName = getMonthName(new Date(node.eventDate).getMonth());
+                return (
+                    <Event
+                        dayNumber={dayNumber}
+                        monthName={monthName}
+                        dayName={"Woensdag"}
+                        time={node.time}
+                        title={node.title}
+                        info={node.info}
+                        place={node.place}
+                        key={node.title + dayNumber}
+                    />
+                );
+            })}
             {
                 activeEvents.length === 0 ? (<div>Er zijn geen evenementen gepland.</div>) : <></>
             }
