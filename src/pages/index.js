@@ -1,21 +1,17 @@
-import React, {Component} from "react"
-import {graphql, Link, useStaticQuery} from "gatsby"
-import styled from "styled-components"
+import React from "react"
+import {graphql, useStaticQuery} from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import Intro from "../components/intro"
+import HeroImage from "../components/hero-image"
 import Bloks from "../components/feature"
-import {FeatureBlockStyled, HelloContainerStyled, IntroStyled, ItalicTitleStyled, TitleStyled} from "../components/styled"
 import {Hello} from "../components/hello"
 import {Banner} from "../components/banner"
-import {SectionTitle, SectionTitleForDarkMode} from "../components/section-title"
+import {SectionTitle} from "../components/section-title"
 import {PageContainer} from "../components/page-container"
-import {Event, UpcomingEventList} from "../components/event"
+import {UpcomingEventList} from "../components/event"
 import introImage from "../images/together_q_50.jpeg"
 import {Contact} from "../components/contact"
-import {Subscribe} from "../components/subscribe";
 
 
 const IndexPage = () => {
@@ -40,8 +36,7 @@ const IndexPage = () => {
 
     return <Layout>
         <SEO title="Home"/>
-        <Intro image={introImage}/>
-        {/*<Subscribe></Subscribe>*/}
+        <HeroImage image={introImage}/>
         <Bloks/>
         <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
         <Banner/>

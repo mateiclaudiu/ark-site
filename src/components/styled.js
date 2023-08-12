@@ -17,7 +17,7 @@ export const TitleStyled = styled.h1`
   margin-top: 1rem;
 `
 
-export const IntroStyled = styled.div`
+export const HeroImageContainerStyled = styled.div`
   padding: ${props => props.padding};
   text-align: center;
   background-image: url(${props => props.image});
@@ -30,7 +30,7 @@ export const IntroStyled = styled.div`
   }
 `
 
-IntroStyled.defaultProps = {
+HeroImageContainerStyled.defaultProps = {
   padding: "200px 0",
   paddingDesktop: "350px 0"
 }

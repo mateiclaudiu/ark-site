@@ -5,7 +5,7 @@ import bibleImage from "../images/bible_q_20.jpeg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { SectionTitle } from "../components/section-title"
-import { IntroStyled, ItalicTitleStyled, LeaderShipContainerStyled, SectionStyled, TitleStyled } from "../components/styled"
+import { HeroImageContainerStyled, ItalicTitleStyled, LeaderShipContainerStyled, SectionStyled, TitleStyled } from "../components/styled"
 import { Leadership } from "../components/leadership"
 import john from "../images/leadership/9.png"
 import hans from "../images/leadership/6.png"
@@ -25,12 +25,12 @@ import profile from "../images/profile.png"
 const SecondPage = () => (
   <Layout>
     <SEO title="Bestuur"/>
-    <IntroStyled paddingDesktop={"150px 0"} padding={"50px 0"} image={bibleImage}>
+    <HeroImageContainerStyled paddingDesktop={"150px 0"} padding={"50px 0"} image={bibleImage}>
       <ItalicTitleStyled fontSize={"1.1rem"} color={"white"}>Laat hen allen één zijn, Vader...</ItalicTitleStyled>
       <ItalicTitleStyled fontSize={"0.9rem"} color={"white"}> - Johannes 17:21 - </ItalicTitleStyled>
       <TitleStyled fontSize={"3rem"} color={"white"}>ARK</TitleStyled>
       <TitleStyled fontSize={"1.5rem"} color={"white"}>Love, Care, Share</TitleStyled>
-    </IntroStyled>
+    </HeroImageContainerStyled>
 
       <SectionTitle title={"Bestuur"} subtitle={"'Wie de belangrijkste wil zijn, moet de minste van allemaal willen zijn en ieders dienaar'"}/>
       <LeaderShipContainerStyled>

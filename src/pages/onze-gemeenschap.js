@@ -7,14 +7,14 @@ import communityImage from "../images/community_q_10.jpg"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import Intro from "../components/intro"
+import HeroImage from "../components/hero-image"
 import Feature from "../components/feature"
 import {
   AStyledContainer,
   ButtonStyled,
   FeatureBlockStyled,
   HelloContainerStyled,
-  IntroStyled,
+  HeroImageContainerStyled,
   ItalicTitleStyled, LinkBlockStyled,
   SectionStyled,
   TitleStyled,
@@ -108,13 +108,13 @@ const OurCommunityPage = () => {
 
   return <Layout>
     <SEO title="Onze gemeenschap"/>
-    <IntroStyled paddingDesktop={"150px 0"} padding={"50px 0"}
-                 image={communityImage}>
+    <HeroImageContainerStyled paddingDesktop={"150px 0"} padding={"50px 0"}
+                              image={communityImage}>
       <ItalicTitleStyled fontSize={"1.1rem"} color={"white"}>Laat hen allen één zijn, Vader...</ItalicTitleStyled>
       <ItalicTitleStyled fontSize={"0.9rem"} color={"white"}> - Johannes 17:21 - </ItalicTitleStyled>
       <TitleStyled fontSize={"3rem"} color={"white"}>ARK</TitleStyled>
       <TitleStyled fontSize={"1.5rem"} color={"white"}>Love, Care, Share</TitleStyled>
-    </IntroStyled>
+    </HeroImageContainerStyled>
     <PageContainer>
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
       <p>Onze gemeenschap bestaat uit een totaal van 79 rooms-katholieke, 46 evangelische, 5 orthodoxe, 3 VPKB, 1 anglicaanse, 1 lutherse en 1 DEGPA lidkerk/parochie. In totaal 136 lidkerken en parochies.</p>
