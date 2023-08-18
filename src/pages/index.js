@@ -11,6 +11,7 @@ import {SectionTitle} from "../components/section-title"
 import {PageContainer} from "../components/page-container"
 import {UpcomingEventList} from "../components/event"
 import introImage from "../images/together_q_50.jpeg"
+import fototentoonstelling from "../images/2023 ark tentoonstelling affiche.jpg"
 import {Contact} from "../components/contact"
 
 
@@ -37,6 +38,7 @@ const IndexPage = () => {
         <SEO title="Home"/>
         <HeroImage image={introImage}/>
         <Bloks/>
+        <img src={fototentoonstelling}/>
         <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
         <WelcomeBanner/>
         <PageContainer>
