@@ -43,7 +43,7 @@ export const UpcomingEventList = ({events}) => {
         return <EventStyled>
             <EventDateStyled>
                 <EventDayStyled>
-                    <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"10-24"}</TitleStyled>
+                    <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"10 t.e.m. 24"}</TitleStyled>
                 </EventDayStyled>
                 <div>
                     <TitleStyled fontSize={"1rem"} color={"gray"}>{"September"}</TitleStyled>
