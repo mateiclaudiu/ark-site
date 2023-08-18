@@ -26,7 +26,6 @@ export const Event = ({dayNumber, monthName, dayName, time , title, info, place}
 
 export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
-    activeEvents.sort(compareDates)
     function sectionTitle() {
         return <SectionTitle title={"Geplande events"} subtitle={""}/>;
     }
