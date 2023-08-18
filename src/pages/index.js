@@ -38,9 +38,9 @@ const IndexPage = () => {
         <SEO title="Home"/>
         <HeroImage image={introImage}/>
         <Bloks/>
-        <PageContainer>
+        <div style={{textAlign: "center", background: "#bdd7ee"}}>
             <img src={fototentoonstelling}/>
-        </PageContainer>
+        </div>
         <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
         <WelcomeBanner/>
         <PageContainer>
