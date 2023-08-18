@@ -71,7 +71,7 @@ export const UpcomingEventList = ({events}) => {
             {activeEvents.map(({node}) => {
                 let parsedDate = parseDate(node.eventDate);
                 const dayNumber = new Date(parsedDate).getDate();
-                let monthName = getMonthName(new Date(parsedDate).getMonth());
+                let monthName = getMonthName(new Date(parsedDate).getMonth()+1);
                 return (
                     <Event
                         dayNumber={dayNumber}
