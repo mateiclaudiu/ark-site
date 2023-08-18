@@ -69,9 +69,8 @@ export const UpcomingEventList = ({events}) => {
             {fototentoonstellinEvent()}
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => {
-                let parsedDate = parseDate(node.eventDate);
-                const dayNumber = new Date(parsedDate).getDate();
-                let monthName = getMonthName(new Date(parsedDate).getMonth()+1);
+                const dayNumber = new Date(node.eventDate).getDate();
+                let monthName = getMonthName(new Date(node.eventDate).getMonth());
                 return (
                     <Event
                         dayNumber={dayNumber}
@@ -90,17 +89,4 @@ export const UpcomingEventList = ({events}) => {
             }
         </div>
     );
-}
-
-function parseDate(dateString) {
-    const parts = dateString.split("-");
-    const day = parseInt(parts[0], 10);
-    const month = parseInt(parts[1], 10) - 1; // Months are zero-based in JavaScript
-    const year = parseInt(parts[2], 10);
-
-    return new Date(year, month, day);
-}
-
-function compareDates(a, b) {
-    return a.eventDate - b.eventDate;
 }
