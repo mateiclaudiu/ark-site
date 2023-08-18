@@ -70,7 +70,7 @@ export const UpcomingEventList = ({events}) => {
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => {
                 let parsedDate = parseDate(node.eventDate);
-                const dayNumber = new Date(parsedDate).getDay();
+                const dayNumber = new Date(parsedDate).getDate();
                 let monthName = getMonthName(new Date(parsedDate).getMonth());
                 return (
                     <Event
