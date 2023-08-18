@@ -39,20 +39,34 @@ export const UpcomingEventList = ({events}) => {
         return <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>;
     }
 
+    function fototentoonstellinEvent() {
+        return <EventStyled>
+            <EventDateStyled>
+                <EventDayStyled>
+                    <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"10-24"}</TitleStyled>
+                </EventDayStyled>
+                <div>
+                    <TitleStyled fontSize={"1rem"} color={"gray"}>{"September"}</TitleStyled>
+                    {/*<TitleStyled fontSize={"1rem"} color={"black"}>{dayName}</TitleStyled>*/}
+                    <TitleStyled fontSize={"1rem"}
+                                 color={"black"}>{"voor en na de vieringen op zondag en woensdag"}</TitleStyled>
+                </div>
+            </EventDateStyled>
+            <div>
+                <TitleStyled fontSize={"1.6rem"}
+                             color={color3}>{"Fototentoonstelling, een unieke kijk in de diversiteit van de kerk van vandaag"}</TitleStyled><br/>
+                {/*<ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Info: {info}</ItalicTitleStyled><br/>*/}
+                <ItalicTitleStyled fontSize={"1rem"}
+                                   color={"gray"}>Plaats: {"Sint-Niklaaskerk Dessel"}</ItalicTitleStyled>
+            </div>
+        </EventStyled>;
+    }
+
     return (
         <div>
             {sectionTitle()}
             {specialeEventsTitle()}
-            <Event
-                dayNumber={"10-24"}
-                monthName={"September"}
-                dayName={""}
-                time={"voor en na de vieringen op zondag en woensdag"}
-                title={"Fototentoonstelling, een unieke kijk in de diversiteit van de kerk van vandaag"}
-                info={""}
-                place={"Sint-Niklaaskerk Dessel"}
-                key={"Fototentoonstelling"}
-            />
+            {fototentoonstellinEvent()}
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDay();
