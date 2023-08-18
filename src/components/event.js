@@ -51,7 +51,7 @@ export const UpcomingEventList = ({events}) => {
                 title={"Fototentoonstelling, een unieke kijk in de diversiteit van de kerk van vandaag"}
                 info={""}
                 place={"Sint-Niklaaskerk Dessel"}
-                key={node.title + dayNumber}
+                key={"Fototentoonstelling"}
             />
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => {
