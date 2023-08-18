@@ -1,10 +1,106 @@
 [
   {
-    "eventDate": "2022-04-05",
+    "title": "MIDDAGGEBED",
+    "eventDate": "06-09-2023",
     "dayName": "Woensdag",
-    "time": "11:00 uur",
-    "title": "TEST Het wekelijks Oecumenisch Gebed",
-    "info": "Marian Knetemann, Bruggenbouwer Brabantse Olijfberg",
-    "place": ""
+    "time": "11.00 uur",
+    "info": "Padre Annie Walscharts em. Legeraalmoezenier, bestuurslid A.R.K.",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "13-09-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Jean-Marie Houben, diaken H. Sacrament Berchem, secretaris A.R.K.",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "20-09-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Ds. Ina Koeman, em. stadspredikante",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "27-09-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Z.E.H. Paul Lansu, Pax Christi Internationaal nav de Vredesweek",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "04-10-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Stanny Daems, pastoraal medewerker Merksem, patroonfeest van Franciscus van Assisi",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "11-10-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Ds. Bert Dicou, Predikant “De Wijngaard” Antwerpen-Zuid",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "18-10-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Embrecht van Groesen, Anglicaans gevangenisaalmoezenier, bestuurslid A.R.K.",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "25-10-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Ilse Dupont, pastoraal werkster kathedraal Antwerpen",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "01-11-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Geen dienst omwille van Allerheiligen",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "08-11-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Kan. Bruno Aerts, Bisschoppelijk vicaris  Gedachtenisdienst overledenen",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "15-11-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Padre Annie Walscharts, em. legeraalmoezenier, bestuurslid AR.K.",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "22-11-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Ds. Kommer Groeneveld, em. predikant Evangelisch Centrum Deurne",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "29-11-2023",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Ds. Dick Würsten, Inspecteur protestants godsdienstonderwijs",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   }
 ]
