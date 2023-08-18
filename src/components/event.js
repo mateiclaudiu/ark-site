@@ -42,7 +42,17 @@ export const UpcomingEventList = ({events}) => {
     return (
         <div>
             {sectionTitle()}
-            {/*{specialeEventsTitle()}*/}
+            {specialeEventsTitle()}
+            <Event
+                dayNumber={"10-24"}
+                monthName={"September"}
+                dayName={""}
+                time={"voor en na de vieringen op zondag en woensdag"}
+                title={"Fototentoonstelling, een unieke kijk in de diversiteit van de kerk van vandaag"}
+                info={""}
+                place={"Sint-Niklaaskerk Dessel"}
+                key={node.title + dayNumber}
+            />
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDay();
