@@ -1,31 +1,21 @@
 import React from "react"
-import { graphql, Link, useStaticQuery } from "gatsby"
+import {graphql, useStaticQuery} from "gatsby"
 import styled from "styled-components"
 
 import communityImage from "../images/community_q_10.jpg"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import HeroImage from "../components/hero-image"
-import Feature from "../components/feature"
 import {
   AStyledContainer,
   ButtonStyled,
-  FeatureBlockStyled,
-  HelloContainerStyled,
   HeroImageContainerStyled,
-  ItalicTitleStyled, LinkBlockStyled,
-  SectionStyled,
+  ItalicTitleStyled,
+  LinkBlockStyled,
   TitleStyled,
 } from "../components/styled"
-import { Hello } from "../components/hello"
-import { WelcomeBanner } from "../components/welcome-banner"
-import { SectionTitle, SectionTitleForDarkMode } from "../components/section-title"
-import { PageContainer } from "../components/page-container"
-import { Event, UpcomingEventList } from "../components/event"
-import introImage from "../images/together.jpg"
-import { LinksContainer } from "../components/links"
+import {SectionTitle} from "../components/section-title"
+import {PageContainer} from "../components/page-container"
 import {activeColor} from "../components/colors";
 
 const SmallContactFormStyled = styled.form`

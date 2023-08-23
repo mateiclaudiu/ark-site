@@ -24,6 +24,11 @@ export const Event = ({dayNumber, monthName, dayName, time , title, info, place}
     </EventStyled>
 )
 
+export const SpecialEvents = () => {
+
+
+}
+
 export const UpcomingEventList = ({events}) => {
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
     function sectionTitle() {
