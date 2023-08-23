@@ -3,6 +3,7 @@ import React from "react"
 import {color3} from "./colors";
 import {getMonthName} from "./month-name";
 import {SectionTitle} from "./section-title";
+import {Link} from "gatsby";
 
 export const Event = ({dayNumber, monthName, dayName, time , title, info, place}) => (
     <EventStyled>
@@ -57,10 +58,11 @@ export const UpcomingEventList = ({events}) => {
                 </div>
             </EventDateStyled>
             <div>
-                <link rel="stylesheet" href="/special-events">
                 <TitleStyled fontSize={"1.6rem"} color={color3}>{"Fototentoonstelling, een unieke kijk in de diversiteit van de kerk van vandaag"}</TitleStyled><br/>
-                </link>{/*<ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Info: {info}</ItalicTitleStyled><br/>*/}
+                {/*<ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Info: {info}</ItalicTitleStyled><br/>*/}
                 <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Plaats: {"Sint-Niklaaskerk Dessel"}</ItalicTitleStyled>
+                <Link to="/special-events">Klik hier voor meer</Link>
+
             </div>
         </EventStyled>;
     }
