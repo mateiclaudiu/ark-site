@@ -61,7 +61,7 @@ export const UpcomingEventList = ({events}) => {
                 <TitleStyled fontSize={"1.6rem"} color={color3}>{"Fototentoonstelling, een unieke kijk in de diversiteit van de kerk van vandaag"}</TitleStyled><br/>
                 {/*<ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Info: {info}</ItalicTitleStyled><br/>*/}
                 <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Plaats: {"Sint-Niklaaskerk Dessel"}</ItalicTitleStyled>
-                <Link to="/special-events">Klik hier voor meer</Link>
+                <Link to="/bijzondere-events">Klik hier voor meer</Link>
 
             </div>
         </EventStyled>;
