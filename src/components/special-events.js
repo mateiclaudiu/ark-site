@@ -2,6 +2,7 @@ import {EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleSt
 import {color3} from "./colors";
 import React from "react";
 import fototentoonstelling from "../images/2023 ark tentoonstelling affiche.jpg"
+import {PageContainer} from "./page-container";
 
 export const SpecialEvent = () => (<>
     <div style={{textAlign: "center", background: "#bdd7ee"}}>
