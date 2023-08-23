@@ -11,9 +11,7 @@ const BijzondereEvents = () => (
     <SEO title="Bijzondere Events"/>
 
       <SectionTitle title={"Bijzondere Events"} subtitle={""}/>
-      <PageContainer>
           <SpecialEvent></SpecialEvent>
-      </PageContainer>
   </Layout>
 )
 
