@@ -7,6 +7,6 @@ export function getMonthName(monthNumber) {
     if (monthNumber >= 1 && monthNumber <= 12) {
         return monthNames[monthNumber];
     } else {
-        return "Ongeldige maandnummer";
+        return "Ongeldige maandnummer "+ monthNumber;
     }
 }

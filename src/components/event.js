@@ -75,7 +75,9 @@ export const UpcomingEventList = ({events}) => {
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDate();
-                let monthName = getMonthName(new Date(node.eventDate).getMonth());
+                let monthNumber = new Date(node.eventDate).getMonth();
+                console.log(monthNumber);
+                let monthName = getMonthName(monthNumber);
                 return (
                     <Event
                         dayNumber={dayNumber}
