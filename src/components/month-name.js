@@ -4,7 +4,7 @@ export function getMonthName(monthNumber) {
         "juli", "augustus", "september", "oktober", "november", "december"
     ];
 
-    if (monthNumber >= 1 && monthNumber <= 12) {
+    if (monthNumber >= 0 && monthNumber < 12) {
         return monthNames[monthNumber];
     } else {
         return "Ongeldige maandnummer "+ monthNumber;
