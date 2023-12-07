@@ -1,106 +1,66 @@
 [
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2023-09-06",
+    "eventDate": "2024-01-10",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Padre Annie Walscharts em. Legeraalmoezenier, bestuurslid A.R.K.",
+    "info": "Frank There Diaken Kapellen",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2023-09-13",
+    "eventDate": "2024-01-17",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Jean-Marie Houben, diaken H. Sacrament Berchem, secretaris A.R.K.",
+    "info": "Jean-Marie Houben Diaken H. Sacrament Berchem Secretaris ARK",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2023-09-20",
+    "eventDate": "2024-01-24",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Ds. Ina Koeman, em. stadspredikante",
+    "info": "John van der Dussen Voorzitter ARK Gebedsweek Eenheid Christenen",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2023-09-27",
+    "eventDate": "2024-01-31",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Z.E.H. Paul Lansu, Pax Christi Internationaal nav de Vredesweek",
+    "info": "Stanny Daems Pastoraal medewerker Merksem",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2023-10-04",
+    "eventDate": "2024-02-07",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Stanny Daems, pastoraal medewerker Merksem, patroonfeest van Franciscus van Assisi",
+    "info": "E.H. Jef Barzin Em. Deken Antwerpen-Noord",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2023-10-11",
+    "eventDate": "2024-02-14",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Ds. Bert Dicou, Predikant “De Wijngaard” Antwerpen-Zuid",
+    "info": "Asdag Padre Annie Walscharts Em. Aalmoezenier Belgische Krijgsmacht ",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2023-10-18",
+    "eventDate": "2024-02-21",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Embrecht van Groesen, Anglicaans gevangenisaalmoezenier, bestuurslid A.R.K.",
+    "info": "Saskia van den Kieboom Pastoraal werkster Antwerpen-Noord",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2023-10-25",
+    "eventDate": "2024-02-28",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Ilse Dupont, pastoraal werkster kathedraal Antwerpen",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2023-11-01",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Geen dienst omwille van Allerheiligen",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2023-11-08",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Kan. Bruno Aerts, Bisschoppelijk vicaris  Gedachtenisdienst overledenen",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2023-11-15",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Padre Annie Walscharts, em. legeraalmoezenier, bestuurslid AR.K.",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2023-11-22",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Ds. Kommer Groeneveld, em. predikant Evangelisch Centrum Deurne",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2023-11-29",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Ds. Dick Würsten, Inspecteur protestants godsdienstonderwijs",
+    "info": "Ds. Bert Dicou Predikant 'De wijngaard' Antwerpen-Zuid",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   }
 ]
