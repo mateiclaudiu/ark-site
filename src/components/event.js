@@ -44,24 +44,27 @@ export const UpcomingEventList = ({events}) => {
         return <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>;
     }
 
-    function fototentoonstellinEvent() {
+    function weekVanDeEenheid() {
         return <EventStyled>
             <EventDateStyled>
                 <EventDayStyled>
-                    <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"10 t.e.m. 24"}</TitleStyled>
+                    <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"21"}</TitleStyled>
                 </EventDayStyled>
                 <div>
-                    <TitleStyled fontSize={"1rem"} color={"gray"}>{"September"}</TitleStyled>
+                    <TitleStyled fontSize={"1rem"} color={"gray"}>{"Januari"}</TitleStyled>
                     {/*<TitleStyled fontSize={"1rem"} color={"black"}>{dayName}</TitleStyled>*/}
                     <TitleStyled fontSize={"1rem"}
                                  color={"black"}>{"voor en na de vieringen op zondag en woensdag"}</TitleStyled>
                 </div>
             </EventDateStyled>
             <div>
-                <TitleStyled fontSize={"1.6rem"} color={color3}>{"Fototentoonstelling, een unieke kijk in de diversiteit van de kerk van vandaag"}</TitleStyled><br/>
+                <TitleStyled fontSize={"1.6rem"} color={color3}>{"Week van de Eenheid"}</TitleStyled><br/>
                 {/*<ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Info: {info}</ItalicTitleStyled><br/>*/}
-                <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Plaats: {"Sint-Niklaaskerk Dessel"}</ItalicTitleStyled>
-                <Link to="/bijzondere-events">Klik hier voor meer</Link>
+                <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Plaats: {"De liturgische dienst heeft plaats op 21 januari 2024 in de Roemeens-\n" +
+                    "Orthodoxe kerk in Wilrijk (voorheen Rozenkransparochie).\n" +
+                    "Het is een oecumenische dienst dus alle denominaties worden\n" +
+                    "uitgenodigd om mee te vieren."}</ItalicTitleStyled>
+                {/*<Link to="/bijzondere-events">Klik hier voor meer</Link>*/}
 
             </div>
         </EventStyled>;
@@ -71,7 +74,7 @@ export const UpcomingEventList = ({events}) => {
         <div>
             {sectionTitle()}
             {specialeEventsTitle()}
-            {fototentoonstellinEvent()}
+            {weekVanDeEenheid()}
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDate();
