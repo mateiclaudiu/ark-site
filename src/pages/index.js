@@ -11,7 +11,7 @@ import {SectionTitle} from "../components/section-title"
 import {PageContainer} from "../components/page-container"
 import {UpcomingEventList} from "../components/event"
 import introImage from "../images/together_q_50.jpeg"
-import fototentoonstelling from "../images/2023 ark tentoonstelling affiche.jpg"
+import specialEvent from "../images/inter-ortodoxe-vespers 2024.jpg"
 import {Contact} from "../components/contact"
 
 
@@ -39,7 +39,7 @@ const IndexPage = () => {
         <HeroImage image={introImage}/>
         <Bloks/>
         <div style={{textAlign: "center", background: "#bdd7ee"}}>
-            <img src={fototentoonstelling}/>
+            <img src={specialEvent}/>
         </div>
         <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
         <WelcomeBanner/>
