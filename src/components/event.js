@@ -73,8 +73,8 @@ export const UpcomingEventList = ({events}) => {
     return (
         <div>
             {sectionTitle()}
-            {specialeEventsTitle()}
-            {weekVanDeEenheid()}
+            {/*{specialeEventsTitle()}*/}
+            {/*{weekVanDeEenheid()}*/}
             {wederkerendeEventsTitle()}
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDate();
