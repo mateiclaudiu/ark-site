@@ -1,98 +1,98 @@
 [
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-03-13",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Gert Van Langendonck Pastorale Dienst UA",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-03-13",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Gert Van Langendonck Pastorale Dienst UA",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-03-20",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Ds. Ina Koeman Em. Stadspredikant",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-03-20",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Ds. Ina Koeman Em. Stadspredikant",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-03-27",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Egbert Van Groesen Aglic. Gevangenisaalmoez. Michel Franzen ARK",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-03-27",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Egbert Van Groesen Aglic. Gevangenisaalmoez. Michel Franzen ARK",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-04-03",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Marian Knetemann Protest. Kerk Brabantse Olijfberg Bestuur ARK",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-04-03",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Marian Knetemann Protest. Kerk Brabantse Olijfberg Bestuur ARK",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-04-10",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Annie Walscharts Em. Legeraalmoezenier Bestuur ARK",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-04-10",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Annie Walscharts Em. Legeraalmoezenier Bestuur ARK",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-04-17",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Freda Nkansah Pastor Evangelische Kerk Mortsel Bestuur ARK",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-04-17",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Freda Nkansah Pastor Evangelische Kerk Mortsel Bestuur ARK",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-04-24",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Ds. G.J. Kroon Predikant Christusgemeente",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-04-24",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Ds. G.J. Kroon Predikant Christusgemeente",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-05-01",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Geen dienst Dag van de Arbeid",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-05-01",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Geen dienst Dag van de Arbeid",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-05-08",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Geen dienst O.L.H. Hemelvaart",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-05-08",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Geen dienst O.L.H. Hemelvaart",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-05-15",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Jean-Marie Houben Diaken H. Sacrament Berchem Bestuur ARK",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-05-15",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Jean-Marie Houben Diaken H. Sacrament Berchem Bestuur ARK",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-05-22",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "Zs. Ruth Lagemann Kloostergemeenschap Chemin Neuf",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-05-22",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "Zs. Ruth Lagemann Kloostergemeenschap Chemin Neuf",
+    "place": "place"
   },
   {
-    "MIDDAGGEBED": "MIDDAGGEBED",
-    "2024-03-06": "2024-05-29",
-    "Woensdag": "Woensdag",
-    "11.00 uur": "11.00 uur",
-    "Veronica Kuchenbecker nav Wereldgebedsdag": "John van der Dussen Voorzitter ARK",
-    "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+    "title": "title",
+    "eventDate": "2024-05-29",
+    "dayName": "dayName",
+    "time": "time",
+    "info": "John van der Dussen Voorzitter ARK",
+    "place": "place"
   }
 ]
