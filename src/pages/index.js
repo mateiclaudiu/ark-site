@@ -12,6 +12,7 @@ import {PageContainer} from "../components/page-container"
 import {UpcomingEventList} from "../components/event"
 import introImage from "../images/together_q_50.jpeg"
 import {Contact} from "../components/contact"
+import DagDiaconiePoster from "../images/Poster A3 ARK DagDiaconie 297x420mm 29-03-25.jpg"
 
 
 const IndexPage = () => {
@@ -43,6 +44,8 @@ const IndexPage = () => {
             <Hello/>
         </PageContainer>
         <div id="events">
+            <img src={DagDiaconiePoster}/>
+
             <PageContainer>
                 <UpcomingEventList events={events.edges}/>
             </PageContainer>
