@@ -44,8 +44,7 @@ const IndexPage = () => {
             <Hello/>
         </PageContainer>
         <div id="events">
-            <img src={DagDiaconiePoster}/>
-
+            <img src={DagDiaconiePoster} alt={"DagDiaconiePoster"}/>
             <PageContainer>
                 <UpcomingEventList events={events.edges}/>
             </PageContainer>
