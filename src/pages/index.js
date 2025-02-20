@@ -46,6 +46,7 @@ const IndexPage = () => {
         <div id="events">
             <PageContainer>
                 <Link to={"/bijzondere-events"}>
+                    <SectionTitle title={"Bijzondere events"} subtitle={""}/>
                     <img src={DagDiaconiePoster} alt={"DagDiaconiePoster"}/></Link>
                 {/*<UpcomingEventList events={events.edges}/>*/}
             </PageContainer>
