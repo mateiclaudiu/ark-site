@@ -44,9 +44,9 @@ const IndexPage = () => {
             <Hello/>
         </PageContainer>
         <div id="events">
-            <img src={DagDiaconiePoster} alt={"DagDiaconiePoster"}/>
             <PageContainer>
-                <UpcomingEventList events={events.edges}/>
+                <img src={DagDiaconiePoster} alt={"DagDiaconiePoster"}/>
+                {/*<UpcomingEventList events={events.edges}/>*/}
             </PageContainer>
         </div>
         <div id="contact">
