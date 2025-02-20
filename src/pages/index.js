@@ -1,5 +1,5 @@
 import React from "react"
-import {graphql, useStaticQuery} from "gatsby"
+import {graphql, Link, useStaticQuery} from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -45,7 +45,8 @@ const IndexPage = () => {
         </PageContainer>
         <div id="events">
             <PageContainer>
-                <img src={DagDiaconiePoster} alt={"DagDiaconiePoster"}/>
+                <Link to={"/bijzondere-events"}>
+                    <img src={DagDiaconiePoster} alt={"DagDiaconiePoster"}/></Link>
                 {/*<UpcomingEventList events={events.edges}/>*/}
             </PageContainer>
         </div>
