@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import {SectionTitle} from "../components/section-title"
 import {SpecialEvent} from "../components/special-events";
 import {PageContainer} from "../components/page-container";
-import DagDiaconieFolder from "../images/Folder ARK DagDiaconie 210x297mm 29-03-25.jpg";
+import ChoralEvensong from "../images/Choral Evensong.jpeg";
 
 const BijzondereEvents = () => (
     <Layout>
@@ -13,7 +13,7 @@ const BijzondereEvents = () => (
 
         <SectionTitle title={"Bijzondere Events"} subtitle={""}/>
         {/*<SpecialEvent></SpecialEvent>*/}
-        <img src={DagDiaconieFolder}/>
+        <img src={ChoralEvensong}/>
 
     </Layout>
 )

@@ -12,7 +12,7 @@ import {PageContainer} from "../components/page-container"
 import {UpcomingEventList} from "../components/event"
 import introImage from "../images/together_q_50.jpeg"
 import {Contact} from "../components/contact"
-import DagDiaconiePoster from "../images/Poster A3 ARK DagDiaconie 297x420mm 29-03-25.jpg"
+import ChoralEvensong from "../images/Choral Evensong.jpeg"
 
 
 const IndexPage = () => {
@@ -47,8 +47,10 @@ const IndexPage = () => {
             <PageContainer>
                 <Link to={"/bijzondere-events"}>
                     <SectionTitle title={"Bijzondere events"} subtitle={""}/>
-                    {/*<img src={DagDiaconiePoster} alt={"DagDiaconiePoster"}/>*/}
-                    <p>Het middaggebed wordt gedurende de zomerperiode niet gehouden en zal in september weer aanvangen</p>
+                    <img src={ChoralEvensong} alt={"ChoralEvensong"}/>
+
+                    <br/>
+                    <p><b>Info:</b>Het middaggebed wordt gedurende de zomerperiode niet gehouden en zal in september weer aanvangen</p>
                 </Link>
                 {/*<UpcomingEventList events={events.edges}/>*/}
             </PageContainer>
