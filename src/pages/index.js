@@ -47,7 +47,9 @@ const IndexPage = () => {
             <PageContainer>
                 <Link to={"/bijzondere-events"}>
                     <SectionTitle title={"Bijzondere events"} subtitle={""}/>
-                    <img src={DagDiaconiePoster} alt={"DagDiaconiePoster"}/></Link>
+                    {/*<img src={DagDiaconiePoster} alt={"DagDiaconiePoster"}/>*/}
+                    <p>Het middaggebed wordt gedurende de zomerperiode niet gehouden en zal in september weer aanvangen</p>
+                </Link>
                 {/*<UpcomingEventList events={events.edges}/>*/}
             </PageContainer>
         </div>
