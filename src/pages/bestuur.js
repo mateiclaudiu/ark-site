@@ -35,15 +35,15 @@ const SecondPage = () => (
       <SectionTitle title={"Bestuur"} subtitle={"'Wie de belangrijkste wil zijn, moet de minste van allemaal willen zijn en ieders dienaar'"}/>
       <LeaderShipContainerStyled>
         <Leadership name={"John van der Dussen"} position={"Voorzitter"} image={john}/>
-        <Leadership name={"Gijsbertus van Hattem"} position={"Penningmeester"} image={gijsbertus}/>
+        {/*<Leadership name={"Gijsbertus van Hattem"} position={"Penningmeester"} image={gijsbertus}/>*/}
         <Leadership name={"Jean-Marie Houben"} position={"Secretaris"} image={jeanmarie}/>
         <Leadership name={"Michel Franzen"} position={"Oecumenisch middaggebed"} image={michelFranzen}/>
-        <Leadership name={"Annie Walscharts"} position={"Oecumenisch middaggebed"} image={annie}/>
+        {/*<Leadership name={"Annie Walscharts"} position={"Oecumenisch middaggebed"} image={annie}/>*/}
         <Leadership name={"Lieven Gorissen"} position={"hoofdredacteur, opstellen en publicatie ARK-berichten"} image={lieven}/>
-        <Leadership name={"Gunda Wilckens"} position={""} image={gunda}/>
-        <Leadership name={"Vader Barnabas"} position={""} image={profile}/>
+        {/*<Leadership name={"Gunda Wilckens"} position={""} image={gunda}/>*/}
+        {/*<Leadership name={"Vader Barnabas"} position={""} image={profile}/>*/}
         <Leadership name={"Embrecht van Groesen"} position={"Oecumenisch middaggebed"} image={embrecht}/>
-        <Leadership name={"Paul Van Uffelen"} position={"Website"} image={paul}/>
+        {/*<Leadership name={"Paul Van Uffelen"} position={"Website"} image={paul}/>*/}
         <Leadership name={"Freda Nkansah"} position={""} image={profile}/>
       </LeaderShipContainerStyled>
   </Layout>
