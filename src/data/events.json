@@ -1,161 +1,43 @@
-[{
-  "title": "MIDDAGGEBED",
-  "eventDate": "2024-01-10",
-  "dayName": "Woensdag",
-  "time": "11.00 uur",
-  "info": "Frank There Diaken Kapellen",
-  "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-},
+[
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2024-01-17",
+    "eventDate": "2025-10-01",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Jean-Marie Houben Diaken H. Sacrament Berchem Secretaris ARK",
+    "info": " Bert Dicou VPKB-predikant Antwerpen – Zuid",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2024-01-24",
+    "eventDate": "2025-10-08",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "John van der Dussen Voorzitter ARK Gebedsweek Eenheid Christenen",
+    "info": "Egbert van Groesen Anglicaans gevangenisaalmoezenier",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2024-01-31",
+    "eventDate": "2025-10-15",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Stanny Daems Pastoraal medewerker Merksem",
+    "info": "John van der Dussen ARK voorzitter – Evangelische kerk",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2024-02-07",
+    "eventDate": "2025-10-22",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "E.H. Jef Barzin Em. Deken Antwerpen-Noord",
+    "info": "Saskia van den Kieboom RK pastoraal Antwerpen – Noord",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2024-02-14",
+    "eventDate": "2025-10-22",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Asdag Padre Annie Walscharts Em. Aalmoezenier Belgische Krijgsmacht ",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-02-21",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Saskia van den Kieboom Pastoraal werkster Antwerpen-Noord",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-02-28",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Ds. Bert Dicou Predikant 'De wijngaard' Antwerpen-Zuid",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-03-13",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Gert Van Langendonck Pastorale Dienst UA",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-03-20",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Ds. Ina Koeman Em. Stadspredikant",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-03-27",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Egbert Van Groesen Aglic. Gevangenisaalmoez. Michel Franzen ARK",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-04-03",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Marian Knetemann Protest. Kerk Brabantse Olijfberg Bestuur ARK",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-04-10",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Annie Walscharts Em. Legeraalmoezenier Bestuur ARK",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-04-17",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Freda Nkansah Pastor Evangelische Kerk Mortsel Bestuur ARK",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-04-24",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Ds. G.J. Kroon Predikant Christusgemeente",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-05-01",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Geen dienst Dag van de Arbeid",
-    "place": "n.v.t."
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-05-08",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Geen dienst O.L.H. Hemelvaart",
-    "place": "n.v.t."
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-05-15",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Jean-Marie Houben Diaken H. Sacrament Berchem Bestuur ARK",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-05-22",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "Zs. Ruth Lagemann Kloostergemeenschap Chemin Neuf",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2024-05-29",
-    "dayName": "Woensdag",
-   "time": "11.00 uur",
-    "info": "John van der Dussen Voorzitter ARK",
+    "info": "Marian Knetemann VPKB Antwerpen – Noord",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   }
+
 ]
