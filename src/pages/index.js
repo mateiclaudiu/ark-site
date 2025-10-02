@@ -52,7 +52,7 @@ const IndexPage = () => {
                 {/*    <br/>*/}
                 {/*    <p><b>Info:</b>Het middaggebed wordt gedurende de zomerperiode niet gehouden en zal in september weer aanvangen</p>*/}
                 {/*</Link>*/}
-                {/*<UpcomingEventList events={events.edges}/>*/}
+                <UpcomingEventList events={events.edges}/>
             </PageContainer>
         </div>
         <div id="contact">
