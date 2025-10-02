@@ -38,7 +38,6 @@ const SecondPage = () => (
         <Leadership name={"John van der Dussen"} position={"Voorzitter"} image={john}/>
         {/*<Leadership name={"Gijsbertus van Hattem"} position={"Penningmeester"} image={gijsbertus}/>*/}
         <Leadership name={"Jean-Marie Houben"} position={"Secretaris"} image={jeanmarie}/>
-        <Leadership name={"Michel Franzen"} position={"Oecumenisch middaggebed"} image={michelFranzen}/>
         {/*<Leadership name={"Annie Walscharts"} position={"Oecumenisch middaggebed"} image={annie}/>*/}
         <Leadership name={"Lieven Gorissen"} position={"hoofdredacteur, opstellen en publicatie ARK-berichten"} image={lieven}/>
         {/*<Leadership name={"Gunda Wilckens"} position={""} image={gunda}/>*/}
