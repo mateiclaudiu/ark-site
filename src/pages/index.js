@@ -45,13 +45,13 @@ const IndexPage = () => {
         </PageContainer>
         <div id="events">
             <PageContainer>
-                <Link to={"/bijzondere-events"}>
-                    <SectionTitle title={"Bijzondere events"} subtitle={""}/>
-                    <img src={ChoralEvensong} alt={"ChoralEvensong"}/>
+                {/*<Link to={"/bijzondere-events"}>*/}
+                {/*    <SectionTitle title={"Bijzondere events"} subtitle={""}/>*/}
+                {/*    <img src={ChoralEvensong} alt={"ChoralEvensong"}/>*/}
 
-                    <br/>
-                    <p><b>Info:</b>Het middaggebed wordt gedurende de zomerperiode niet gehouden en zal in september weer aanvangen</p>
-                </Link>
+                {/*    <br/>*/}
+                {/*    <p><b>Info:</b>Het middaggebed wordt gedurende de zomerperiode niet gehouden en zal in september weer aanvangen</p>*/}
+                {/*</Link>*/}
                 {/*<UpcomingEventList events={events.edges}/>*/}
             </PageContainer>
         </div>
