@@ -55,6 +55,7 @@ const IndexPage = () => {
                 {/*    <p><b>Info:</b>Het middaggebed wordt gedurende de zomerperiode niet gehouden en zal in september weer aanvangen</p>*/}
                 {/*</Link>*/}
               {/*<BijzondereEvents/>*/}
+              <SectionTitle title={"Speciale events"} subtitle={""}/>
               <EventStyled>
                 <EventDateStyled>
                   <EventDayStyled>
