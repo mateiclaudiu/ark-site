@@ -1,43 +1,34 @@
 [
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2025-10-01",
+    "eventDate": "2025-11-05",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": " Bert Dicou VPKB-predikant Antwerpen – Zuid",
+    "info": " Ds. Gert-Jan Kroon en Diaken Jean-Marie Houben gaan samen voor in een OG gewijd aan de overledenen van het voorbije jaar",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2025-10-08",
+    "eventDate": "2025-11-12",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Egbert van Groesen Anglicaans gevangenisaalmoezenier",
+    "info": "vanuit Chemin Neuf,  Zr. Kata Gyori",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2025-10-15",
+    "eventDate": "2025-11-19",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "John van der Dussen ARK voorzitter – Evangelische kerk",
+    "info": "Stanny Daems, RK Pastoraal Werk Merksem",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2025-10-22",
+    "eventDate": "2025-11-26",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Saskia van den Kieboom RK pastoraal Antwerpen – Noord",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2025-10-29",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Marian Knetemann VPKB Antwerpen – Noord",
+    "info": "Ds. Bert Dicou – predikant Antwerpen-Zuid",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   }
-
 ]

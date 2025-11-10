@@ -13,6 +13,21 @@ const BijzondereEvents = () => (
 
         <SectionTitle title={"Bijzondere Events"} subtitle={""}/>
         {/*<SpecialEvent></SpecialEvent>*/}
+        <>
+            <EventStyled>
+                <EventDateStyled>
+                    <EventDayStyled>
+                        <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"8"}</TitleStyled>
+                    </EventDayStyled>
+                    <div>
+                        <TitleStyled fontSize={"1rem"} color={"gray"}>{"Juli"}</TitleStyled>
+                        <TitleStyled fontSize={"1rem"} color={"black"}>{"Dinsdag"}</TitleStyled>
+                        <TitleStyled fontSize={"1rem"}
+                                     color={"black"}>{"voor en na de vieringen op zondag en woensdag"}</TitleStyled>
+                    </div>
+                </EventDateStyled>
+            </EventStyled>
+        </>
         <img src={ChoralEvensong}/>
 
     </Layout>
