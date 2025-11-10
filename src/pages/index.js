@@ -14,6 +14,7 @@ import introImage from "../images/together_q_50.jpeg"
 import {Contact} from "../components/contact"
 import ChoralEvensong from "../images/Choral Evensong.jpeg"
 import BijzondereEvents from "./bijzondere-events";
+import {EventDateStyled, EventDayStyled, EventStyled, TitleStyled} from "../components/styled";
 
 
 const IndexPage = () => {
@@ -53,7 +54,20 @@ const IndexPage = () => {
                 {/*    <br/>*/}
                 {/*    <p><b>Info:</b>Het middaggebed wordt gedurende de zomerperiode niet gehouden en zal in september weer aanvangen</p>*/}
                 {/*</Link>*/}
-              <BijzondereEvents/>
+              {/*<BijzondereEvents/>*/}
+              <EventStyled>
+                <EventDateStyled>
+                  <EventDayStyled>
+                    <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"18"}</TitleStyled>
+                  </EventDayStyled>
+                  <div>
+                    <TitleStyled fontSize={"1rem"} color={"gray"}>{"Januari"}</TitleStyled>
+                    <TitleStyled fontSize={"1rem"} color={"black"}>{"Zondag"}</TitleStyled>
+                    <TitleStyled fontSize={"1rem"}
+                                 color={"black"}>{"Week van de eenheid"}</TitleStyled>
+                  </div>
+                </EventDateStyled>
+              </EventStyled>
                 <UpcomingEventList events={events.edges}/>
             </PageContainer>
         </div>
