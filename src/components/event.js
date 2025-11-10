@@ -73,9 +73,22 @@ export const UpcomingEventList = ({events}) => {
     return (
         <div>
             {sectionTitle()}
-            {/*{specialeEventsTitle()}*/}
-            {/*{weekVanDeEenheid()}*/}
-            {wederkerendeEventsTitle()}
+            {specialeEventsTitle()}
+            {weekVanDeEenheid()}
+            {/*{wederkerendeEventsTitle()}*/}
+          <EventStyled>
+            <EventDateStyled>
+              <EventDayStyled>
+                <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"18"}</TitleStyled>
+              </EventDayStyled>
+              <div>
+                <TitleStyled fontSize={"1rem"} color={"gray"}>{"Januari"}</TitleStyled>
+                <TitleStyled fontSize={"1rem"} color={"black"}>{"Zondag"}</TitleStyled>
+                <TitleStyled fontSize={"1rem"}
+                             color={"black"}>{"Week van de eenheid"}</TitleStyled>
+              </div>
+            </EventDateStyled>
+          </EventStyled>
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDate();
                 let monthNumber = new Date(node.eventDate).getMonth();
