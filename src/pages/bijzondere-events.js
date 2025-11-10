@@ -6,6 +6,7 @@ import {SectionTitle} from "../components/section-title"
 import {SpecialEvent} from "../components/special-events";
 import {PageContainer} from "../components/page-container";
 import ChoralEvensong from "../images/Choral Evensong.jpeg";
+import {EventDateStyled, EventDayStyled, EventStyled, TitleStyled} from "../components/styled";
 
 const BijzondereEvents = () => (
     <Layout>
