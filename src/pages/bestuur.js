@@ -19,6 +19,8 @@ import embrecht from "../images/leadership/2.png"
 import kamalidis from "../images/leadership/1.png"
 import paul from "../images/leadership/7.png"
 import freda from "../images/leadership/freda.png"
+import marian from "../images/leadership/12.png"
+import claudia from "../images/leadership/13.png"
 import profile from "../images/profile.png"
 
 
@@ -45,6 +47,8 @@ const SecondPage = () => (
         <Leadership name={"Embrecht van Groesen"} position={"Oecumenisch middaggebed"} image={embrecht}/>
         {/*<Leadership name={"Paul Van Uffelen"} position={"Website"} image={paul}/>*/}
         <Leadership name={"Freda Nkansah"} position={""} image={freda}/>
+        <Leadership name={"Marian Knetemann"} position={""} image={marian}/>
+        <Leadership name={"Claudia Lochner"} position={""} image={claudia}/>
       </LeaderShipContainerStyled>
   </Layout>
 )
