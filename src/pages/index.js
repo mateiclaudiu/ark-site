@@ -13,6 +13,7 @@ import {UpcomingEventList} from "../components/event"
 import introImage from "../images/together_q_50.jpeg"
 import {Contact} from "../components/contact"
 import ChoralEvensong from "../images/Choral Evensong.jpeg"
+import BijzondereEvents from "./bijzondere-events";
 
 
 const IndexPage = () => {
@@ -52,6 +53,7 @@ const IndexPage = () => {
                 {/*    <br/>*/}
                 {/*    <p><b>Info:</b>Het middaggebed wordt gedurende de zomerperiode niet gehouden en zal in september weer aanvangen</p>*/}
                 {/*</Link>*/}
+              <BijzondereEvents/>
                 <UpcomingEventList events={events.edges}/>
             </PageContainer>
         </div>
