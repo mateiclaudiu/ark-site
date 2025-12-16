@@ -73,7 +73,7 @@ export const UpcomingEventList = ({events}) => {
     return (
         <div>
             {sectionTitle()}
-            {specialeEventsTitle()}
+            {/*{specialeEventsTitle()}*/}
             {/*{weekVanDeEenheid()}*/}
             {wederkerendeEventsTitle()}
           {/*<EventStyled>*/}
