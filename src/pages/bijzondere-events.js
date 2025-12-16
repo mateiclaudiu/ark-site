@@ -14,23 +14,23 @@ const BijzondereEvents = () => (
 
         <SectionTitle title={"Bijzondere Events"} subtitle={""}/>
         {/*<SpecialEvent></SpecialEvent>*/}
-        <>
-            <EventStyled>
-                <EventDateStyled>
-                    <EventDayStyled>
-                        <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"18"}</TitleStyled>
-                    </EventDayStyled>
-                    <div>
-                        <TitleStyled fontSize={"1rem"} color={"gray"}>{"Januari"}</TitleStyled>
-                        <TitleStyled fontSize={"1rem"} color={"black"}>{"Zondag"}</TitleStyled>
-                        <TitleStyled fontSize={"1rem"}
-                                     color={"black"}>{"Week van de eenheid"}</TitleStyled>
-                    </div>
-                </EventDateStyled>
-            </EventStyled>
-        </>
-        <img src={ChoralEvensong}/>
-
+        {/*<>*/}
+        {/*    <EventStyled>*/}
+        {/*        <EventDateStyled>*/}
+        {/*            <EventDayStyled>*/}
+        {/*                <TitleStyled fontSize={"2rem"} color={"lightgray"}>{"18"}</TitleStyled>*/}
+        {/*            </EventDayStyled>*/}
+        {/*            <div>*/}
+        {/*                <TitleStyled fontSize={"1rem"} color={"gray"}>{"Januari"}</TitleStyled>*/}
+        {/*                <TitleStyled fontSize={"1rem"} color={"black"}>{"Zondag"}</TitleStyled>*/}
+        {/*                <TitleStyled fontSize={"1rem"}*/}
+        {/*                             color={"black"}>{"Week van de eenheid"}</TitleStyled>*/}
+        {/*            </div>*/}
+        {/*        </EventDateStyled>*/}
+        {/*    </EventStyled>*/}
+        {/*</>*/}
+        {/*<img src={ChoralEvensong}/>*/}
+        Er zijn momenteel geen bijzondere evenementen gepland. Zie home pagina voor de wekelijkse Oecumenisch Gebed agenda.
     </Layout>
 )
 
