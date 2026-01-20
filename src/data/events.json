@@ -1,34 +1,10 @@
 [
   {
     "title": "MIDDAGGEBED",
-    "eventDate": "2025-12-03",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Gert Van Langendonck – RK studentenpastor UA",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2025-12-10",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "Kristin Huybrechts – RK pastoraal Berchem",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
-    "eventDate": "2025-12-17",
-    "dayName": "Woensdag",
-    "time": "11.00 uur",
-    "info": "E.H.Herman Augustijns RK – gaat voor in het laatste OG van dit jaar. Het wordt een speciale viering met mooie teksten en samenzang met als thema: Zingend het licht van Kerstmis tegemoet. Van harte welkom!",
-    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
-  },
-  {
-    "title": "MIDDAGGEBED",
     "eventDate": "2026-01-07",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Evrard Claessens – RK gebedsvoorganger Mortsel",
+    "info": "Evrard Claessens – RK Pastoraal Mortsel",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
@@ -36,7 +12,7 @@
     "eventDate": "2026-01-14",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Egbert van Groessen – Anglicaanse Kerk",
+    "info": "Egbert van Groesen – Anglicaans gevangenisaalmoezenier",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
@@ -44,7 +20,7 @@
     "eventDate": "2026-01-21",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Dick Würsten VPKB – inspecteur Protestants godsdienstonderwijs",
+    "info": "Annie Walscharts – RK; Em. Legeraalmoezenier",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   },
   {
@@ -52,7 +28,167 @@
     "eventDate": "2026-01-28",
     "dayName": "Woensdag",
     "time": "11.00 uur",
-    "info": "Jean-Marie Houben - RK Diaken Berchem",
+    "info": "Jean-Marie Houben – Secretaris ARK; RK diaken Berchem",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-02-04",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Stanny Daems – RK. Pastoraal Merksem",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-02-11",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Danny Cassimon – Evangelische kerk; De Gloriepoort Mortsel",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-02-18",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Gert Van Langendonck – Aswoensdag RK; Studentenpastor UA",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-02-25",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Sigfrido Hernandez – Pastor Brabantse Olijfberg",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-03-04",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Jean-Marie Houben – Secretaris ARK; RK diaken Berchem",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-03-11",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Annie Walscharts – RK; Em. Legeraalmoezenier",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-03-18",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "p. Anton Milh – Dominicaan",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-03-25",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Véronica Kuchenbecker – Wereldgebedsdag",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-04-01",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Bert Dicou – VPKB; Pred. De Wijngaard Antw. Zuid",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "GEEN VIERING",
+    "eventDate": "2026-04-08",
+    "dayName": "Woensdag",
+    "time": "",
+    "info": "Paasvakantie",
+    "place": ""
+  },
+  {
+    "title": "GEEN VIERING",
+    "eventDate": "2026-04-15",
+    "dayName": "Woensdag",
+    "time": "",
+    "info": "Paasvakantie",
+    "place": ""
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-04-22",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Saskia Van den Kieboom – RK; Pastoraal Antwerpen-Noord",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-04-29",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Gert-Jan Kroon – VPKB; Pastor Bexstraat",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-05-06",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Hans Van Wichelen – RK; Diaken legeraalmoezenier",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "GEEN VIERING",
+    "eventDate": "2026-05-13",
+    "dayName": "Woensdag",
+    "time": "",
+    "info": "Hemelvaartsdag",
+    "place": ""
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-05-20",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Herman Augustijns – RK; priester Rumst-Boom",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-05-27",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Annie Walscharts – RK; Em. Legeraalmoezenier",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-06-03",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Ilse Desaeger – Gevangenisaalmoezenier",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-06-10",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Anke Stoelen – DEGPA",
+    "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
+  },
+  {
+    "title": "MIDDAGGEBED",
+    "eventDate": "2026-06-17",
+    "dayName": "Woensdag",
+    "time": "11.00 uur",
+    "info": "Tetty Rooze-de Boer – VPKB",
     "place": "Kapel van de Studentenparochie (Ignatiuskapel) in de Prinsstraat 13a, Antwerpen"
   }
 ]
