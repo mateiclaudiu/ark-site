@@ -106,7 +106,7 @@ const OurCommunityPage = () => {
     </HeroImageContainerStyled>
     <PageContainer>
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
-      <p>Onze gemeenschap bestaat uit een totaal van 79 rooms-katholieke, 46 evangelische, 5 orthodoxe, 3 VPKB, 1 anglicaanse, 1 lutherse en 1 DEGPA lidkerk/parochie. In totaal 136 lidkerken en parochies.</p>
+      <p>Onze gemeenschap bestaat uit een totaal van 79 rooms-katholieke, 46 evangelische, 6 orthodoxe, 3 VPKB, 1 anglicaanse, 1 lutherse en 1 DEGPA lidkerk/parochie. In totaal 137 lidkerken en parochies.</p>
       {
         churches.edges.map(({ node }) => (
           <div key={node.kerk}>
