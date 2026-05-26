@@ -15,12 +15,13 @@ import michelFranzen from "../images/leadership/8.png"
 import annie from "../images/leadership/11.png"
 import lieven from "../images/leadership/4.png"
 import gunda from "../images/leadership/5.png"
-import embrecht from "../images/leadership/2.png"
+import embrecht from "../images/leadership/embrecht.jpg"
 import kamalidis from "../images/leadership/1.png"
 import paul from "../images/leadership/7.png"
 import freda from "../images/leadership/freda.png"
 import marian from "../images/leadership/12.png"
 import claudia from "../images/leadership/13.png"
+import ninia from "../images/leadership/nina.jpg"
 import profile from "../images/profile.png"
 
 
@@ -46,9 +47,10 @@ const SecondPage = () => (
         {/*<Leadership name={"Vader Barnabas"} position={""} image={profile}/>*/}
         <Leadership name={"Embrecht van Groesen"} position={"Oecumenisch middaggebed"} image={embrecht}/>
         {/*<Leadership name={"Paul Van Uffelen"} position={"Website"} image={paul}/>*/}
-        <Leadership name={"Freda Nkansah"} position={""} image={freda}/>
+        <Leadership name={"Freda Nkansah"} position={"Penningmeester"} image={freda}/>
         <Leadership name={"Marian Knetemann"} position={""} image={marian}/>
         <Leadership name={"Claudia Lochner"} position={""} image={claudia}/>
+        <Leadership name={"Ninia Lucas"} position={""} image={ninia}/>
       </LeaderShipContainerStyled>
   </Layout>
 )

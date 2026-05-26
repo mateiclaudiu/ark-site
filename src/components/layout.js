@@ -54,6 +54,7 @@ const Layout = ({ children }) => {
             <div>ARK VZW p/a Jean-Marie Houben</div>
             <div>Turkooisstraat 15</div>
             <div>2600 Berchem</div>
+            <div>E-mail: secretariaat.ark@gmail.com</div>
           </FooterBlockStyled>
           <FooterBlockStyled>
             <FooterBlockTitleStyled>Zetel</FooterBlockTitleStyled>
@@ -68,8 +69,8 @@ const Layout = ({ children }) => {
             <div>IBAN: BE92 7895 0926 0223</div>
             <div>BIC: GKCCBEBB</div>
             <div>ARK VZW</div>
-            <div>Clementinastraat 20</div>
-            <div>2018 ANTWERPEN</div>
+            <div>Sint-Pieterstraat 1</div>
+            <div>2000 ANTWERPEN</div>
           </FooterBlockStyled>
           <FooterBlockStyled>
             De Antwerpse Raad van Kerken is verbonden met de internationale oecumenische beweging.
