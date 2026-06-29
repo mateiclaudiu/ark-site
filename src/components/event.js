@@ -48,7 +48,13 @@ export const UpcomingEventList = ({events}) => {
                 );
             })}
             {
-                activeEvents.length === 0 ? (<div>Er zijn geen evenementen gepland.</div>) : <></>
+                activeEvents.length === 0 ? (
+                    <div>
+                        <p>In juli en augustus zijn er geen wekelijkse vieringen van het Oecumenisch Middaggebed vanwege het zomerverlof.</p>
+                        <p>Vanaf september hervatten de vieringen in een nieuwe formule.</p>
+                        <p>Volg de aankondigingen op de <a href="https://www.facebook.com/p/Antwerpse-Raad-van-Kerken-ARK-100079051255282/" target="_blank" rel="noopener noreferrer">Facebook-pagina van de ARK</a> en op deze website.</p>
+                    </div>
+                ) : <></>
             }
         </div>
     );
