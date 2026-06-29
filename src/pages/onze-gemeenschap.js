@@ -102,7 +102,6 @@ const OurCommunityPage = () => {
       <ItalicTitleStyled fontSize={"1.1rem"} color={"white"}>Laat hen allen één zijn, Vader...</ItalicTitleStyled>
       <ItalicTitleStyled fontSize={"0.9rem"} color={"white"}> - Johannes 17:21 - </ItalicTitleStyled>
       <TitleStyled fontSize={"3rem"} color={"white"}>ARK</TitleStyled>
-      <TitleStyled fontSize={"1.5rem"} color={"white"}>Love, Care, Share</TitleStyled>
     </HeroImageContainerStyled>
     <PageContainer>
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Ga uit in de hele wereld en maak aan ieder schepsel het goede nieuws bekend\""}/>
