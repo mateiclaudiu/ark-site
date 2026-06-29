@@ -1,6 +1,6 @@
 import {EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleStyled} from "./styled"
 import React from "react"
-import {color3} from "./colors";
+import {color3, activeColor} from "./colors";
 import {getMonthName} from "./month-name";
 import {SectionTitle} from "./section-title";
 
@@ -49,10 +49,20 @@ export const UpcomingEventList = ({events}) => {
             })}
             {
                 activeEvents.length === 0 ? (
-                    <div>
-                        <p>In juli en augustus zijn er geen wekelijkse vieringen van het Oecumenisch Middaggebed vanwege het zomerverlof.</p>
-                        <p>Vanaf september hervatten de vieringen in een nieuwe formule.</p>
-                        <p>Volg de aankondigingen op de <a href="https://www.facebook.com/p/Antwerpse-Raad-van-Kerken-ARK-100079051255282/" target="_blank" rel="noopener noreferrer">Facebook-pagina van de ARK</a> en op deze website.</p>
+                    <div style={{lineHeight: "1.7", maxWidth: "42rem"}}>
+                        <p style={{marginBottom: "1.2rem"}}>In juli en augustus zijn er geen wekelijkse vieringen van het Oecumenisch Middaggebed vanwege het zomerverlof.</p>
+                        <p style={{marginBottom: "1.2rem"}}>Vanaf september hervatten de vieringen in een nieuwe formule.</p>
+                        <p style={{marginBottom: "0"}}>
+                            Volg de aankondigingen op deze website en op de{" "}
+                            <a
+                                href="https://www.facebook.com/p/Antwerpse-Raad-van-Kerken-ARK-100079051255282/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{color: activeColor, fontWeight: "bold", textDecoration: "underline"}}
+                            >
+                                Facebook-pagina van de ARK
+                            </a>.
+                        </p>
                     </div>
                 ) : <></>
             }
