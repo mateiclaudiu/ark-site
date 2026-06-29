@@ -105,8 +105,8 @@ const OurCommunityPage = () => {
       <TitleStyled fontSize={"1.5rem"} color={"white"}>Love, Care, Share</TitleStyled>
     </HeroImageContainerStyled>
     <PageContainer>
-      <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
-      <p>Onze gemeenschap bestaat uit een totaal van 79 rooms-katholieke, 46 evangelische, 6 orthodoxe, 3 VPKB, 1 anglicaanse, 1 lutherse en 1 DEGPA lidkerk/parochie. In totaal 137 lidkerken en parochies.</p>
+      <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Ga uit in de hele wereld en maak aan ieder schepsel het goede nieuws bekend\""}/>
+      <p>Onze gemeenschap bestaat momenteel uit 12 lidkerken (of ‘kerkgenootschappen’), die samen 120 plaatselijke kerken of parochies omvatten. Ruim de helft hiervan (64) zijn rooms-katholieke parochies en gemeenschappen, één derde (40) bestaat uit evangelische kerken, en de rest (16) uit de overige lidkerken van de ARK. Daarnaast telt de ARK ook 2 lidorganisaties.</p>
       {
         churches.edges.map(({ node }) => (
           <div key={node.kerk}>
@@ -124,6 +124,15 @@ const OurCommunityPage = () => {
           </div>
         ))
       }
+      <div>
+        <TitleStyled fontSize={"1rem"}>Lidorganisaties</TitleStyled>
+        <LinkBlockStyled>
+           - Gemeenschap Chemin Neuf, De Merodelei 12-14, 2600 Antwerpen-Berchem
+        </LinkBlockStyled>
+        <LinkBlockStyled>
+           - Brug van de Hoop vzw, Bisschoppenhoflaan 383, 2100 Antwerpen-Deurne
+        </LinkBlockStyled>
+      </div>
     </PageContainer>
     <JoinUsBannerStyled>
       <JoinUsImageStyled></JoinUsImageStyled>
