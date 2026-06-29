@@ -6,8 +6,8 @@ export const LinksContainer = ({groupTitle, links}) => (
     <TitleStyled fontSize={"1rem"} color={"black"}>{groupTitle}</TitleStyled>
     {
       links.map(link => (
-        <AStyledContainer>
-          <a href={link.url} target="_blank">{link.title}</a>
+        <AStyledContainer key={link.url}>
+          <a href={link.url} target="_blank" rel="noopener noreferrer" style={{textTransform: "none"}}>{link.title}</a>
         </AStyledContainer>
       ))
     }

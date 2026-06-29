@@ -28,9 +28,9 @@ const LinksPage = () => {
   return <Layout>
     <SEO title="Handige Links"/>
     <PageContainer>
-      <SectionTitle title={"Handige links"} subtitle={"\"Trek heel de wereld rond en maak aan ieder schepsel het goede nieuws bekend\""}/>
+      <SectionTitle title={"Handige links"} subtitle={"\"Ga uit in de hele wereld en maak aan ieder schepsel het goede nieuws bekend\""}/>
       {websites.edges.map(({ node }) => (
-        <LinksContainer groupTitle={node.groupTitle} links={node.links}/>
+        <LinksContainer key={node.id} groupTitle={node.groupTitle} links={node.links}/>
       ))}
       <div style={{ fontStyle:"italic"}}>
         Had u graag uw website hier vermeld gezien? Of juist liever niet? Of zag u een fout?

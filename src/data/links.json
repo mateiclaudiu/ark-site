@@ -1,5 +1,14 @@
 [
   {
+    "groupTitle": "ARK op sociale media",
+    "links": [
+      {
+        "title": "Facebook-pagina van de ARK",
+        "url": "https://www.facebook.com/p/Antwerpse-Raad-van-Kerken-ARK-100079051255282/"
+      }
+    ]
+  },
+  {
     "groupTitle": "Bijkomende informatie leden",
     "links": [
       {
@@ -7,12 +16,12 @@
         "url": "http://www.arpee.be/index.php"
       },
       {
-        "title": "protestanten: geschiedenis, cultuur en …",
+        "title": "Protestanten: geschiedenis, cultuur en …",
         "url": "https://dick.wursten.be/"
       },
       {
-        "title": "rk kerken en tourisme",
-        "url": "https://www.topa.be/en//"
+        "title": "RK-kerken en toerisme",
+        "url": "https://www.topa.be/en/"
       },
       {
         "title": "Monumentale Kerken Antwerpen",
@@ -49,7 +58,7 @@
         "url": "https://www.missio.be/nl/language-choice.php/"
       },
       {
-        "title": "Broederlijkdelen",
+        "title": "Broederlijk Delen",
         "url": "https://www.broederlijkdelen.be/nl"
       },
       {
@@ -66,8 +75,8 @@
     "groupTitle": "Jeugd",
     "links": [
       {
-        "title": "ProJob",
-        "url": "http://projop.be/links/"
+        "title": "ProJOP",
+        "url": "https://projop.be/"
       },
       {
         "title": "Het Bijbelhuis",
@@ -89,15 +98,15 @@
     ]
   },
   {
-    "groupTitle": "Universiteit en leerhuizend",
+    "groupTitle": "Universiteit en leerhuizen",
     "links": [
       {
         "title": "Faculteit voor Protestantse Godgeleerdheid",
-        "url": "https://www.fptr.be/index-en.aspx"
+        "url": "https://www.fptr.be/"
       },
       {
         "title": "Faculteit Theologie en Religie KU Leuven",
-        "url": "https://theo.kuleuven.be//"
+        "url": "https://theo.kuleuven.be/"
       },
       {
         "title": "Evangelische Theologische Faculteit Leuven",
