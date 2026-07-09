@@ -1,6 +1,7 @@
 [
   {
     "kerk": "Anglicaanse kerk (1 parochie)",
+    "groep": "overig",
     "kerken": [
       {
         "naam": "St Boniface",
@@ -12,6 +13,7 @@
   },
   {
     "kerk": "Antiochië-netwerk (A-net) (12 kerken)",
+    "groep": "evangelisch",
     "kerken": [
       {
         "naam": "Eglise Corps de Christ",
@@ -20,9 +22,9 @@
         "hoofdkerk": "Antiochië-netwerk (A-net) (12 kerken)"
       },
       {
-        "naam": "Winners Chapel Int.",
-        "adres": "Kolveniersstraat 7",
-        "plaats": "2000 Antwerpen",
+        "naam": "Ignite Church",
+        "adres": "De Keyserlei 28-30",
+        "plaats": "2018 Antwerpen",
         "hoofdkerk": "Antiochië-netwerk (A-net) (12 kerken)"
       },
       {
@@ -89,6 +91,7 @@
   },
   {
     "kerk": "Antwerp International Protestant Church (AIPC) (1 kerk)",
+    "groep": "overig",
     "kerken": [
       {
         "naam": "Antwerp International Protestant Church",
@@ -100,6 +103,7 @@
   },
   {
     "kerk": "Deutschsprachige Evangelische Gemeinde in der Provinz Antwerpen (DEGPA) (1 kerk)",
+    "groep": "overig",
     "kerken": [
       {
         "naam": "Deutschsprachige Evangelische Gemeinde",
@@ -111,6 +115,7 @@
   },
   {
     "kerk": "Evangelisch-Lutherse kerk (1 kerk)",
+    "groep": "overig",
     "kerken": [
       {
         "naam": "Evangelisch-Lutherse Kerk",
@@ -122,6 +127,7 @@
   },
   {
     "kerk": "Gereformeerd Overleg Vlaanderen (GOV) (2 kerken)",
+    "groep": "overig",
     "kerken": [
       {
         "naam": "Evangelisch Centrum",
@@ -139,6 +145,7 @@
   },
   {
     "kerk": "Orthodoxe kerk (7 parochies)",
+    "groep": "overig",
     "kerken": [
       {
         "naam": "Parochie van de Boodschap aan de Moeder Gods",
@@ -186,6 +193,7 @@
   },
   {
     "kerk": "Overleg van Autonome Evangelische Gemeenten (OAEG) (3 kerken)",
+    "groep": "evangelisch",
     "kerken": [
       {
         "naam": "Iglesia Cristiana de Amberes (ICA)",
@@ -209,6 +217,7 @@
   },
   {
     "kerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)",
+    "groep": "rooms-katholiek",
     "kerken": [
       {
         "naam": "Onze-Lieve-Vrouwekathedraal",
@@ -598,6 +607,7 @@
   },
   {
     "kerk": "The Redeemed Christian Church of God (RCCG) (5 kerken)",
+    "groep": "evangelisch",
     "kerken": [
       {
         "naam": "The Redeemed Christian Church of God - New Life Assembly",
@@ -633,6 +643,7 @@
   },
   {
     "kerk": "Verbond van Vlaamse Pinkstergemeenten (VVP) (20 kerken)",
+    "groep": "evangelisch",
     "kerken": [
       {
         "naam": "Vineyard",
@@ -758,6 +769,7 @@
   },
   {
     "kerk": "Verenigde Protestantse Kerk in België (VPKB) (3 kerken)",
+    "groep": "overig",
     "kerken": [
       {
         "naam": "VPKB Antwerpen-Noord - De Brabantse Olijfberg",

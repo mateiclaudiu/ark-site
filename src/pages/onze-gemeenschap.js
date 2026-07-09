@@ -15,6 +15,7 @@ import {
 } from "../components/styled"
 import {SectionTitle} from "../components/section-title"
 import {PageContainer} from "../components/page-container"
+import {churchStats} from "../utils/church-stats"
 
 const SmallContactFormStyled = styled.form`
   margin-top: 2rem;
@@ -105,7 +106,7 @@ const OurCommunityPage = () => {
     </HeroImageContainerStyled>
     <PageContainer>
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Ga uit in de hele wereld en maak aan ieder schepsel het goede nieuws bekend\""}/>
-      <p>Onze gemeenschap bestaat momenteel uit 12 lidkerken (of ‘kerkgenootschappen’), die samen 120 plaatselijke kerken of parochies omvatten. Ruim de helft hiervan (64) zijn rooms-katholieke parochies en gemeenschappen, één derde (40) bestaat uit evangelische kerken, en de rest (16) uit de overige lidkerken van de ARK. Daarnaast telt de ARK ook 2 lidorganisaties.</p>
+      <p>Onze gemeenschap bestaat momenteel uit {churchStats.genootschappen} lidkerken (of ‘kerkgenootschappen’), die samen {churchStats.totaal} plaatselijke kerken of parochies omvatten. Ruim de helft hiervan ({churchStats.roomsKatholiek}) zijn rooms-katholieke parochies en gemeenschappen, één derde ({churchStats.evangelisch}) bestaat uit evangelische kerken, en de rest ({churchStats.overig}) uit de overige lidkerken van de ARK. Daarnaast telt de ARK ook 2 lidorganisaties.</p>
       {
         churches.edges.map(({ node }) => (
           <div key={node.kerk}>

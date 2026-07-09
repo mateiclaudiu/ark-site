@@ -2,6 +2,7 @@ import { BannerImgStyled, BannerStyled, BannerTextStyled, ItalicTitleStyled, Tit
 import React from "react"
 import john from "../images/leadership/9.png"
 import {color3, textColor} from "./colors";
+import {churchStats} from "../utils/church-stats"
 
 export const WelcomeBanner = () => (
   <BannerStyled style={{ backgroundColor: `#dce9f1` }}>
@@ -17,7 +18,7 @@ export const WelcomeBanner = () => (
         fontStyle:  `italic`
       }}>Welkom op de website van de Antwerpse Raad van Kerken (ARK). In en rond de bruisende stad
         Antwerpen vindt u niet alleen veel verschillende culturen, maar ook heel wat christelijke kerken,
-        wellicht meer dan u denkt. Zo’n 150 daarvan zijn aangesloten bij de ARK. Uiterlijk vaak heel
+        wellicht meer dan u denkt. Zo’n {churchStats.totaal} daarvan zijn aangesloten bij de ARK. Uiterlijk vaak heel
         verschillend, hebben zij elkaar toch gevonden op hun gemeenschappelijke basis: hun geloof in Jezus
         Christus.
         <br/>Kijk eens rond op onze website en ontdek de levende christengemeenschappen in

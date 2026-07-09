@@ -22,6 +22,7 @@ import freda from "../images/leadership/freda.png"
 import marian from "../images/leadership/12.png"
 import claudia from "../images/leadership/13.png"
 import ninia from "../images/leadership/nina.jpg"
+import faith from "../images/leadership/faith-olumobi.png"
 import profile from "../images/profile.png"
 
 
@@ -50,6 +51,7 @@ const SecondPage = () => (
         <Leadership name={"Marian Knetemann"} position={""} image={marian}/>
         <Leadership name={"Claudia Lochner"} position={""} image={claudia}/>
         <Leadership name={"Ninia Lucas"} position={""} image={ninia}/>
+        <Leadership name={"Faith Olumobi"} position={""} image={faith}/>
       </LeaderShipContainerStyled>
   </Layout>
 )
