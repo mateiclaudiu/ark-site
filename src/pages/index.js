@@ -10,7 +10,7 @@ import {WelcomeBanner} from "../components/welcome-banner"
 import {SectionTitle} from "../components/section-title"
 import {PageContainer} from "../components/page-container"
 import {UpcomingEventList} from "../components/event"
-import introImage from "../images/together_q_50.jpeg"
+import introImage from "../images/ark-groepsfoto.jpg"
 import {Contact} from "../components/contact"
 
 

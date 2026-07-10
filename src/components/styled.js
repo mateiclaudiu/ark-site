@@ -20,11 +20,20 @@ export const TitleStyled = styled.h1`
 export const HeroImageContainerStyled = styled.div`
   padding: ${props => props.padding};
   text-align: center;
-  background-image: url(${props => props.image});
+  background-image: ${props =>
+    props.overlay
+      ? `linear-gradient(${props.overlay}, ${props.overlay}), url(${props.image})`
+      : `url(${props.image})`};
   background-size: cover;
   background-position-x: center;
-  background-position-y: 75%;
+  background-position-y: ${props => props.backgroundPositionY};
   filter: contrast(0.8);
+
+  h1,
+  div {
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  }
+
    @media (min-width: 1200px) {
     padding: ${props => props.paddingDesktop};
   }
@@ -32,7 +41,8 @@ export const HeroImageContainerStyled = styled.div`
 
 HeroImageContainerStyled.defaultProps = {
   padding: "200px 0",
-  paddingDesktop: "350px 0"
+  paddingDesktop: "350px 0",
+  backgroundPositionY: "75%"
 }
 
 export const FeatureBlockStyled = styled.div`
