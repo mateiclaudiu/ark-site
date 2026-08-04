@@ -107,6 +107,7 @@ const OurCommunityPage = () => {
     <PageContainer>
       <SectionTitle title={"Onze gemeenschap"} subtitle={"\"Ga uit in de hele wereld en maak aan ieder schepsel het goede nieuws bekend\""}/>
       <p>Onze gemeenschap bestaat momenteel uit {churchStats.genootschappen} lidkerken (of ‘kerkgenootschappen’), die samen {churchStats.totaal} plaatselijke kerken of parochies omvatten. Ruim de helft hiervan ({churchStats.roomsKatholiek}) zijn rooms-katholieke parochies en gemeenschappen, één derde ({churchStats.evangelisch}) bestaat uit evangelische kerken, en de rest ({churchStats.overig}) uit de overige lidkerken van de ARK. Daarnaast telt de ARK ook 2 lidorganisaties.</p>
+      <div style={{ height: "1.5rem" }} />
       {
         churches.edges.map(({ node }) => (
           <div key={node.kerk}>

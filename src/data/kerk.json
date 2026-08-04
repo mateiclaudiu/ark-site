@@ -144,50 +144,56 @@
     ]
   },
   {
-    "kerk": "Orthodoxe kerk (7 parochies)",
+    "kerk": "Orthodoxe kerk (8 parochies)",
     "groep": "overig",
     "kerken": [
       {
         "naam": "Parochie van de Boodschap aan de Moeder Gods",
         "adres": "Jan van Gentstraat 11",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Orthodoxe kerk (7 parochies)"
+        "hoofdkerk": "Orthodoxe kerk (8 parochies)"
       },
       {
         "naam": "Parochie van de Geboorte van Christus",
         "adres": "Loosplaats 2",
         "plaats": "2018 Antwerpen",
-        "hoofdkerk": "Orthodoxe kerk (7 parochies)"
+        "hoofdkerk": "Orthodoxe kerk (8 parochies)"
       },
       {
         "naam": "Parochie van de Heilige Nina",
         "adres": "Goedendagstraat 48",
         "plaats": "2140 Antwerpen",
-        "hoofdkerk": "Orthodoxe kerk (7 parochies)"
+        "hoofdkerk": "Orthodoxe kerk (8 parochies)"
       },
       {
         "naam": "Parochie van de Heilige Georgi",
         "adres": "Bredabaan 547",
         "plaats": "2170 Antwerpen-Merksem",
-        "hoofdkerk": "Orthodoxe kerk (7 parochies)"
+        "hoofdkerk": "Orthodoxe kerk (8 parochies)"
       },
       {
         "naam": "Parochie van de Heilige Laurentius",
         "adres": "Schoonbroek 101",
         "plaats": "2180 Antwerpen-Ekeren",
-        "hoofdkerk": "Orthodoxe kerk (7 parochies)"
+        "hoofdkerk": "Orthodoxe kerk (8 parochies)"
       },
       {
         "naam": "Parochie van de Heilige Sophrony de Athoniet",
         "adres": "Cameliastraat 5",
         "plaats": "2600 Antwerpen-Berchem",
-        "hoofdkerk": "Orthodoxe kerk (7 parochies)"
+        "hoofdkerk": "Orthodoxe kerk (8 parochies)"
       },
       {
         "naam": "Parochie van de Geboorte van de Moeders Gods",
         "adres": "Heistraat 319",
         "plaats": "2610 Antwerpen-Wilrijk",
-        "hoofdkerk": "Orthodoxe kerk (7 parochies)"
+        "hoofdkerk": "Orthodoxe kerk (8 parochies)"
+      },
+      {
+        "naam": "Parochie van de Heilige Zlata van Maglen",
+        "adres": "Edenplein 15",
+        "plaats": "2610 Antwerpen-Wilrijk",
+        "hoofdkerk": "Orthodoxe kerk (8 parochies)"
       }
     ]
   },
@@ -216,392 +222,404 @@
     ]
   },
   {
-    "kerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)",
+    "kerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)",
     "groep": "rooms-katholiek",
     "kerken": [
       {
         "naam": "Onze-Lieve-Vrouwekathedraal",
         "adres": "Groenplaats 21",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Carolus Borromeus",
         "adres": "Hendrik Conscienceplein 6",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Paulus",
         "adres": "Sint-Paulusstraat 22",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Jacob de Meerdere",
         "adres": "Lange Nieuwstraat 73",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Andries",
         "adres": "Sint-Andriesstraat 3",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Joris",
         "adres": "Mechelseplein 22",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Walburgis",
         "adres": "Volkstraat 41",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Anna-ten-Drieën",
         "adres": "Hanegraefstraat 1",
         "plaats": "2050 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Antonius van Padua",
         "adres": "Paardenmarkt 109",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Amandus",
         "adres": "Van Kerckhovenstraat 35",
         "plaats": "2060 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Eligius",
         "adres": "Van Helmontstraat 23",
         "plaats": "2060 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilig Hart",
         "adres": "Lange Beeldekensstraat 22",
         "plaats": "2060 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Willibrordus",
         "adres": "Kerkstraat 89",
         "plaats": "2060 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilige Geest",
         "adres": "Mechelsesteenweg 135",
         "plaats": "2018 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Jan de Doper",
         "adres": "Lange Elzenstraat 79",
         "plaats": "2018 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Laurentius",
         "adres": "Van Schoonbekestraat 55",
         "plaats": "2018 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Norbertus",
         "adres": "Dageraadplaats 3",
         "plaats": "2018 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilige Familie en Sint-Cornelius",
         "adres": "Coxplein",
         "plaats": "2140 Borgerhout",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "OLV ter Sneeuw",
         "adres": "Laar 50",
         "plaats": "2140 Borgerhout",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilige Drievuldigheid",
         "adres": "Wapenstilstandlaan 57",
         "plaats": "2600 Berchem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Franciscus Xaverius",
         "adres": "Collegelaan 32",
         "plaats": "2140 Borgerhout",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "OLV van het Heilig Hart",
         "adres": "Te Boelaarlei 11",
         "plaats": "2140 Borgerhout",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "De Blijde Boodschap",
         "adres": "René Heylenstraat 1",
         "plaats": "2100 Deurne",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
-        "naam": "Emmanuelparochie Sint-Rumoldus",
+        "naam": "Sint-Rumoldus",
         "adres": "Ter Rivierenlaan 84",
         "plaats": "2100 Deurne",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilig Hart",
         "adres": "Schotensesteenweg 167",
         "plaats": "2100 Deurne",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Fredegandus",
         "adres": "Lakborslei",
         "plaats": "2100 Deurne",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Rochus",
         "adres": "Sint-Rochusstraat 77",
         "plaats": "2100 Deurne",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Laurentius",
         "adres": "Schoonbroek 101",
         "plaats": "2030 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
+      },
+      {
+        "naam": "OLV Boodschap",
+        "adres": "Canadalaan 105",
+        "plaats": "2030 Antwerpen",
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Lambertus",
         "adres": "Markt",
         "plaats": "2180 Ekeren",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Theresia van het Kind Jezus",
         "adres": "Waterstraat 16",
         "plaats": "2180 Ekeren (Bunt)",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Bartholomeus",
         "adres": "Burgemeester Nolfplein",
         "plaats": "2170 Merksem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Jozef",
         "adres": "Jos de Swertstraat 1",
         "plaats": "2170 Merksem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "OLV van Smarten",
         "adres": "Pastoor J. Bampsstraat 2",
         "plaats": "2170 Merksem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilig Sacrament",
         "adres": "Lambrechtshoekenlaan",
         "plaats": "2170 Merksem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Gertrudis",
         "adres": "Spaanse Molenstraat 1",
         "plaats": "2040 Zandvliet",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
+      },
+      {
+        "naam": "OLV van de Hagelberg",
+        "adres": "Kapelstraat 2",
+        "plaats": "2040 Berendrecht",
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Bernardus",
         "adres": "Abdijstraat 128",
         "plaats": "2020 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Catharina",
         "adres": "Sint-Bernardsesteenweg 232",
         "plaats": "2020 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Christus Koning",
         "adres": "Louis Straussstraat 1",
         "plaats": "2020 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "De Verrezen Heer",
         "adres": "Berchemstadionstraat 8",
         "plaats": "2600 Berchem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "OLV Middelares en Sint-Lodewijk",
         "adres": "Strijdhoflaan 18",
         "plaats": "2600 Berchem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Theresia van het Kind Jezus",
         "adres": "Grote Steenweg 650",
         "plaats": "2600 Berchem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Willibrordus",
         "adres": "Heilig Hartstraat 1",
         "plaats": "2600 Berchem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilig Sacrament",
         "adres": "Pervijzestraat 52",
         "plaats": "2600 Berchem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilig Hart",
         "adres": "Krugerstraat 105",
         "plaats": "2660 Hoboken",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Jozef",
         "adres": "Baron Sadoinestraat",
         "plaats": "2660 Hoboken",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "OLV Geboorte",
         "adres": "Kioskplaats 8",
         "plaats": "2660 Hoboken",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Sint-Bavo",
         "adres": "Sint-Bavostraat 18-20",
         "plaats": "2610 Wilrijk",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Kapel Berkenrijs",
         "adres": "Lodewijk Mortelmansstraat 13",
         "plaats": "2610 Wilrijk (Valaar)",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilige Naam Jezus",
         "adres": "Edenplein 26",
         "plaats": "2610 Wilrijk",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Heilige Pius X",
         "adres": "Groenenborgerlaan 214",
         "plaats": "2610 Wilrijk",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Franstalige Afrikaanse gemeenschap: Sint-Walburgiskerk",
         "adres": "Karel Rogierstraat 12",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Engelstalige Afrikaanse gemeenschap: O.-L.-Vrouw Boodschapkerk",
         "adres": "Canadalaan 105",
         "plaats": "2030 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
-        "naam": "Bosnische en Kroatische gemeenschap: O.-L.-Vrouw van het H. Hartkerk",
-        "adres": "Te Boelaarlei 11",
-        "plaats": "2140 Borgerhout",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "naam": "Belarussische Grieks-katholieke gemeenschap: Heilig Hartkerk",
+        "adres": "Lange Beeldekensstraat 18-20",
+        "plaats": "2060 Antwerpen",
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
+      },
+      {
+        "naam": "Bosnische en Kroatische gemeenschap: O.-L.-Vrouw van Smartenkerk",
+        "adres": "Maantjessteenweg 25",
+        "plaats": "2170 Merksem",
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Chaldeeuwse gemeenschap: O.-L.-Vrouw van Altijddurende Bijstandkerk",
         "adres": "Sint-Fredegandusstraat 2",
         "plaats": "2100 Deurne",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Filipijnse gemeenschap: Sint-Bartholomeuskerk",
         "adres": "Burgemeester Jozef Nolfplein/Bredabaan 315",
         "plaats": "2170 Merksem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Indonesische gemeenschap: Heilig Hartkerk",
         "adres": "Schotenseweg 167",
         "plaats": "2100 Deurne",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Internationale Engelstalige gemeenschap: Onze-Lieve-Vrouwekathedraal",
         "adres": "Groenplaats 21",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Oekraïense gemeenschap: Kerk van Sint-Michiel en Sint-Pieter",
         "adres": "Amerikalei 165a",
         "plaats": "2000 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Poolse gemeenschap: Kerk van Sint-Theresia van het kind Jezus",
         "adres": "Grote Steenweg 646",
         "plaats": "2600 Berchem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Portugese gemeenschap: Sint-Rumolduskerk",
         "adres": "Ter Rivierenlaan 84",
         "plaats": "2100 Deurne",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Spaanstalige gemeenschap: Sint-Catharinakerk",
         "adres": "Sint-Catharinaplein 1",
         "plaats": "2020 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Tamil gemeenschap: Sint-Jan de Doperkerk",
         "adres": "Lange Elzenstraat 79",
         "plaats": "2018 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       },
       {
         "naam": "Vietnamese gemeenschap: Heilig Sacramentskerk",
         "adres": "Pastoor Campensstraat 4",
         "plaats": "2170 Merksem",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
-      },
-      {
-        "naam": "Wit-Russische Grieks-katholieke gemeenschap: Heilig Hartkerk",
-        "adres": "Lange Beeldekensstraat 18-20",
-        "plaats": "2060 Antwerpen",
-        "hoofdkerk": "Rooms-Katholieke kerk (50 parochies + 14 gemeenschappen)"
+        "hoofdkerk": "Rooms-Katholieke kerk (52 parochies + 14 gemeenschappen)"
       }
     ]
   },
