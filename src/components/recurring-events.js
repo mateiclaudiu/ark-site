@@ -35,15 +35,20 @@ const ActivityListStyled = styled.ul`
   padding: 0;
 
   li {
+    display: flex;
+    align-items: center;
     font-family: Montserrat;
     font-weight: 600;
     font-size: 1.4rem;
     color: ${activeColor};
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
   }
 
-  li::before {
-    content: "➜ ";
+  svg {
+    flex-shrink: 0;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 0.6rem;
   }
 `
 
@@ -81,14 +86,21 @@ const FacebookLink = () => (
     </a>
 )
 
+const ArrowIcon = () => (
+    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke={activeColor} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+        <line x1="3" y1="12" x2="19" y2="12"/>
+        <polyline points="12 5 19 12 12 19"/>
+    </svg>
+)
+
 export const RecurringEvents = () => (
     <div>
         <SectionTitle title={"Wederkerende events"} subtitle={""}/>
         <RecurringStyled>
             <p style={{fontSize: "1.2rem"}}>Vanaf half september starten er <strong>2 nieuwe activiteiten</strong> van de ARK:</p>
             <ActivityListStyled>
-                <li>Stadsgebed</li>
-                <li>Middagpauzegebed</li>
+                <li><ArrowIcon/>Stadsgebed</li>
+                <li><ArrowIcon/>Middagpauzegebed</li>
             </ActivityListStyled>
             <ul>
                 <li>
