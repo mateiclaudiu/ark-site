@@ -187,7 +187,6 @@ export const EventStyled = styled.div`
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   padding: 1.5rem;
   transition: box-shadow 0.2s, transform 0.2s;
-  border-left: 4px solid ${props => props.cancelled ? '#ccc' : activeColor};
   opacity: ${props => props.cancelled ? 0.75 : 1};
 
   &:hover {
