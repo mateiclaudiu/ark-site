@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import {activeColor, textColor} from "./colors"
+import {activeColor, color4, textColor} from "./colors"
 import {SectionTitle} from "./section-title"
 import aankondiging from "../images/ark-aankondiging-gebed-2026.jpg"
 import stadsgebedRecto from "../images/stadsgebed-recto-2026.jpg"
@@ -40,15 +40,22 @@ const ActivityListStyled = styled.ul`
     font-family: Montserrat;
     font-weight: 600;
     font-size: 1.4rem;
-    color: ${activeColor};
+    color: ${color4};
     margin-bottom: 0.4rem;
   }
 
-  svg {
+  span {
     flex-shrink: 0;
-    width: 1.6rem;
-    height: 1.6rem;
-    margin-right: 0.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: ${activeColor};
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 0.8rem;
   }
 `
 
@@ -86,21 +93,14 @@ const FacebookLink = () => (
     </a>
 )
 
-const ArrowIcon = () => (
-    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke={activeColor} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-        <line x1="3" y1="12" x2="19" y2="12"/>
-        <polyline points="12 5 19 12 12 19"/>
-    </svg>
-)
-
 export const RecurringEvents = () => (
     <div>
         <SectionTitle title={"Wederkerende events"} subtitle={""}/>
         <RecurringStyled>
             <p style={{fontSize: "1.2rem"}}>Vanaf half september starten er <strong>2 nieuwe activiteiten</strong> van de ARK:</p>
             <ActivityListStyled>
-                <li><ArrowIcon/>Stadsgebed</li>
-                <li><ArrowIcon/>Middagpauzegebed</li>
+                <li><span>1</span>Stadsgebed</li>
+                <li><span>2</span>Middagpauzegebed</li>
             </ActivityListStyled>
             <ul>
                 <li>
