@@ -181,16 +181,24 @@ export const LeaderShipStyled = styled.div`
 export const EventStyled = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 4rem;
-  #border-bottom: 1px darkgray solid;
-  padding-bottom: 1rem; 
-  @media (min-width: 768px) {
-    flex-direction: row;
-  } 
-  &:last-child {
-     border-bottom: none;
+  margin-bottom: 1.5rem;
+  background: ${props => props.cancelled ? '#fafafa' : 'white'};
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 1.5rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+  border-left: 4px solid ${props => props.cancelled ? '#ccc' : activeColor};
+  opacity: ${props => props.cancelled ? 0.75 : 1};
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
   }
 
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 `
 
 export const EventDayStyled = styled.div`

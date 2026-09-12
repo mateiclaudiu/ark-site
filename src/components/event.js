@@ -3,6 +3,7 @@ import React from "react"
 import {color3, activeColor} from "./colors";
 import {getMonthName} from "./month-name";
 import {SectionTitle} from "./section-title";
+import {RecurringEvents} from "./recurring-events";
 
 export const Event = ({dayNumber, monthName, dayName, time , title, info, place}) => (
     <EventStyled>
@@ -25,12 +26,14 @@ export const Event = ({dayNumber, monthName, dayName, time , title, info, place}
 )
 
 export const UpcomingEventList = ({events}) => {
-    const activeEvents = events.filter(({node}) => new Date(node.eventDate) > new Date());
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const activeEvents = events.filter(({node}) => new Date(node.eventDate) >= today);
 
     return (
         <div>
+            <RecurringEvents/>
             <SectionTitle title={"Geplande events"} subtitle={""}/>
-            <TitleStyled fontSize={"2rem"} color={"black"}>Wederkerende events</TitleStyled>
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDate();
                 const monthName = getMonthName(new Date(node.eventDate).getMonth());
@@ -43,17 +46,15 @@ export const UpcomingEventList = ({events}) => {
                         title={node.title}
                         info={node.info}
                         place={node.place}
-                        key={node.title + dayNumber}
+                        key={node.title + node.eventDate}
                     />
                 );
             })}
             {
                 activeEvents.length === 0 ? (
                     <div style={{lineHeight: "1.7", maxWidth: "42rem"}}>
-                        <p style={{marginBottom: "1.2rem"}}>In juli en augustus zijn er geen wekelijkse vieringen van het Oecumenisch Middaggebed vanwege het zomerverlof.</p>
-                        <p style={{marginBottom: "1.2rem"}}>Vanaf september hervatten de vieringen in een nieuwe formule.</p>
                         <p style={{marginBottom: "0"}}>
-                            Volg de aankondigingen op deze website en op de{" "}
+                            Er zijn momenteel geen concrete data gepland. Volg de aankondigingen op deze website en op de{" "}
                             <a
                                 href="https://www.facebook.com/p/Antwerpse-Raad-van-Kerken-ARK-100079051255282/"
                                 target="_blank"
