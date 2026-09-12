@@ -1,11 +1,18 @@
-import {EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleStyled} from "./styled"
+import {EventDateStyled, EventDayStyled, EventStyled, TitleStyled} from "./styled"
 import React from "react"
 import {color3, activeColor} from "./colors";
 import {getMonthName} from "./month-name";
 import {SectionTitle} from "./section-title";
 import {RecurringEvents} from "./recurring-events";
 
-export const Event = ({dayNumber, monthName, dayName, time , title, info, place}) => (
+const EventDetail = ({label, children}) => (
+    <div style={{marginBottom: "0.4rem", lineHeight: "1.5"}}>
+        <span style={{fontWeight: 600, color: "#555"}}>{label}: </span>
+        <span style={{color: "#444"}}>{children}</span>
+    </div>
+)
+
+export const Event = ({dayNumber, monthName, dayName, time, title, info, note, place}) => (
     <EventStyled>
         <EventDateStyled>
             <EventDayStyled>
@@ -18,9 +25,10 @@ export const Event = ({dayNumber, monthName, dayName, time , title, info, place}
             </div>
         </EventDateStyled>
         <div>
-            <TitleStyled fontSize={"1.6rem"} color={color3}>{title}</TitleStyled><br/>
-            <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Info: {info}</ItalicTitleStyled><br/>
-            <ItalicTitleStyled fontSize={"1rem"} color={"gray"}>Plaats: {place}</ItalicTitleStyled>
+            <TitleStyled fontSize={"1.6rem"} color={color3} style={{marginTop: "0.5rem"}}>{title}</TitleStyled>
+            {info && <EventDetail label={title === "GEEN VIERING" ? "Info" : "Voorganger(s)"}>{info}</EventDetail>}
+            {place && <EventDetail label="Plaats">{place}</EventDetail>}
+            {note && <EventDetail label="Nadien">{note}</EventDetail>}
         </div>
     </EventStyled>
 )
@@ -45,6 +53,7 @@ export const UpcomingEventList = ({events}) => {
                         time={node.time}
                         title={node.title}
                         info={node.info}
+                        note={node.note}
                         place={node.place}
                         key={node.title + node.eventDate}
                     />

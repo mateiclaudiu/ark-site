@@ -204,15 +204,16 @@
     "eventDate": "2026-09-17",
     "dayName": "Donderdag",
     "time": "20u00 – 21u00",
-    "info": "Voorgangers: Frank Ernst (pastor Lighthouse Fellowship) en Stephen Graham (voorganger Anglicaanse kerk). Gelegenheid tot napraten tot 21u30 in het nabijgelegen 'Paterskwartier' (Lange Winkelstraat 3)",
-    "place": "Ignatiuskapel, Prinsstraat 13 B, Antwerpen"
+    "info": "Frank Ernst (pastor Lighthouse Fellowship) en Stephen Graham (voorganger Anglicaanse kerk)",
+    "place": "Ignatiuskapel, Prinsstraat 13 B, Antwerpen",
+    "note": "Gelegenheid tot napraten tot 21u30 in het nabijgelegen 'Paterskwartier' (Lange Winkelstraat 3)"
   },
   {
     "title": "MIDDAGPAUZEGEBED",
     "eventDate": "2026-09-24",
     "dayName": "Donderdag",
     "time": "12u15 – 12u45",
-    "info": "Voorganger: ds. Gert-Jan Kroon",
+    "info": "ds. Gert-Jan Kroon",
     "place": "Protestantse kerk, Bexstraat 13, Antwerpen"
   }
 ]
