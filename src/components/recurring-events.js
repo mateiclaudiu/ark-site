@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import {activeColor, color4, textColor} from "./colors"
 import {SectionTitle} from "./section-title"
-import aankondiging from "../images/ark-aankondiging-gebed-2026.jpg"
 import middagGretry from "../images/middagpauzegebed-gretrystraat-2026.jpg"
 import middagBex from "../images/middagpauzegebed-bexstraat-2026.jpg"
 import stadsgebedRecto from "../images/stadsgebed-recto-2026.jpg"
@@ -62,27 +61,39 @@ const ActivityListStyled = styled.ul`
 `
 
 const IllustrationsStyled = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
   margin: 2rem 0 1rem 0;
-
-  @media (min-width: 768px) {
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-  }
 
   a {
     display: block;
   }
 
   img {
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
 `
+
+// Flyers staan op één rij met gelijke hoogte: elke flyer krijgt een breedte
+// evenredig met zijn beeldverhouding (flex-grow = breedte / hoogte).
+const FlyerRowStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: 1rem;
+  }
+`
+
+const Flyer = ({src, ratio, alt}) => (
+    <a href={src} target="_blank" rel="noopener noreferrer" style={{flex: `${ratio} 1 0`}}>
+        <img src={src} alt={alt}/>
+    </a>
+)
 
 const FacebookLink = () => (
     <a
@@ -126,21 +137,16 @@ export const RecurringEvents = () => (
             </p>
         </RecurringStyled>
         <IllustrationsStyled>
-            <a href={aankondiging} target="_blank" rel="noopener noreferrer">
-                <img src={aankondiging} alt="Aankondiging: vanaf oktober maandelijks 3 nieuwe activiteiten van de ARK – 1x Stadsgebed en 2x Middagpauzegebed"/>
-            </a>
-            <a href={middagGretry} target="_blank" rel="noopener noreferrer">
-                <img src={middagGretry} alt="ARK Middagpauzegebed – iedere 2e donderdag van 12u15 tot 12u45 in de anglicaanse kerk, Grétrystraat 39"/>
-            </a>
-            <a href={middagBex} target="_blank" rel="noopener noreferrer">
-                <img src={middagBex} alt="ARK Middagpauzegebed – iedere 4e donderdag van 12u15 tot 12u45 in de protestantse kerk, Bexstraat 13"/>
-            </a>
-            <a href={stadsgebedRecto} target="_blank" rel="noopener noreferrer">
-                <img src={stadsgebedRecto} alt="Flyer Antwerps stadsgebed – elke derde donderdag van de maand van 20u tot 21u in de Ignatiuskapel"/>
-            </a>
-            <a href={stadsgebedVerso} target="_blank" rel="noopener noreferrer">
-                <img src={stadsgebedVerso} alt="Flyer Antwerps stadsgebed – data 2026-2027"/>
-            </a>
+            <FlyerRowStyled>
+                <Flyer src={middagGretry} ratio={2232 / 2774}
+                       alt="ARK Middagpauzegebed – iedere 2e donderdag van 12u15 tot 12u45 in de anglicaanse kerk, Grétrystraat 39"/>
+                <Flyer src={stadsgebedRecto} ratio={1414 / 2000}
+                       alt="Flyer Antwerps stadsgebed – elke derde donderdag van de maand van 20u tot 21u in de Ignatiuskapel"/>
+                <Flyer src={stadsgebedVerso} ratio={1414 / 2000}
+                       alt="Flyer Antwerps stadsgebed – data 2026-2027"/>
+                <Flyer src={middagBex} ratio={2237 / 2614}
+                       alt="ARK Middagpauzegebed – iedere 4e donderdag van 12u15 tot 12u45 in de protestantse kerk, Bexstraat 13"/>
+            </FlyerRowStyled>
         </IllustrationsStyled>
     </div>
 )
