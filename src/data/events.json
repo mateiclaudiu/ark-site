@@ -215,5 +215,22 @@
     "time": "12u15 – 12u45",
     "info": "ds. Gert-Jan Kroon",
     "place": "Protestantse kerk, Bexstraat 13, Antwerpen"
+  },
+  {
+    "title": "MIDDAGPAUZEGEBED",
+    "eventDate": "2026-10-08",
+    "dayName": "Donderdag",
+    "time": "12u15 – 12u45",
+    "info": "Embrecht van Groesen",
+    "place": "Anglicaanse kerk, Grétrystraat 39, Antwerpen"
+  },
+  {
+    "title": "STADSGEBED",
+    "eventDate": "2026-10-15",
+    "dayName": "Donderdag",
+    "time": "20u00 – 21u00",
+    "info": "(nog niet bekend)",
+    "place": "Ignatiuskapel, Prinsstraat 13 A, Antwerpen",
+    "note": "Gelegenheid tot napraten tot 21u30 in het nabijgelegen 'Paterskwartier'"
   }
 ]

@@ -3,6 +3,8 @@ import styled from "styled-components"
 import {activeColor, color4, textColor} from "./colors"
 import {SectionTitle} from "./section-title"
 import aankondiging from "../images/ark-aankondiging-gebed-2026.jpg"
+import middagGretry from "../images/middagpauzegebed-gretrystraat-2026.jpg"
+import middagBex from "../images/middagpauzegebed-bexstraat-2026.jpg"
 import stadsgebedRecto from "../images/stadsgebed-recto-2026.jpg"
 import stadsgebedVerso from "../images/stadsgebed-verso-2026.jpg"
 
@@ -97,23 +99,23 @@ export const RecurringEvents = () => (
     <div>
         <SectionTitle title={"Wederkerende events"} subtitle={""}/>
         <RecurringStyled>
-            <p style={{fontSize: "1.2rem"}}>Vanaf half september starten er <strong>2 nieuwe activiteiten</strong> van de ARK:</p>
+            <p style={{fontSize: "1.2rem"}}>Vanaf oktober starten er maandelijks <strong>3 nieuwe activiteiten</strong> van de ARK:</p>
             <ActivityListStyled>
-                <li><span>1</span>Stadsgebed</li>
-                <li><span>2</span>Middagpauzegebed</li>
+                <li><span>1</span>1x Stadsgebed</li>
+                <li><span>2</span>2x Middagpauzegebed</li>
             </ActivityListStyled>
             <ul>
                 <li>
+                    iedere <strong>2e donderdagmiddag</strong> van de maand van <strong>12u15 tot 12u45</strong>:
+                    Middagpauzegebed in de anglicaanse kerk in de Grétrystraat 39
+                </li>
+                <li>
                     iedere <strong>3e donderdagavond</strong> van de maand van <strong>20u00 tot 21u00</strong>:
-                    Stadsgebed in de Ignatiuskapel in de Prinsstraat 13 B
+                    Stadsgebed in de Ignatiuskapel in de Prinsstraat 13 A
                 </li>
                 <li>
                     iedere <strong>4e donderdagmiddag</strong> van de maand van <strong>12u15 tot 12u45</strong>:
                     Middagpauzegebed in de protestantse kerk in de Bexstraat 13
-                </li>
-                <li>
-                    vanaf oktober: ook iedere <strong>2e donderdagmiddag</strong> van de maand van <strong>12u15 tot 12u45</strong>:
-                    Middagpauzegebed; locatie nog in bespreking.
                 </li>
             </ul>
             <p style={{fontStyle: "italic", color: "#555"}}>
@@ -125,7 +127,13 @@ export const RecurringEvents = () => (
         </RecurringStyled>
         <IllustrationsStyled>
             <a href={aankondiging} target="_blank" rel="noopener noreferrer">
-                <img src={aankondiging} alt="Aankondiging: vanaf half september 2 nieuwe activiteiten van de ARK – Stadsgebed en Middagpauzegebed"/>
+                <img src={aankondiging} alt="Aankondiging: vanaf oktober maandelijks 3 nieuwe activiteiten van de ARK – 1x Stadsgebed en 2x Middagpauzegebed"/>
+            </a>
+            <a href={middagGretry} target="_blank" rel="noopener noreferrer">
+                <img src={middagGretry} alt="ARK Middagpauzegebed – iedere 2e donderdag van 12u15 tot 12u45 in de anglicaanse kerk, Grétrystraat 39"/>
+            </a>
+            <a href={middagBex} target="_blank" rel="noopener noreferrer">
+                <img src={middagBex} alt="ARK Middagpauzegebed – iedere 4e donderdag van 12u15 tot 12u45 in de protestantse kerk, Bexstraat 13"/>
             </a>
             <a href={stadsgebedRecto} target="_blank" rel="noopener noreferrer">
                 <img src={stadsgebedRecto} alt="Flyer Antwerps stadsgebed – elke derde donderdag van de maand van 20u tot 21u in de Ignatiuskapel"/>
