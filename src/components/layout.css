@@ -628,3 +628,10 @@ pre tt:after {
   background-color: #1b7bac;
   color: white;
 }
+
+/* Ankerlinks (#contact, #events) niet laten verdwijnen achter het vaste menu. */
+@media (min-width: 768px) {
+  html {
+    scroll-padding-top: 5.5rem;
+  }
+}

@@ -1,3 +1,5 @@
+"use client"
+
 import { HelloContainerStyled, ItalicTitleStyled, SectionStyled, TitleStyled } from "./styled"
 import React from "react"
 

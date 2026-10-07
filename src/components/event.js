@@ -1,47 +1,141 @@
-import {EventDateStyled, EventDayStyled, EventStyled, TitleStyled} from "./styled"
+"use client"
+
 import React from "react"
-import {color3, activeColor} from "./colors";
+import styled from "styled-components"
+import {color3, activeColor, textColor} from "./colors";
 import {getMonthName} from "./month-name";
-import {SectionTitle} from "./section-title";
 import {RecurringEvents} from "./recurring-events";
+import {EventsHeadingStyled, PanelStyled, SmallLabelStyled, eventsBorder, mutedText} from "./events-styled";
+
+const EventCardStyled = styled(PanelStyled)`
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 1.25rem;
+  padding: 1.5rem 1.25rem;
+  margin-bottom: 1rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 6.5rem 1fr;
+    gap: 2rem;
+    padding: 1.75rem 2rem;
+  }
+`
+
+const EventDateStyled = styled.div`
+  text-align: center;
+  padding-right: 1.25rem;
+  border-right: 1px solid ${eventsBorder};
+  font-family: Montserrat;
+  line-height: 1.2;
+
+  @media (min-width: 768px) {
+    padding-right: 2rem;
+  }
+`
+
+const EventMonthStyled = styled.div`
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: ${color3};
+`
+
+const EventDayNumberStyled = styled.div`
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.15;
+  color: ${textColor};
+`
+
+const EventTitleStyled = styled.h3`
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: ${textColor};
+  margin: 0 0 0.2rem 0;
+`
+
+const EventTimeStyled = styled.div`
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  color: ${mutedText};
+  margin-bottom: 1rem;
+`
+
+const EventDetailsStyled = styled.dl`
+  margin: 0;
+
+  div {
+    margin-bottom: 0.6rem;
+    line-height: 1.5;
+  }
+
+  dt {
+    margin-bottom: 0.1rem;
+  }
+
+  dd {
+    margin: 0;
+    color: #333;
+  }
+
+  @media (min-width: 768px) {
+    div {
+      display: grid;
+      grid-template-columns: 8rem 1fr;
+      gap: 1rem;
+      align-items: baseline;
+      margin-bottom: 0.4rem;
+    }
+  }
+`
+
+// "MIDDAGPAUZEGEBED" → "Middagpauzegebed"
+const sentenceCase = text => text.charAt(0).toUpperCase() + text.slice(1).toLowerCase()
 
 const EventDetail = ({label, children}) => (
-    <div style={{marginBottom: "0.4rem", lineHeight: "1.5"}}>
-        <span style={{fontWeight: 600, color: "#555"}}>{label}: </span>
-        <span style={{color: "#444"}}>{children}</span>
+    <div>
+        <dt><SmallLabelStyled>{label}</SmallLabelStyled></dt>
+        <dd>{children}</dd>
     </div>
 )
 
 export const Event = ({dayNumber, monthName, dayName, time, title, info, note, place}) => (
-    <EventStyled>
+    <EventCardStyled>
         <EventDateStyled>
-            <EventDayStyled>
-                <TitleStyled fontSize={"5rem"} color={"lightgray"}>{dayNumber}</TitleStyled>
-            </EventDayStyled>
-            <div>
-                <TitleStyled fontSize={"1rem"} color={"gray"}>{monthName}</TitleStyled>
-                <TitleStyled fontSize={"1rem"} color={"black"}>{dayName}</TitleStyled>
-                <TitleStyled fontSize={"1rem"} color={"black"}>{time}</TitleStyled>
-            </div>
+            <EventMonthStyled>{monthName.slice(0, 3)}</EventMonthStyled>
+            <EventDayNumberStyled>{dayNumber}</EventDayNumberStyled>
         </EventDateStyled>
         <div>
-            <TitleStyled fontSize={"1.6rem"} color={color3} style={{marginTop: "0.5rem"}}>{title}</TitleStyled>
-            {info && <EventDetail label={title === "GEEN VIERING" ? "Info" : "Voorganger(s)"}>{info}</EventDetail>}
-            {place && <EventDetail label="Plaats">{place}</EventDetail>}
-            {note && <EventDetail label="Nadien">{note}</EventDetail>}
+            <EventTitleStyled>{sentenceCase(title)}</EventTitleStyled>
+            {time && <EventTimeStyled>{dayName} {dayNumber} {monthName} · {time}</EventTimeStyled>}
+            <EventDetailsStyled>
+                {info && <EventDetail label={title === "GEEN VIERING" ? "Info" : "Voorganger(s)"}>{info}</EventDetail>}
+                {place && <EventDetail label="Plaats">{place}</EventDetail>}
+                {note && <EventDetail label="Nadien">{note}</EventDetail>}
+            </EventDetailsStyled>
         </div>
-    </EventStyled>
+    </EventCardStyled>
 )
 
-export const UpcomingEventList = ({events}) => {
-    const today = new Date();
+const startOfToday = (iso) => {
+    const today = iso ? new Date(iso) : new Date();
     today.setHours(0, 0, 0, 0);
+    return today;
+}
+
+export const UpcomingEventList = ({events}) => {
+    // Eerst filteren op de builddatum (statische HTML), na het laden opnieuw op de
+    // datum van de bezoeker, zodat voorbije events ook zonder nieuwe build verdwijnen.
+    const [today, setToday] = React.useState(() => startOfToday(process.env.BUILD_DATE_ISO));
+    React.useEffect(() => setToday(startOfToday()), []);
     const activeEvents = events.filter(({node}) => new Date(node.eventDate) >= today);
 
     return (
         <div>
             <RecurringEvents/>
-            <SectionTitle title={"Geplande events"} subtitle={""}/>
+            <EventsHeadingStyled>Geplande events</EventsHeadingStyled>
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDate();
                 const monthName = getMonthName(new Date(node.eventDate).getMonth());
@@ -68,7 +162,7 @@ export const UpcomingEventList = ({events}) => {
                                 href="https://www.facebook.com/p/Antwerpse-Raad-van-Kerken-ARK-100079051255282/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{color: activeColor, fontWeight: "bold", textDecoration: "underline"}}
+                                style={{color: activeColor, fontWeight: 600, textDecoration: "underline"}}
                             >
                                 Facebook-pagina van de ARK
                             </a>.

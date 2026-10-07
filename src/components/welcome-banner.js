@@ -1,3 +1,5 @@
+"use client"
+
 import { BannerImgStyled, BannerStyled, BannerTextStyled, ItalicTitleStyled, TitleStyled } from "./styled"
 import React from "react"
 import john from "../images/leadership/9.png"

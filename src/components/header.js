@@ -1,12 +1,16 @@
-import {Link} from "gatsby"
-import PropTypes from "prop-types"
+"use client"
+
+import NextLink from "next/link"
+import {usePathname} from "next/navigation"
 import React from "react"
 import styled from "styled-components"
 import logo from "../images/Logo ARK nieuw 19-10-21 klein.jpg"
-import {activeColor, background, textColor} from "./colors";
+import {activeColor, background, logoStripe, textColor} from "./colors";
 
 const HeaderStyled = styled.div`
   background: ${background};
+  border-bottom: 3px solid transparent;
+  border-image: ${logoStripe} 1;
 
   @media (min-width: 768px) {
     position: fixed;
@@ -36,7 +40,7 @@ const HeaderDivStyled = styled.div`
   }
 `
 
-const NavStyled = styled.div `
+const NavStyled = styled.div.attrs(props => ({display: props.display ?? "visible"}))`
   display: ${props => props.display};
   font-family: Montserrat;
   font-size: 0.7rem;
@@ -107,10 +111,21 @@ const NavStyled = styled.div `
   } 
 `
 
-NavStyled.defaultProps = {
-    display: "visible",
+// Gatsby's Link met activeStyle: enkel actief bij exact dezelfde URL (Gatsby-pagina's
+// eindigen op "/", dus "/bijzondere-events" en "/#contact" zijn nooit actief).
+const Link = ({to, activeStyle, children}) => {
+    const pathname = usePathname() || "/"
+    const current = pathname.endsWith("/") ? pathname : pathname + "/"
+    const isCurrent = current === to
+    return (
+        <NextLink href={to} aria-current={isCurrent ? "page" : undefined}
+                  className={isCurrent ? "" : undefined} style={isCurrent ? activeStyle : undefined}>
+            {children}
+        </NextLink>
+    )
 }
-const Header = ({siteTitle}) => {
+
+const Header = ({siteTitle = ``}) => {
 
     return (
         <HeaderStyled>
@@ -135,14 +150,6 @@ const Header = ({siteTitle}) => {
             </HeaderDivStyled>
         </HeaderStyled>
     );
-}
-
-Header.propTypes = {
-    siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-    siteTitle: ``,
 }
 
 export default Header
