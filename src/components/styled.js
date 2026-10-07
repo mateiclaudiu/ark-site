@@ -29,12 +29,13 @@ export const HeroImageContainerStyled = styled.div.attrs(props => ({
   text-align: center;
   background-image: ${props =>
     props.overlay
-      ? `linear-gradient(${props.overlay}, ${props.overlay}), url(${props.image})`
+      ? props.overlay.includes("gradient(")
+        ? `${props.overlay}, url(${props.image})`
+        : `linear-gradient(${props.overlay}, ${props.overlay}), url(${props.image})`
       : `url(${props.image})`};
   background-size: cover;
   background-position-x: center;
   background-position-y: ${props => props.backgroundPositionY};
-  filter: contrast(0.8);
 
   h1,
   div {
