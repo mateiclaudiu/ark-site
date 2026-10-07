@@ -1,3 +1,5 @@
+"use client"
+
 export function getMonthName(monthNumber) {
     const monthNames = [
         "januari", "februari", "maart", "april", "mei", "juni",

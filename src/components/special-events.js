@@ -1,3 +1,5 @@
+"use client"
+
 import {EventDateStyled, EventDayStyled, EventStyled, ItalicTitleStyled, TitleStyled} from "./styled";
 import {color3} from "./colors";
 import React from "react";

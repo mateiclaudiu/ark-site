@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react"
 import { AStyled, AStyledContainer, LinkBlockStyled, TitleStyled } from "./styled"
 

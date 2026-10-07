@@ -1,5 +1,7 @@
+"use client"
+
 import styled from "styled-components"
-import {color4, activeColor} from "./colors";
+import {color4, activeColor, logoStripe} from "./colors";
 
 export const ItalicTitleStyled = styled.div`
   font-size: ${props => props.fontSize};
@@ -17,7 +19,12 @@ export const TitleStyled = styled.h1`
   margin-top: 1rem;
 `
 
-export const HeroImageContainerStyled = styled.div`
+// React 19 ondersteunt geen defaultProps meer; dezelfde standaardwaarden via attrs.
+export const HeroImageContainerStyled = styled.div.attrs(props => ({
+  padding: props.padding ?? "200px 0",
+  paddingDesktop: props.paddingDesktop ?? "350px 0",
+  backgroundPositionY: props.backgroundPositionY ?? "75%",
+}))`
   padding: ${props => props.padding};
   text-align: center;
   background-image: ${props =>
@@ -38,12 +45,6 @@ export const HeroImageContainerStyled = styled.div`
     padding: ${props => props.paddingDesktop};
   }
 `
-
-HeroImageContainerStyled.defaultProps = {
-  padding: "200px 0",
-  paddingDesktop: "350px 0",
-  backgroundPositionY: "75%"
-}
 
 export const FeatureBlockStyled = styled.div`
   background-color: ${props => props.backgroundColor};
@@ -133,6 +134,8 @@ export const BannerTextStyled = styled.div`
 
 export const FooterStyled = styled.footer`
   background: ${color4};
+  border-top: 4px solid transparent;
+  border-image: ${logoStripe} 1;
   color: #71717f;
   font-family: Montserrat;
   font-size: 0.8rem;

@@ -1,3 +1,5 @@
+"use client"
+
 import { ColumnStyled, SectionStyled, ItalicTitleStyled, TitleStyled } from "./styled"
 import React from "react"
 import { SectionTitle } from "./section-title"

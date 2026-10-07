@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
+  # Volledig statische export: niet de Next.js-runtime van Netlify gebruiken,
+  # zodat Netlify Forms de formulieren in de HTML herkent zoals bij de Gatsby-site.
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"

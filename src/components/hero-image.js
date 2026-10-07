@@ -1,5 +1,5 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
+"use client"
+
 import React from "react"
 import { HeroImageContainerStyled, ItalicTitleStyled, TitleStyled } from "./styled"
 
