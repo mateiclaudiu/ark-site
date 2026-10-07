@@ -136,7 +136,7 @@ export const Contact = () => (
           </address>
         </ContactInfoStyled>
         <FormPanelStyled>
-          <form name="Contact Form" method="POST" data-netlify="true">
+          <form name="Contact Form" method="POST" action="/bedankt/" data-netlify="true">
             <input type="hidden" name="form-name" value="Contact Form"/>
             <FieldStyled>
               <label htmlFor="contact-name">Naam</label>
