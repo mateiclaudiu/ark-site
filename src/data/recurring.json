@@ -1,0 +1,27 @@
+{
+  "intro": [
+    {
+      "_type": "block",
+      "_key": "intro1",
+      "style": "normal",
+      "markDefs": [],
+      "children": [
+        { "_type": "span", "_key": "s1", "text": "Vanaf oktober starten er maandelijks ", "marks": [] },
+        { "_type": "span", "_key": "s2", "text": "3 nieuwe activiteiten", "marks": ["strong"] },
+        { "_type": "span", "_key": "s3", "text": " van de ARK, telkens op donderdag: 1x Stadsgebed en 2x Middagpauzegebed.", "marks": [] }
+      ]
+    }
+  ],
+  "schedule": [
+    { "_key": "r1", "day": "2e donderdag", "time": "12u15 – 12u45", "activity": "Middagpauzegebed", "place": "Anglicaanse kerk, Grétrystraat 39" },
+    { "_key": "r2", "day": "3e donderdag", "time": "20u00 – 21u00", "activity": "Stadsgebed", "place": "Ignatiuskapel, Prinsstraat 13 A" },
+    { "_key": "r3", "day": "4e donderdag", "time": "12u15 – 12u45", "activity": "Middagpauzegebed", "place": "Protestantse kerk, Bexstraat 13" }
+  ],
+  "note": "Deze activiteiten komen in de plaats van het vroegere oecumenisch gebed op woensdagvoormiddag om 11u00.",
+  "flyers": [
+    { "_key": "f1", "file": "middagpauzegebed-gretrystraat-2026.jpg", "width": 2232, "height": 2774, "alt": "ARK Middagpauzegebed – iedere 2e donderdag van 12u15 tot 12u45 in de anglicaanse kerk, Grétrystraat 39" },
+    { "_key": "f2", "file": "stadsgebed-recto-2026.jpg", "width": 1414, "height": 2000, "alt": "Flyer Antwerps stadsgebed – elke derde donderdag van de maand van 20u tot 21u in de Ignatiuskapel" },
+    { "_key": "f3", "file": "stadsgebed-verso-2026.jpg", "width": 1414, "height": 2000, "alt": "Flyer Antwerps stadsgebed – data 2026-2027" },
+    { "_key": "f4", "file": "middagpauzegebed-bexstraat-2026.jpg", "width": 2237, "height": 2614, "alt": "ARK Middagpauzegebed – iedere 4e donderdag van 12u15 tot 12u45 in de protestantse kerk, Bexstraat 13" }
+  ]
+}

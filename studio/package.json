@@ -1,0 +1,21 @@
+{
+  "name": "ark-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "import": "node scripts/build-import.mjs && sanity dataset import import/data.ndjson production --replace"
+  },
+  "dependencies": {
+    "@sanity/locale-nl-nl": "^1.1.40",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sanity": "^6.18.0",
+    "styled-components": "^6.5.3"
+  },
+  "optionalDependencies": {
+    "@rolldown/binding-darwin-arm64": "1.2.13"
+  }
+}

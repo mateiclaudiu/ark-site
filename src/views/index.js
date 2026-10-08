@@ -2,7 +2,6 @@
 
 import React from "react"
 
-import eventsJson from "../data/events.json"
 import Layout from "../components/layout"
 import HeroImage from "../components/hero-image"
 import Bloks from "../components/feature"
@@ -15,8 +14,9 @@ import introImage from "../images/ark-groepsfoto.jpg"
 import {Contact} from "../components/contact"
 
 
-const IndexPage = () => {
-    const events = {edges: [...eventsJson].sort((a, b) => (a.eventDate > b.eventDate ? 1 : a.eventDate < b.eventDate ? -1 : 0)).map(node => ({node}))}
+// events en recurring komen uit lib/content.js (Sanity of src/data), via app/page.js.
+const IndexPage = ({events: eventList, recurring}) => {
+    const events = {edges: [...eventList].sort((a, b) => (a.eventDate > b.eventDate ? 1 : a.eventDate < b.eventDate ? -1 : 0)).map(node => ({node}))}
 
     return <Layout>
         <HeroImage image={introImage}/>
@@ -28,7 +28,7 @@ const IndexPage = () => {
         </PageContainer>
         <div id="events">
             <PageContainer>
-                <UpcomingEventList events={events.edges}/>
+                <UpcomingEventList events={events.edges} recurring={recurring}/>
             </PageContainer>
         </div>
         <div id="contact">

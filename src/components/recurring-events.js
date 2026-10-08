@@ -4,18 +4,9 @@ import React from "react"
 import styled from "styled-components"
 import {activeColor, textColor} from "./colors"
 import {EventsHeadingStyled, PanelStyled, eventsBorder, mutedText} from "./events-styled"
-import middagGretry from "../images/middagpauzegebed-gretrystraat-2026.jpg"
-import middagBex from "../images/middagpauzegebed-bexstraat-2026.jpg"
-import stadsgebedRecto from "../images/stadsgebed-recto-2026.jpg"
-import stadsgebedVerso from "../images/stadsgebed-verso-2026.jpg"
+import {SimplePortableText} from "./simple-portable-text"
 
 const FACEBOOK_URL = "https://www.facebook.com/p/Antwerpse-Raad-van-Kerken-ARK-100079051255282/"
-
-const SCHEDULE = [
-    {day: "2e donderdag", time: "12u15 – 12u45", activity: "Middagpauzegebed", place: "Anglicaanse kerk, Grétrystraat 39"},
-    {day: "3e donderdag", time: "20u00 – 21u00", activity: "Stadsgebed", place: "Ignatiuskapel, Prinsstraat 13 A"},
-    {day: "4e donderdag", time: "12u15 – 12u45", activity: "Middagpauzegebed", place: "Protestantse kerk, Bexstraat 13"},
-]
 
 const RecurringStyled = styled.div`
   line-height: 1.7;
@@ -134,46 +125,39 @@ const FacebookLink = () => (
     </a>
 )
 
-export const RecurringEvents = () => (
+// Inhoud komt uit Sanity (of src/data/recurring.json), zie lib/content.js.
+export const RecurringEvents = ({data}) => (
     <div>
         <EventsHeadingStyled>Wederkerende events</EventsHeadingStyled>
         <RecurringStyled>
-            <p>
-                Vanaf oktober starten er maandelijks <strong>3 nieuwe activiteiten</strong> van de ARK, telkens op donderdag:
-                1x Stadsgebed en 2x Middagpauzegebed.
-            </p>
-            <PanelStyled>
-                {SCHEDULE.map(({day, time, activity, place}) => (
-                    <ScheduleRowStyled key={day}>
-                        <ScheduleWhenStyled>
-                            <div>Iedere {day}</div>
-                            <div>{time}</div>
-                        </ScheduleWhenStyled>
-                        <ScheduleWhatStyled>
-                            <div>{activity}</div>
-                            <div>{place}</div>
-                        </ScheduleWhatStyled>
-                    </ScheduleRowStyled>
-                ))}
-            </PanelStyled>
-            <NoteStyled>
-                Deze activiteiten komen in de plaats van het vroegere oecumenisch gebed op woensdagvoormiddag om 11u00.
-            </NoteStyled>
+            <SimplePortableText value={data.intro}/>
+            {data.schedule.length > 0 && (
+                <PanelStyled>
+                    {data.schedule.map(({_key, day, time, activity, place}) => (
+                        <ScheduleRowStyled key={_key}>
+                            <ScheduleWhenStyled>
+                                <div>Iedere {day}</div>
+                                <div>{time}</div>
+                            </ScheduleWhenStyled>
+                            <ScheduleWhatStyled>
+                                <div>{activity}</div>
+                                <div>{place}</div>
+                            </ScheduleWhatStyled>
+                        </ScheduleRowStyled>
+                    ))}
+                </PanelStyled>
+            )}
+            {data.note && <NoteStyled>{data.note}</NoteStyled>}
             <p style={{marginBottom: 0}}>
                 Volg de aankondigingen op deze website en op de <FacebookLink/>.
             </p>
         </RecurringStyled>
-        <IllustrationsStyled>
-            <FlyerRowStyled>
-                <Flyer src={middagGretry} ratio={2232 / 2774}
-                       alt="ARK Middagpauzegebed – iedere 2e donderdag van 12u15 tot 12u45 in de anglicaanse kerk, Grétrystraat 39"/>
-                <Flyer src={stadsgebedRecto} ratio={1414 / 2000}
-                       alt="Flyer Antwerps stadsgebed – elke derde donderdag van de maand van 20u tot 21u in de Ignatiuskapel"/>
-                <Flyer src={stadsgebedVerso} ratio={1414 / 2000}
-                       alt="Flyer Antwerps stadsgebed – data 2026-2027"/>
-                <Flyer src={middagBex} ratio={2237 / 2614}
-                       alt="ARK Middagpauzegebed – iedere 4e donderdag van 12u15 tot 12u45 in de protestantse kerk, Bexstraat 13"/>
-            </FlyerRowStyled>
-        </IllustrationsStyled>
+        {data.flyers.length > 0 && (
+            <IllustrationsStyled>
+                <FlyerRowStyled>
+                    {data.flyers.map(({_key, src, ratio, alt}) => <Flyer key={_key} src={src} ratio={ratio} alt={alt}/>)}
+                </FlyerRowStyled>
+            </IllustrationsStyled>
+        )}
     </div>
 )
