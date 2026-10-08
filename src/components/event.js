@@ -125,7 +125,7 @@ const startOfToday = (iso) => {
     return today;
 }
 
-export const UpcomingEventList = ({events}) => {
+export const UpcomingEventList = ({events, recurring}) => {
     // Eerst filteren op de builddatum (statische HTML), na het laden opnieuw op de
     // datum van de bezoeker, zodat voorbije events ook zonder nieuwe build verdwijnen.
     const [today, setToday] = React.useState(() => startOfToday(process.env.BUILD_DATE_ISO));
@@ -134,7 +134,7 @@ export const UpcomingEventList = ({events}) => {
 
     return (
         <div>
-            <RecurringEvents/>
+            <RecurringEvents data={recurring}/>
             <EventsHeadingStyled>Geplande events</EventsHeadingStyled>
             {activeEvents.map(({node}) => {
                 const dayNumber = new Date(node.eventDate).getDate();
