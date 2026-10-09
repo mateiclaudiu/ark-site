@@ -21,7 +21,7 @@ const RecurringStyled = styled.div`
   }
 `
 
-const ScheduleRowStyled = styled.div`
+const ScheduleRowStyled = styled.div.attrs({"data-reveal": ""})`
   padding: 1.1rem 1.5rem;
   border-bottom: 1px solid ${eventsBorder};
 
@@ -72,7 +72,7 @@ const ScheduleWhatStyled = styled.div`
   }
 `
 
-const NoteStyled = styled.p`
+const NoteStyled = styled.p.attrs({"data-reveal": ""})`
   font-style: italic;
   color: ${mutedText};
   font-size: 0.95rem;
@@ -92,6 +92,12 @@ const IllustrationsStyled = styled.div`
     height: auto;
     border-radius: 3px;
     border: 1px solid ${eventsBorder};
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  a:hover img {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(26, 58, 105, 0.15);
   }
 `
 
@@ -130,7 +136,9 @@ export const RecurringEvents = ({data}) => (
     <div>
         <EventsHeadingStyled>Wederkerende events</EventsHeadingStyled>
         <RecurringStyled>
-            <SimplePortableText value={data.intro}/>
+            <div data-reveal="">
+                <SimplePortableText value={data.intro}/>
+            </div>
             {data.schedule.length > 0 && (
                 <PanelStyled>
                     {data.schedule.map(({_key, day, time, activity, place}) => (
@@ -148,7 +156,7 @@ export const RecurringEvents = ({data}) => (
                 </PanelStyled>
             )}
             {data.note && <NoteStyled>{data.note}</NoteStyled>}
-            <p style={{marginBottom: 0}}>
+            <p style={{marginBottom: 0}} data-reveal="">
                 Volg de aankondigingen op deze website en op de <FacebookLink/>.
             </p>
         </RecurringStyled>

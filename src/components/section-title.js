@@ -7,6 +7,6 @@ import { PageHeadingStyled, mutedText } from "./events-styled"
 export const SectionTitle = ({title, subtitle}) => (
   <div style={{ marginBottom: "2rem" }}>
     <PageHeadingStyled>{title}</PageHeadingStyled>
-    {subtitle && <p style={{ fontStyle: "italic", color: mutedText, margin: 0 }}>{subtitle}</p>}
+    {subtitle && <p style={{ fontStyle: "italic", color: mutedText, margin: 0 }} data-reveal="">{subtitle}</p>}
   </div>
 )
