@@ -9,8 +9,8 @@ import {PageContainer} from "../components/page-container";
 
 const Oikumene = () => (
     <Layout>
-        <SectionTitle title={"Oikumene"} subtitle={""}/>
         <PageContainer>
+            <SectionTitle title={"Oikumene"} subtitle={""}/>
             <a href={pdfDocument} download>Klik <b>hier</b> om de Oikumene van oktober-november-december 2021 te downloaden</a>
         </PageContainer>
     </Layout>

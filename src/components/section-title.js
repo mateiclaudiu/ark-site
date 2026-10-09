@@ -1,18 +1,12 @@
 "use client"
 
-import { HelloContainerStyled, ItalicTitleStyled, SectionStyled, TitleStyled } from "./styled"
 import React from "react"
+import { PageHeadingStyled, mutedText } from "./events-styled"
 
-export const SectionTitle = ({title, subtitle, color = "black"}) => (
-  <SectionStyled>
-    <TitleStyled fontSize={"3rem"} color={color}>{title}</TitleStyled>
-    <ItalicTitleStyled fontSize={"1.1rem"} color={"#707176"}>{subtitle}</ItalicTitleStyled>
-  </SectionStyled>
-)
-
-export const SectionTitleForDarkMode = ({title, subtitle}) => (
-  <SectionStyled>
-    <TitleStyled fontSize={"3rem"} color={"white"}>{title}</TitleStyled>
-    <ItalicTitleStyled fontSize={"1.1rem"} color={"white"}>{subtitle}</ItalicTitleStyled>
-  </SectionStyled>
+// Zelfde kopstijl als de rest van de site: links, donkerblauw, met het accent in de logokleuren.
+export const SectionTitle = ({title, subtitle}) => (
+  <div style={{ marginBottom: "2rem" }}>
+    <PageHeadingStyled>{title}</PageHeadingStyled>
+    {subtitle && <p style={{ fontStyle: "italic", color: mutedText, margin: 0 }}>{subtitle}</p>}
+  </div>
 )

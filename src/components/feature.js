@@ -73,9 +73,10 @@ const FeatureActionStyled = styled.span`
   font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: ${props => props.$accent};
+  color: ${textColor};
 
   span {
+    color: ${props => props.$accent};
     display: inline-block;
     margin-left: 0.4rem;
     transition: transform 0.2s;

@@ -7,7 +7,7 @@ export const viewport = {
   themeColor: "#df6d27",
 }
 
-// Zelfde <head>-links als de Gatsby-site (manifest, iconen, Google Fonts).
+// <head>-links: manifest en iconen zoals de Gatsby-site; fonts: Montserrat (koppen) + Source Serif 4 (tekst).
 const iconVersion = "2b31b46ecf43a89f0b921f3b9fa0228a"
 const iconSizes = [48, 72, 96, 144, 192, 256, 384, 512]
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <link key={size} rel="apple-touch-icon" sizes={`${size}x${size}`}
                 href={`/icons/icon-${size}x${size}.png?v=${iconVersion}`}/>
         ))}
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,900|Roboto+Latin&display=swap"
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap"
               rel="stylesheet"/>
       </head>
       <body>
