@@ -109,7 +109,7 @@ const FlyerRowStyled = styled.div`
 `
 
 const Flyer = ({src, ratio, alt}) => (
-    <a href={src} target="_blank" rel="noopener noreferrer" style={{flex: `${ratio} 1 0`}}>
+    <a href={src} target="_blank" rel="noopener noreferrer" style={{flex: `${ratio} 1 0`}} data-reveal="">
         <img src={src} alt={alt}/>
     </a>
 )

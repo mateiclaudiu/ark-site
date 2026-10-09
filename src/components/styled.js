@@ -21,6 +21,7 @@ export const TitleStyled = styled.h1`
 
 // React 19 ondersteunt geen defaultProps meer; dezelfde standaardwaarden via attrs.
 export const HeroImageContainerStyled = styled.div.attrs(props => ({
+  "data-hero": "",
   padding: props.padding ?? "200px 0",
   paddingDesktop: props.paddingDesktop ?? "350px 0",
   backgroundPositionY: props.backgroundPositionY ?? "75%",

@@ -631,3 +631,47 @@ pre tt:after {
     scroll-padding-top: 5.5rem;
   }
 }
+
+/* ---- Lichte animaties (pure CSS, geen JavaScript) ------------------------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Hero: titel en teksten komen bij het laden een voor een omhoog. */
+  @keyframes hero-in {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  [data-hero] > * {
+    animation: hero-in 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  [data-hero] > *:nth-child(2) { animation-delay: 0.15s; }
+  [data-hero] > *:nth-child(3) { animation-delay: 0.3s; }
+  [data-hero] > *:nth-child(4) { animation-delay: 0.45s; }
+
+  /* Koppen, kaarten, blokken en flyers komen zacht in beeld tijdens het scrollen.
+     Scroll-gestuurde animatie: enkel in browsers die dat kennen; elders gewoon zichtbaar. */
+  @keyframes reveal-in {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @supports (animation-timeline: view()) {
+    [data-reveal] {
+      animation: reveal-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 40%;
+    }
+  }
+}

@@ -7,7 +7,7 @@ import {logoStripe, textColor} from "./colors"
 export const eventsBorder = "#e4e4e4"
 export const mutedText = "#5b6070"
 
-export const EventsHeadingStyled = styled.h2`
+export const EventsHeadingStyled = styled.h2.attrs({"data-reveal": ""})`
   font-family: Montserrat;
   font-weight: 600;
   font-size: 1.6rem;
@@ -32,7 +32,7 @@ export const EventsHeadingStyled = styled.h2`
   }
 `
 
-export const PanelStyled = styled.div`
+export const PanelStyled = styled.div.attrs({"data-reveal": ""})`
   background: white;
   border: 1px solid ${eventsBorder};
   border-radius: 4px;
