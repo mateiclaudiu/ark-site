@@ -1,7 +1,7 @@
 "use client"
 
 import styled from "styled-components"
-import {logoStripe, textColor} from "./colors"
+import {textColor} from "./colors"
 
 // Gedeelde, ingetogen stijl voor de events-sectie op de homepage.
 export const eventsBorder = "#e4e4e4"
@@ -15,17 +15,6 @@ export const EventsHeadingStyled = styled.h2.attrs({"data-reveal": ""})`
   margin: 4rem 0 1.5rem 0;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid #d6dae1;
-  position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 4.5rem;
-    height: 3px;
-    background: ${logoStripe};
-  }
 
   @media (min-width: 768px) {
     font-size: 1.9rem;

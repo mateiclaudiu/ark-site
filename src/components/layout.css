@@ -667,32 +667,12 @@ pre tt:after {
     }
   }
 
-  @keyframes accent-grow {
-    from {
-      transform: scaleX(0);
-    }
-    to {
-      transform: scaleX(1);
-    }
-  }
-
   @supports (animation-timeline: view()) {
     [data-reveal],
     [data-reveal-children] > * {
       animation: reveal-in linear both;
       animation-timeline: view();
       animation-range: entry 0% entry 40%;
-    }
-
-    /* Het gekleurde accent onder een kop groeit open terwijl de kop in beeld komt. */
-    h2[data-reveal] {
-      view-timeline-name: --heading;
-    }
-    h2[data-reveal]::after {
-      transform-origin: left;
-      animation: accent-grow linear both;
-      animation-timeline: --heading;
-      animation-range: entry 30% cover 35%;
     }
   }
 }
