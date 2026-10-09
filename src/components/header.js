@@ -43,7 +43,7 @@ const HeaderDivStyled = styled.div`
 const NavStyled = styled.div.attrs(props => ({display: props.display ?? "visible"}))`
   display: ${props => props.display};
   font-family: Montserrat;
-  font-size: 0.7rem;
+  font-size: 0.76rem;
   font-weight: 600;
   text-transform: uppercase;
   color:${textColor};

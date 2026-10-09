@@ -137,10 +137,11 @@ export const FooterStyled = styled.footer`
   background: ${color4};
   border-top: 4px solid transparent;
   border-image: ${logoStripe} 1;
-  color: #71717f;
+  color: #b4b4bd;
   font-family: Montserrat;
-  font-size: 0.8rem;
-  font-weight: 300;
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.6;
   padding: 3rem;
   
   a{

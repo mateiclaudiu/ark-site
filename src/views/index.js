@@ -21,7 +21,9 @@ const IndexPage = ({events: eventList, recurring}) => {
     return <Layout>
         <HeroImage image={introImage}/>
         <Bloks/>
-        <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
+        <PageContainer>
+            <SectionTitle title={"Hallo & Welkom"} subtitle={"Samen één in de naam van Jezus"}/>
+        </PageContainer>
         <WelcomeBanner/>
         <PageContainer>
             <Hello/>

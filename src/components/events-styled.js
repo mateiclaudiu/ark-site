@@ -44,7 +44,7 @@ export const SmallLabelStyled = styled.span`
   font-size: 0.68rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #8a8f9c;
+  color: #666b78;
 `
 
 // Zelfde kopstijl, voor gebruik buiten de events-sectie.
