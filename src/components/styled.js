@@ -86,7 +86,8 @@ export const SectionStyled = styled.div`
 `
 
 export const ColumnStyled = styled.div`
-  color: gray;
+  color: #4a4f5c;
+  line-height: 1.7;
   column-count: unset;
   @media (min-width: 768px) {  
      column-count: 2;
