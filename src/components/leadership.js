@@ -19,6 +19,10 @@ export const LeaderShipGridStyled = styled.div`
 
 const LeaderShipCardStyled = styled(PanelStyled)`
   text-align: center;
+
+  &:hover img {
+    transform: scale(1.04);
+  }
   padding: 1.5rem 0.75rem 1.25rem;
 
   @media (min-width: 768px) {
@@ -32,6 +36,7 @@ const LeaderShipCardStyled = styled(PanelStyled)`
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 0 1px #dfe2e7;
+    transition: transform 0.3s ease;
     margin: 0 auto 1rem auto;
 
     @media (min-width: 768px) {
