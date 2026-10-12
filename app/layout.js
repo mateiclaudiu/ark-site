@@ -1,6 +1,10 @@
 import StyledComponentsRegistry from "../lib/registry"
 import "../src/components/layout.css"
 
+export const metadata = {
+  metadataBase: new URL("https://antwerpseraadvankerken.be"),
+}
+
 export const viewport = {
   width: "device-width",
   initialScale: 1,

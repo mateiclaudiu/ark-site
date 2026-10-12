@@ -12,7 +12,7 @@ import { activeColor } from "../components/colors"
 const ThankYouPage = () => (
   <Layout>
     <PageContainer>
-      <div style={{ minHeight: "50vh", paddingTop: "4rem", paddingBottom: "4rem" }}>
+      <div style={{ minHeight: "50vh", paddingBottom: "4rem" }}>
         <PageHeadingStyled>Bedankt voor uw bericht</PageHeadingStyled>
         <p style={{ lineHeight: 1.7, color: "#333", margin: "0 0 2rem 0" }}>
           We hebben uw bericht goed ontvangen en nemen zo snel mogelijk contact met u op.

@@ -12,6 +12,14 @@ export const structure = S =>
             .defaultOrdering([{ field: "date", direction: "desc" }])
         ),
       S.listItem()
+        .title("Nieuws")
+        .schemaType("article")
+        .child(
+          S.documentTypeList("article")
+            .title("Artikels")
+            .defaultOrdering([{ field: "date", direction: "desc" }])
+        ),
+      S.listItem()
         .title("Wederkerende events")
         .id("recurring")
         .child(S.document().schemaType("recurring").documentId("recurring").title("Wederkerende events")),

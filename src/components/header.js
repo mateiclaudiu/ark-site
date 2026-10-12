@@ -175,7 +175,7 @@ const NavStyled = styled.nav`
     }
 
     li {
-      padding: 0 3rem;
+      padding: 0 2rem;
       margin-top: 1rem;
       margin-bottom: 1rem;
       border-top: none;
@@ -222,6 +222,7 @@ const Header = () => (
             <NavStyled>
                 <ul id="navigation">
                     <li><Link to="/" activeStyle={{color: activeColor}}>Home</Link></li>
+                    <li><Link to="/nieuws/" activeStyle={{color: activeColor}}>Nieuws</Link></li>
                     <li><Link to="/bijzondere-events" activeStyle={{color: activeColor}}>Bijzondere events</Link></li>
                     <li><Link to="/bestuur/" activeStyle={{color: activeColor}}>Bestuur</Link></li>
                     <li><Link to="/onze-gemeenschap/" activeStyle={{color: activeColor}}>Onze gemeenschap</Link></li>
