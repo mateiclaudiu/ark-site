@@ -27,6 +27,8 @@ export const HeroImageContainerStyled = styled.div.attrs(props => ({
   backgroundPositionY: props.backgroundPositionY ?? "75%",
 }))`
   padding: ${props => props.padding};
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-align: center;
   background-image: ${props =>
     props.overlay
@@ -45,6 +47,8 @@ export const HeroImageContainerStyled = styled.div.attrs(props => ({
 
    @media (min-width: 1200px) {
     padding: ${props => props.paddingDesktop};
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 `
 

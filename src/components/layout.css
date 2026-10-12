@@ -626,6 +626,9 @@ pre tt:after {
 }
 
 /* Ankerlinks (#contact, #events) niet laten verdwijnen achter het vaste menu. */
+html {
+  scroll-padding-top: 4.5rem;
+}
 @media (min-width: 768px) {
   html {
     scroll-padding-top: 5.5rem;
