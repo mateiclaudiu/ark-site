@@ -679,3 +679,13 @@ html {
     }
   }
 }
+
+/* Desktop: het menu staat vast bovenaan over de pagina. Pagina's die niet met een
+   hero-foto beginnen (nieuws, artikels, links, …) schuiven daarom onder het menu uit. */
+@media (min-width: 768px) {
+  main > :first-child:not([data-hero]) {
+    /* Opvulling i.p.v. marge (die valt samen met de marge van de kop);
+       !important omdat PageContainer zijn padding inline zet. */
+    padding-top: 5.1rem !important;
+  }
+}

@@ -52,7 +52,8 @@ export const article = defineType({
       name: "image",
       title: "Afbeelding",
       type: "image",
-      description: "Optioneel. Verschijnt bovenaan het artikel en in het overzicht.",
+      description: "Optioneel. Verschijnt bovenaan het artikel, in het overzicht en bij delen op sociale media. Met het focuspunt kies je wat zeker zichtbaar blijft als de afbeelding wordt bijgesneden.",
+      options: { hotspot: true },
       fields: [
         defineField({
           name: "alt",

@@ -30,7 +30,7 @@ Klik links op **Wederkerende events**. Daar pas je aan:
 Klik daarna op **Publiceren**.
 
 ## Een nieuwsartikel plaatsen
-1. Klik links op **Nieuws (artikels)** en daarna op het icoon voor een nieuw document.
+1. Klik links op **Nieuws** en daarna op het icoon voor een nieuw document.
 2. Vul in:
    - **Titel**
    - **Webadres**: klik op **Genereren**

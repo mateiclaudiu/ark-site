@@ -12,7 +12,7 @@ export const structure = S =>
             .defaultOrdering([{ field: "date", direction: "desc" }])
         ),
       S.listItem()
-        .title("Nieuws (artikels)")
+        .title("Nieuws")
         .schemaType("article")
         .child(
           S.documentTypeList("article")
