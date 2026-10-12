@@ -29,6 +29,21 @@ Klik links op **Wederkerende events**. Daar pas je aan:
 
 Klik daarna op **Publiceren**.
 
+## Een nieuwsartikel plaatsen
+1. Klik links op **Nieuws (artikels)** en daarna op het icoon voor een nieuw document.
+2. Vul in:
+   - **Titel**
+   - **Webadres**: klik op **Genereren**
+   - **Publicatiedatum**
+   - eventueel de **Auteur**
+   - een **Korte inleiding** van één of twee zinnen
+   - eventueel een **Afbeelding**, met een korte beschrijving
+3. Typ of plak de **Tekst**:
+   - Een kopje: zet de cursor in de regel en kies **Tussenkop** in het keuzemenu linksboven (waar "Normaal" staat).
+   - Een uitgelichte zin: kies **Citaat**.
+   - Een link: selecteer de woorden en klik op het kettingicoon.
+4. Klik op **Publiceren**. Na 1 à 2 minuten staat het artikel op de website: bij **Nieuws** in het menu en de drie nieuwste ook op de homepagina.
+
 ## Goed om te weten
 - Wijzigingen zijn pas zichtbaar na **Publiceren**. Tot dan is het een concept.
 - Lukt iets niet, of staat er na 5 minuten nog niets op de website? Contacteer Claudiu.

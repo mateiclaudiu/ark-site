@@ -12,10 +12,13 @@ import {PageContainer} from "../components/page-container"
 import {UpcomingEventList} from "../components/event"
 import introImage from "../images/ark-groepsfoto.jpg"
 import {Contact} from "../components/contact"
+import {NewsCard} from "../components/news"
+import Link from "next/link"
+import {activeColor} from "../components/colors"
 
 
 // events en recurring komen uit lib/content.js (Sanity of src/data), via app/page.js.
-const IndexPage = ({events: eventList, recurring}) => {
+const IndexPage = ({events: eventList, recurring, articles = []}) => {
     const events = {edges: [...eventList].sort((a, b) => (a.eventDate > b.eventDate ? 1 : a.eventDate < b.eventDate ? -1 : 0)).map(node => ({node}))}
 
     return <Layout>
@@ -33,6 +36,19 @@ const IndexPage = ({events: eventList, recurring}) => {
                 <UpcomingEventList events={events.edges} recurring={recurring}/>
             </PageContainer>
         </div>
+        {articles.length > 0 && (
+            <div id="nieuws">
+                <PageContainer>
+                    <SectionTitle title={"Nieuws"} subtitle={""}/>
+                    {articles.map(article => <NewsCard key={article.slug} article={article}/>)}
+                    <p style={{margin: "1.5rem 0 4rem 0"}}>
+                        <Link href="/nieuws/" style={{color: activeColor, fontWeight: 600, textDecoration: "underline"}}>
+                            Alle nieuws
+                        </Link>
+                    </p>
+                </PageContainer>
+            </div>
+        )}
         <div id="contact">
             <Contact/>
         </div>
