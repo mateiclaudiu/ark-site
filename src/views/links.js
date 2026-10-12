@@ -17,7 +17,7 @@ const LinksPage = () => {
       {websites.edges.map(({ node }) => (
         <LinksContainer key={node.id} groupTitle={node.groupTitle} links={node.links}/>
       ))}
-      <div style={{ fontStyle:"italic"}}>
+      <div style={{ fontStyle:"italic"}} data-reveal="">
         Had u graag uw website hier vermeld gezien? Of juist liever niet? Of zag u een fout?
         Neem dan gerust contact met ons en wij zullen het nodige doen.
         <br/>

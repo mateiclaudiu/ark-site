@@ -26,7 +26,7 @@ const ContactGridStyled = styled.div`
   }
 `
 
-const ContactInfoStyled = styled.div`
+const ContactInfoStyled = styled.div.attrs({"data-reveal": ""})`
   color: rgba(255, 255, 255, 0.92);
   line-height: 1.6;
   margin-bottom: 2rem;

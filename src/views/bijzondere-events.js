@@ -32,7 +32,7 @@ const BijzondereEvents = () => (
             {/*    </EventStyled>*/}
             {/*</>*/}
             {/*<img src={ChoralEvensong}/>*/}
-            <div style={{lineHeight: "1.7", maxWidth: "42rem"}}>
+            <div style={{lineHeight: "1.7", maxWidth: "42rem"}} data-reveal="">
                 <p style={{marginBottom: "1.2rem"}}>Er zijn momenteel geen bijzondere evenementen gepland.</p>
                 <p style={{marginBottom: "0"}}>
                     Bekijk de agenda van het wekelijkse Oecumenisch Middaggebed op de{" "}

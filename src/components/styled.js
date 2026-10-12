@@ -21,6 +21,7 @@ export const TitleStyled = styled.h1`
 
 // React 19 ondersteunt geen defaultProps meer; dezelfde standaardwaarden via attrs.
 export const HeroImageContainerStyled = styled.div.attrs(props => ({
+  "data-hero": "",
   padding: props.padding ?? "200px 0",
   paddingDesktop: props.paddingDesktop ?? "350px 0",
   backgroundPositionY: props.backgroundPositionY ?? "75%",
@@ -85,7 +86,7 @@ export const SectionStyled = styled.div`
   }
 `
 
-export const ColumnStyled = styled.div`
+export const ColumnStyled = styled.div.attrs({"data-reveal-children": ""})`
   color: #4a4f5c;
   line-height: 1.7;
   column-count: unset;
@@ -134,7 +135,7 @@ export const BannerTextStyled = styled.div`
   }
 `
 
-export const FooterStyled = styled.footer`
+export const FooterStyled = styled.footer.attrs({"data-reveal-children": ""})`
   background: ${color4};
   border-top: 4px solid transparent;
   border-image: ${logoStripe} 1;
@@ -233,7 +234,7 @@ export const AStyledContainer = styled.div`
   }
 `
 
-export const LinkBlockStyled = styled.div`
+export const LinkBlockStyled = styled.div.attrs({"data-reveal": ""})`
   padding-bottom: 1rem;
   font-family: Montserrat;
   font-size: 0.8rem;

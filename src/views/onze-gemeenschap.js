@@ -37,7 +37,7 @@ const groups = [
   {name: "Lidorganisaties", count: `${LIDORGANISATIES.length} organisaties`, groep: "lidorganisatie", kerken: LIDORGANISATIES},
 ]
 
-const IntroStyled = styled.p`
+const IntroStyled = styled.p.attrs({"data-reveal": ""})`
   color: #333;
   line-height: 1.7;
   margin: 0 0 2rem 0 !important;
@@ -85,7 +85,7 @@ const StatStyled = styled(PanelStyled)`
   }
 `
 
-const SearchStyled = styled.div`
+const SearchStyled = styled.div.attrs({"data-reveal": ""})`
   margin-bottom: 1.25rem;
 
   label {
@@ -113,7 +113,7 @@ const SearchStyled = styled.div`
   }
 `
 
-const GroupStyled = styled.details`
+const GroupStyled = styled.details.attrs({"data-reveal": ""})`
   background: white;
   border: 1px solid ${eventsBorder};
   border-radius: 4px;
@@ -214,7 +214,7 @@ const ChurchListStyled = styled.ul`
   }
 `
 
-const LegendStyled = styled.div`
+const LegendStyled = styled.div.attrs({"data-reveal": ""})`
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 1.25rem;
@@ -301,7 +301,7 @@ const OurCommunityPage = () => {
     </HeroImageContainerStyled>
     <PageContainer>
       <PageHeadingStyled>Onze gemeenschap</PageHeadingStyled>
-      <p style={{fontStyle: "italic", color: mutedText, margin: "0 0 1.5rem 0"}}>
+      <p style={{fontStyle: "italic", color: mutedText, margin: "0 0 1.5rem 0"}} data-reveal="">
         "Ga uit in de hele wereld en maak aan ieder schepsel het goede nieuws bekend"
       </p>
       <IntroStyled>
@@ -350,9 +350,9 @@ const OurCommunityPage = () => {
 
     <CallToActionStyled id="contact">
       <PageContainer>
-        <h2>Wenst u meer info over de ARK?</h2>
-        <p>Wij nodigen u graag uit voor een nadere kennismaking.</p>
-        <a href="/#contact">Contacteer ons</a>
+        <h2 data-reveal="">Wenst u meer info over de ARK?</h2>
+        <p data-reveal="">Wij nodigen u graag uit voor een nadere kennismaking.</p>
+        <a href="/#contact" data-reveal="">Contacteer ons</a>
       </PageContainer>
     </CallToActionStyled>
   </Layout>

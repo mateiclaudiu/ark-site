@@ -89,7 +89,7 @@ const FeatureActionStyled = styled.span`
 
 // Gatsby lost "#events" op tegen de huidige pagina ("/#events").
 const FeatureBlock = ({title, text, color, link, buttonText = "Ontdek meer"}) => (
-  <FeatureBlockStyled href={link.startsWith("#") ? "/" + link : link} $accent={color}>
+  <FeatureBlockStyled href={link.startsWith("#") ? "/" + link : link} $accent={color} data-reveal="">
     <FeatureTitleStyled>{title}</FeatureTitleStyled>
     <FeatureTextStyled>{text}</FeatureTextStyled>
     <FeatureActionStyled $accent={color}>{buttonText}<span aria-hidden="true">→</span></FeatureActionStyled>
